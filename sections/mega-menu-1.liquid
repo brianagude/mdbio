@@ -7,7 +7,7 @@
 {% comment %} HTML markup {% endcomment %}
 <section class="mega-menu__section mega-menu__{{ section.id }}">
 
-  {% include 'include-mega-menu', id: id %}
+  {% render 'include-mega-menu', id: id %}
 
   {% comment %}JavaScript{% endcomment %}
   <script

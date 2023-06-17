@@ -12,21 +12,21 @@
 
 {%- if stop_processing_templates == false and template contains 'product' %}
     {%- capture product_snippet_metatags %}
-        {%- include 'smartseo.product.metatags' %}
+        {%- render 'smartseo.product.metatags' %}
     {%- endcapture -%}
 
     {%- unless product_snippet_metatags contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-        {% include 'smartseo.product.metatags' %}
+        {% render 'smartseo.product.metatags' %}
         {%- assign stop_processing_templates = true %}
     {%- endunless -%}
 
     {%- if smartseoSettings.EnableStructuredData == true %}
         {%- capture product_snippet_jsonld %}
-            {%- include 'smartseo.product.jsonld' %}
+            {%- render 'smartseo.product.jsonld' %}
         {%- endcapture -%}
 
         {%- unless product_snippet_jsonld contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-            {% include 'smartseo.product.jsonld' %}
+            {% render 'smartseo.product.jsonld' %}
             {%- assign stop_processing_templates = true %}
         {%- endunless %}
     {%- endif %}
@@ -34,21 +34,21 @@
 
 {%- if stop_processing_templates == false and template contains 'collection' and template != 'list-collections' %}
     {%- capture collection_snippet_metatags %}
-        {%- include 'smartseo.collection.metatags' %}
+        {%- render 'smartseo.collection.metatags' %}
     {%- endcapture -%}
 
     {%- unless collection_snippet_metatags contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-        {% include 'smartseo.collection.metatags' %}
+        {% render 'smartseo.collection.metatags' %}
         {%- assign stop_processing_templates = true %}
     {%- endunless -%}
 
     {%- if smartseoSettings.EnableStructuredData == true %}
         {%- capture collection_snippet_jsonld %}
-            {%- include 'smartseo.collection.jsonld' %}
+            {%- render 'smartseo.collection.jsonld' %}
         {%- endcapture -%}
 
         {%- unless collection_snippet_jsonld contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-            {% include 'smartseo.collection.jsonld' %}
+            {% render 'smartseo.collection.jsonld' %}
             {%- assign stop_processing_templates = true %}
         {%- endunless %}
     {%- endif %}
@@ -56,21 +56,21 @@
 
 {%- if stop_processing_templates == false and template contains 'blog' %}
     {%- capture blog_snippet_metatags %}
-        {%- include 'smartseo.blog.metatags' %}
+        {%- render 'smartseo.blog.metatags' %}
     {%- endcapture -%}
 
     {%- unless blog_snippet_metatags contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-        {% include 'smartseo.blog.metatags' %}
+        {% render 'smartseo.blog.metatags' %}
         {%- assign stop_processing_templates = true %}
     {%- endunless -%}
 
     {%- if smartseoSettings.EnableStructuredData == true %}
         {%- capture blog_snippet_jsonld %}
-            {%- include 'smartseo.blog.jsonld' %}
+            {%- render 'smartseo.blog.jsonld' %}
         {%- endcapture -%}
 
         {%- unless blog_snippet_jsonld contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-            {% include 'smartseo.blog.jsonld' %}
+            {% render 'smartseo.blog.jsonld' %}
             {%- assign stop_processing_templates = true %}
         {%- endunless %}
     {%- endif %}
@@ -78,21 +78,21 @@
 
 {%- if stop_processing_templates == false and template contains 'article' %}
     {%- capture article_snippet_metatags %}
-        {%- include 'smartseo.article.metatags' %}
+        {%- render 'smartseo.article.metatags' %}
     {%- endcapture -%}
 
     {%- unless article_snippet_metatags contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-        {% include 'smartseo.article.metatags' %}
+        {% render 'smartseo.article.metatags' %}
         {%- assign stop_processing_templates = true %}
     {%- endunless -%}
 
     {%- if smartseoSettings.EnableStructuredData == true %}
         {%- capture article_snippet_jsonld %}
-            {%- include 'smartseo.article.jsonld' %}
+            {%- render 'smartseo.article.jsonld' %}
         {%- endcapture -%}
 
         {%- unless article_snippet_jsonld contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-            {% include 'smartseo.article.jsonld' %}
+            {% render 'smartseo.article.jsonld' %}
             {%- assign stop_processing_templates = true %}
         {%- endunless %}
     {%- endif %}
@@ -101,11 +101,11 @@
 {%- if template contains 'search' or template contains 'collection' or template contains 'blog' -%}
 
     {%- capture no_index_snippet %}
-        {%- include 'smartseo.no.index' %}
+        {%- render 'smartseo.no.index' %}
     {%- endcapture -%}
 
     {%- unless no_index_snippet contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-        {% include 'smartseo.no.index' %}
+        {% render 'smartseo.no.index' %}
     {%- endunless %}
 
 {%- endif -%}
@@ -113,11 +113,11 @@
 {%- if stop_processing_templates == false or use_default_meta_tags == true -%}
 
     {%- capture defalut_page_mata_snippet %}
-        {%- include 'smartseo.default.page.meta' %}
+        {%- render 'smartseo.default.page.meta' %}
     {%- endcapture -%}
 
     {%- unless defalut_page_mata_snippet contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-        {% include 'smartseo.default.page.meta' %}
+        {% render 'smartseo.default.page.meta' %}
     {%- endunless %}
 
 {%- endif -%}
@@ -126,20 +126,20 @@
     {%- if template contains 'product' or template contains 'collection' or template contains 'blog' or template contains 'article' -%}
 
         {%- capture breadcrumbs_snippet_jsonld %}
-            {%- include 'smartseo.breadcrumbs.jsonld' %}
+            {%- render 'smartseo.breadcrumbs.jsonld' %}
         {%- endcapture -%}
 
         {%- unless breadcrumbs_snippet_jsonld contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-            {% include 'smartseo.breadcrumbs.jsonld' %}
+            {% render 'smartseo.breadcrumbs.jsonld' %}
         {%- endunless -%}
 
     {%- endif -%}
 
     {%- capture base_info_snippet_jsonld %}
-        {%- include 'smartseo.base.info.jsonld' %}
+        {%- render 'smartseo.base.info.jsonld' %}
     {%- endcapture -%}
 
     {%- unless base_info_snippet_jsonld contains 'Liquid error: Could not find asset snippets/smartseo.' -%}
-        {% include 'smartseo.base.info.jsonld' %}
+        {% render 'smartseo.base.info.jsonld' %}
     {%- endunless %}
 {%- endif %}
