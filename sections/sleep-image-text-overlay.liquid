@@ -1,0 +1,205 @@
+<div class="image-over-sleep image-over-sleep-{{ section.id }}">
+  <div class="wrapper-in" >
+      <div class="image-over-sleep-two">
+          <div class="image-over-sleep-text">
+            {%- if section.settings.preheading != blank -%}
+              <h4>{{ section.settings.preheading }}</h4>
+            {%- endif -%}
+            {%- if section.settings.heading != blank -%}
+              <h2>{{ section.settings.heading }}</h2>
+            {%- endif -%}
+            {%- if section.settings.text2 != blank -%}
+              {{ section.settings.text2 }}
+            {%- endif -%}
+            <a class="btn image-over-sleep-read" href="{{ section.settings.url1 }}"><span class="noselect">{{ section.settings.text22 }}</span></a>
+          </div>
+          
+      </div>
+  </div>
+</div>
+<div class="image-over-sleep-text2">
+  {%- if section.settings.preheading != blank -%}
+    <h4>{{ section.settings.preheading }}</h4>
+  {%- endif -%}
+  {%- if section.settings.heading != blank -%}
+    <h2>{{ section.settings.heading }}</h2>
+  {%- endif -%}
+  {%- if section.settings.text2 != blank -%}
+    {{ section.settings.text2 }}
+  {%- endif -%}
+  <div class="image-over-sleep-text">
+    <a class="btn image-over-sleep-read" href="{{ section.settings.url1 }}"><span class="noselect">{{ section.settings.text22 }}</span></a>
+  </div>
+</div>
+<style>
+  {% if section.settings.back_image != blank %}
+    .image-over-sleep-{{ section.id }}{  
+      background-image: url({{ section.settings.back_image | img_url: "master" }});
+      background-size: {{ section.settings.image_size }};
+      background-repeat: no-repeat;
+      background-position: {{ section.settings.image_alignment }};
+        height: 60vh;
+    }
+  {% endif %}
+  .image-over-sleep-{{ section.id }} .image-over-sleep-text h2, 
+  .image-over-sleep-{{ section.id }} .image-over-sleep-text p{
+     color: {{ section.settings.color_text }};
+  }
+ 
+  .image-over-sleep-text2 p {
+    color: #4a4a4a;
+  }
+  @media screen and (max-width:600px){
+    {% if section.settings.back_image1 != blank %}
+      .image-over-sleep-{{ section.id }}{  
+        background-image:url({{ section.settings.back_image1 | img_url: "master" }});
+        background-size: {{ section.settings.image_size }};
+       background-position: {{ section.settings.mobile_image_alignment }};
+      }
+    {% else %}
+      .image-over-sleep-{{ section.id }}{  
+        background-image:url({{ section.settings.back_image | img_url: "master" }});
+      }
+    {% endif %}
+  }
+
+
+  @media screen and (max-width: 480px){
+    .image-over-sleep {
+        height: 320px;
+    }  
+  }
+  @media screen and (max-width: 390px){
+    .image-over-sleep {
+      height: 195px;
+    }
+  }
+</style>
+    
+{% schema %}
+{
+  "name": "Sleep top",
+  "class": "image_over-s",  
+      "settings": [
+		{
+          "type": "image_picker",
+          "id": "back_image",
+          "label": "Back Image"
+        },
+      {
+        "type": "select",
+        "id": "image_alignment",
+        "label": "Image alignment",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      }, 
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Image Size",
+        "options": [
+          {
+            "value": "cover",
+            "label": "Cover"
+          },
+          {
+            "value": "contain",
+            "label": "Contain"
+          },
+          {
+            "value": "auto",
+            "label": "auto"
+          }
+        ],
+        "default": "cover"
+      },        
+		{
+          "type": "image_picker",
+          "id": "back_image1",
+          "label": "Mobile Back Image"
+        },
+      {
+        "type": "select",
+        "id": "mobile_image_alignment",
+        "label": "Mobile Image alignment",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "left",
+            "label": "Left"
+          }  ,        
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },        
+		{
+          "type": "color",
+          "id": "color_text",
+          "label": "Heading & Text Color"
+        },        
+		{
+          "type": "text",
+          "id": "preheading",
+          "label": "Preheading"
+        },
+		{
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+		  "type": "richtext",
+          "id": "text2",
+          "label": "Paragraph"
+        },
+		{
+          "type": "text",
+          "id": "text22",
+          "label": "Button"
+        },
+		{
+          "type": "url",
+          "id": "url1",
+          "label": "Button URL"
+        }
+      ],
+  "presets": [
+	{
+      "name": "Sleep top",
+      "category": "Image"
+    }
+  ]
+}
+
+{% endschema %}

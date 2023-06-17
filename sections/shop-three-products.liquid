@@ -1,0 +1,123 @@
+<div class="shop-two">
+    <div class="wrapper-in" >
+      {%- if section.settings.headinga != blank -%}
+			  	<h2 class="head-a">{{ section.settings.headinga }}</h2>
+			  {%- endif -%}
+        <div class="shop_product-threeo">
+                {%- for block in section.blocks -%}
+        	<div class="shop_product-text-three">
+              {% if block.settings.back_image != blank %} 
+              <a class="btn btn-threea" href="{{ block.settings.back_imageurl }}">
+              <img src="{{ block.settings.back_image | img_url: "master" }}">
+              </a>
+              {% endif %}
+              {%- if block.settings.subheading != blank -%}
+			  	<h4>{{ block.settings.subheading }}</h4>
+			  {%- endif -%}
+              {%- if block.settings.heading != blank -%}
+			  	<h3>{{ block.settings.heading }}</h3>
+			  {%- endif -%}
+              {%- if block.settings.para != blank -%}
+			  	<p class="p_shop_para">{{ block.settings.para }}</p>
+			  {%- endif -%}
+              {%- if block.settings.price != blank -%}
+			  	<p class="p_shop_price">{{ block.settings.price }}</p>
+			  {%- endif -%}
+              <div class="three-btn-all">
+              <a class="btn btn-threea" href="{{ block.settings.url1 }}">{{ block.settings.text22 }}</a>
+                <a class="btn btn-threea" href="{{ block.settings.url2 }}">{{ block.settings.text222 }}</a>
+                <a class="btn btn-threea" href="{{ block.settings.url3 }}">{{ block.settings.text333 }}</a>
+              </div>
+        	</div>
+          	{%- endfor -%}
+        </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Shop Three products",
+  "class": "shop_product_cls_three",  
+      "settings": [
+				{
+          "type": "text",
+          "id": "headinga",
+          "label": "Heading"
+        }
+      ],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+		{
+          "type": "url",
+          "id": "back_imageurl",
+          "label": "Image URL"
+        },
+		{
+          "type": "image_picker",
+          "id": "back_image",
+          "label": "Back Image"
+        },
+		{
+          "type": "text",
+          "id": "subheading",
+          "label": "SubHeading"
+        },
+		{
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "para",
+          "label": "Paragraph"
+        },
+		{
+          "type": "text",
+          "id": "price",
+          "label": "price"
+        },
+		{
+          "type": "text",
+          "id": "text22",
+          "label": "Button"
+        },
+		{
+          "type": "url",
+          "id": "url1",
+          "label": "Button URL"
+        },
+		{
+          "type": "text",
+          "id": "text222",
+          "label": "Button 2"
+        },
+		{
+          "type": "url",
+          "id": "url2",
+          "label": "Button URL 2"
+        },
+		{
+          "type": "text",
+          "id": "text333",
+          "label": "Button 3"
+        },
+		{
+          "type": "url",
+          "id": "url3",
+          "label": "Button URL 3"
+        }
+      ]
+}
+   ],
+  "presets": [
+	{
+      "name": "Shop Three Products",
+      "category": "Product"
+    }
+  ]
+}
+
+{% endschema %}

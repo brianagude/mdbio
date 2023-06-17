@@ -1,0 +1,212 @@
+ <div class="image-over1 dosing"> 
+    
+<div class="wrapper-in" >
+        <div class="abt-two">
+        	<div class="abt-text new-dosing">
+			  {%- if section.settings.preheading != blank -%}
+			  	<h4>{{ section.settings.preheading }}</h4>
+			  {%- endif -%}
+              {%- if section.settings.heading != blank -%}
+			  	<h2>{{ section.settings.heading }}</h2>
+			  {%- endif -%}
+              {%- if section.settings.text2 != blank -%}
+			  	{{ section.settings.text2 }}
+			  {%- endif -%}
+              {%comment%}
+              <a class="btn-read" href="{{ section.settings.url1 }}"><span class="noselect">{{ section.settings.text22 }}</span></a>
+               {%endcomment%}
+        	</div>
+        </div>
+  </div>
+</div>
+
+		  
+         	<div class="abt-text2 dosing-mob">
+			  {%- if section.settings.preheading != blank -%}
+			  	<h4>{{ section.settings.preheading }}</h4>
+			  {%- endif -%}
+              {%- if section.settings.heading != blank -%}
+			  	<h2>{{ section.settings.heading }}</h2>
+			  {%- endif -%}
+              {%- if section.settings.text2 != blank -%}
+			  	{{ section.settings.text2 }}
+			  {%- endif -%}            
+        	</div>
+
+
+    
+    
+    <style>
+  {% if section.settings.why_image != blank %}
+  .image-over1{  
+    background-image:url({{ section.settings.why_image | img_url: "master" }});
+    background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+  }
+  {% endif %}
+  
+  .abt-text2 p {
+    color: #4a4a4a;
+  }
+      p.exceed {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+      .dosing .abt-two {
+    width: 100%;
+    max-width: 750px;
+    margin-left: 70px;
+}
+.new-dosing{
+    width:100%;
+}
+p.first-para-a a {margin: 0;padding: 0;font-weight: normal;}
+
+p.first-para-a a:hover, p.first-para-a a:focus {background: transparent;}
+
+p.stae-ment {margin: 0;color: #a8c7e5;font-style: italic;}
+.new-dosing h2 {
+    color: #a8c7e5 !important;
+    font-size: 28px;
+}
+@media screen and (max-width:1390px){        
+  .new-dosing {
+    width: 100%;
+    max-width: 690px;
+}
+.new-dosing p {
+  font-size: 14px;
+}
+}
+ @media screen and (max-width:1260px){        
+  .new-dosing {
+    width: 100%;
+    max-width: 600px;
+}
+.new-dosing p {
+  font-size: 14px !important;
+}
+   .new-dosing h2 {
+    font-size: 23px;
+}
+}
+       @media screen and (max-width:1200px){    
+         
+         .dosing .abt-two {
+            width: 100%;
+            max-width: 650px;
+            margin-left: 15px;
+           
+  }
+         p.first-para-a a {
+    color: #fff !important;
+}
+       }
+  
+  @media screen and (max-width:600px){  
+    
+    {% if section.settings.why_image1 != blank %}
+    .image-over1{  
+      background-image:url({{ section.settings.why_image1 | img_url: "master" }});
+      background-size: cover;
+      background-position: center;
+    }
+    {% else %}
+        .image-over1{  
+      background-image:url({{ section.settings.why_image | img_url: "master" }});
+    }
+    {% endif %}
+    
+    .abt-text2.dosing-mob {
+    background: #2F52A3;
+}
+.abt-text2.dosing-mob h2, .abt-text2.dosing-mob p {
+    color: #fff;
+}
+    .image-over1.dosing .abt-text {
+    display: none;
+}
+    .image-over1.dosing {
+    height: 400px;
+}
+    p.exceed {
+    border-bottom: transparent;
+
+}
+    p.first-para{
+    display:block;
+    } 
+  .new-dosing h2 {
+    color: #a8c7e5 !important;
+    font-size: 23px;
+}
+    p.stae-ment {
+    color: #a8c7e5 !important;
+}
+    .one-p {display: none !important;}
+
+p.three-p {display: none;}
+
+.four-p {display: none !important;}
+
+.abt-text2.dosing-mob p {font-size: 15px !important;}
+  }
+  
+</style>
+
+{% schema %}
+{
+  "name": "Dosing",
+  "class": "abt-cls why-class",  
+      "settings": [
+		{
+          "type": "image_picker",
+          "id": "why_image",
+          "label": "Back Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "why_image1",
+          "label": "Back Image"
+        },
+		{
+          "type": "text",
+          "id": "preheading",
+          "label": "Preheading"
+        },
+		{
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+		  "type": "textarea",
+          "id": "text2",
+          "label": "Paragraph"
+        },
+		{
+          "type": "text",
+          "id": "text22",
+          "label": "Button"
+        },
+		{
+          "type": "url",
+          "id": "url1",
+          "label": "Button URL"
+        }
+      ],
+  "presets": [
+	{
+      "name": "why Top",
+      "category": "Image"
+    }
+  ] 
+}
+
+{% endschema %}

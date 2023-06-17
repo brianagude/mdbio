@@ -1,0 +1,194 @@
+<div class="image-over1 doc-brand why-overlay-section-{{ section.id }}"> 
+  <div class="wrapper-in" >
+    <div class="abt-two">
+        <div class="abt-text">
+          {%- if section.settings.preheading != blank -%}
+            <h4>{{ section.settings.preheading }}</h4>
+          {%- endif -%}
+          {%- if section.settings.heading != blank -%}
+            <h2>{{ section.settings.heading }}</h2>
+          {%- endif -%}
+          {%- if section.settings.text2 != blank -%}
+            {{ section.settings.text2 }}
+          {%- endif -%}
+          <a class="btn-read" href="{{ section.settings.url1 }}"><span class="noselect">{{ section.settings.text22 }}</span></a>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="abt-text2">
+  {%- if section.settings.preheading != blank -%}
+    <h4>{{ section.settings.preheading }}</h4>
+  {%- endif -%}
+  {%- if section.settings.heading != blank -%}
+    <h2>{{ section.settings.heading }}</h2>
+  {%- endif -%}
+  {%- if section.settings.text2 != blank -%}
+    {{ section.settings.text2 }}
+  {%- endif -%}
+  <a class="btn-read" href="{{ section.settings.url1 }}"><span class="noselect">{{ section.settings.text22 }}</span></a>
+</div>
+<style>
+  {% if section.settings.why_image != blank %}
+    .why-overlay-section-{{ section.id }}{  
+      background-image:url({{ section.settings.why_image | img_url: "master" }});
+      background-size: {{ section.settings.image_size }};
+      background-repeat: no-repeat;
+      background-position: {{ section.settings.image_alignment }};
+      padding: 0px 0;
+      height: 54vh;
+      display: flex;
+      align-items: center;
+    }
+  {% endif %}  
+  .abt-text2 p {
+    color: #4a4a4a;
+  }
+  @media screen and (max-width:600px){    
+    {% if section.settings.why_image1 != blank %}
+      .why-overlay-section-{{ section.id }}{  
+        background-image:url({{ section.settings.why_image1 | img_url: "master" }});
+        background-size: cover;
+        background-position: {{ section.settings.mobile_image_alignment }};
+      }
+    {% else %}
+      .why-overlay-section-{{ section.id }}{  
+        background-image:url({{ section.settings.why_image | img_url: "master" }});
+      }
+    {% endif %}
+  }
+  @media screen and (max-width: 480px){
+    .why-overlay-section-{{ section.id }} {
+        height: 320px;
+    } 
+  }
+  @media screen and (max-width: 390px){
+    .why-overlay-section-{{ section.id }} {
+      height: 195px;
+    }
+  }
+  
+</style>
+
+{% schema %}
+{
+  "name": "why Top",
+  "class": "abt-cls why-class",  
+      "settings": [
+		{
+          "type": "image_picker",
+          "id": "why_image",
+          "label": "Back Image"
+        },
+      {
+        "type": "select",
+        "id": "image_alignment",
+        "label": "Image alignment",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      }, 
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Image Size",
+        "options": [
+          {
+            "value": "cover",
+            "label": "Cover"
+          },
+          {
+            "value": "contain",
+            "label": "Contain"
+          },
+          {
+            "value": "auto",
+            "label": "auto"
+          }
+        ],
+        "default": "cover"
+      },         
+        {
+          "type": "image_picker",
+          "id": "why_image1",
+          "label": "Back Image"
+        },
+      {
+        "type": "select",
+        "id": "mobile_image_alignment",
+        "label": "Mobile Image alignment",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "left",
+            "label": "Left"
+          }  ,        
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "bottom",
+            "label": "Bottom"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center"
+      },         
+		{
+          "type": "text",
+          "id": "preheading",
+          "label": "Preheading"
+        },
+		{
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+		  "type": "text",
+          "id": "text2",
+          "label": "Paragraph"
+        },
+		{
+          "type": "text",
+          "id": "text22",
+          "label": "Button"
+        },
+		{
+          "type": "url",
+          "id": "url1",
+          "label": "Button URL"
+        }
+      ],
+  "presets": [
+	{
+      "name": "why Top",
+      "category": "Image"
+    }
+  ]
+}
+
+{% endschema %}

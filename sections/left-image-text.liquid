@@ -1,0 +1,226 @@
+ <div class="image-over1 doc-brand image-over-study-section-{{ section.id }}"> 
+    
+<div class="wrapper-in" >
+        <div class="abt-two">
+        	<div class="abt-texts abt-texted">
+              {%- if section.settings.heading != blank -%}
+			  	<h2 class="{{ section.settings.heading-size }}" style="color: {{ section.settings.heading-color }};">{{ section.settings.heading }}</h2>
+			  {%- endif -%}
+              {%- if section.settings.text2 != blank -%}
+			  	<div class="image-box-text">{{ section.settings.text2 }}</div>
+			  {%- endif -%}
+              <a class="btn image-over-sleep-read small-hide" href="{{ section.settings.url1 }}"><span class="noselect">{{ section.settings.text22 }}</span></a>
+			  {%- if section.settings.preheading != blank -%}
+			  	<h4 class="right-side-text small-hide" style="color: {{ section.settings.title-color }};">{{ section.settings.preheading }}</h4>
+			  {%- endif -%}              
+        	</div>
+        </div>
+  </div>
+</div>
+
+         	<div class="abt-text2">
+              {%- if section.settings.heading != blank -%}
+			  	<h2 class="{{ section.settings.heading-size }}" style="color: {{ section.settings.heading-color }};">{{ section.settings.heading }}</h2>
+			  {%- endif -%}
+              {%- if section.settings.text2 != blank -%}
+			  	<div class="image-box-text">{{ section.settings.text2 }}</div>
+			  {%- endif -%}
+			  {%- if section.settings.preheading != blank -%}
+			  	<h4 class="right-side-text" style="color: {{ section.settings.title-color }};">{{ section.settings.preheading }}</h4>
+			  {%- endif -%}   
+              <a class="btn image-over-sleep-read" href="{{ section.settings.url1 }}"><span class="noselect">{{ section.settings.text22 }}</span></a>
+        	</div>
+
+
+    
+    
+    <style>
+  {% if section.settings.why_image != blank %}
+  .image-over-study-section-{{ section.id }}{  
+    background-image:url({{ section.settings.why_image | img_url: "master" }});
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0;
+    height: 54vh;
+    display: flex;
+    align-items: center;
+  }
+  {% endif %}
+  .image-box-text p{
+      margin: 10px 0px;
+  }
+/*   .abt-text2 p {
+    color: #4a4a4a;
+  } */
+    .image-box-text p{
+      color: {{ section.settings.text-color }};
+    font-size: 20px;
+    line-height: 28px;
+  }
+.small{
+      font-size: 30px;
+      line-height: 40px;       
+}
+.medium{
+      font-size: 40px;
+      line-height: 50px;      
+}
+.large{
+      font-size: 50px;
+      line-height: 60px;
+}
+  @media screen and (max-width:1290px){
+      .small{
+            font-size: 26px;
+            line-height: 36px;       
+      }
+      .medium{
+            font-size: 34px;
+            line-height: 44px;      
+      }
+      .large{
+            font-size: 44px;
+            line-height: 54px;
+      }
+  }
+
+  @media screen and (max-width:768px){
+    .image-box-text p{
+    font-size: 17px;
+    line-height: 27px;
+  }    
+      .small{
+            font-size: 22px;
+            line-height: 32px;       
+      }
+      .medium{
+            font-size: 24px;
+            line-height: 34px;      
+      }
+      .large{
+            font-size: 30px;
+            line-height: 40px;
+      }
+  }        
+  @media screen and (max-width:600px){
+          .large{
+            font-size: 24px;
+            line-height: 34px;
+      } 
+.right-side-text {
+    margin-top: 10px;
+}    
+.abt-text2 {
+    padding: 40px 20px;
+}      
+    {% if section.settings.why_image1 != blank %}
+    .image-over-study-section-{{ section.id }}{  
+      background-image:url({{ section.settings.why_image1 | img_url: "master" }});
+      background-size: cover;
+      background-position: center;
+      height: 370px;
+    }
+    {% else %}
+        .image-over-study-section-{{ section.id }}{  
+      background-image:url({{ section.settings.why_image | img_url: "master" }});
+      height: 370px;
+    }
+    {% endif %}
+
+       
+  }
+
+@media screen and (max-width: 480px){
+  .image-over-study-section-{{ section.id }}{
+      height: 320px;
+  }  
+}
+  
+</style>
+
+{% schema %}
+{
+  "name": "Image With Left Text",
+  "class": "abt-cls why-class",  
+      "settings": [
+		{
+          "type": "image_picker",
+          "id": "why_image",
+          "label": "Back Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "why_image1",
+          "label": "Back Image"
+        },
+		{
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading-size",
+          "label": "Heading Size",
+          "default": "medium",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "medium",
+              "label": "Medium"
+            },
+            {
+              "value": "large",
+              "label": "Large"
+            }
+          ]
+        },        
+		{
+		  "type": "color",
+          "id": "heading-color",
+          "label": "Heading Color"
+        },         
+		{
+		  "type": "richtext",
+          "id": "text2",
+          "label": "Paragraph"
+        },
+		{
+		  "type": "color",
+          "id": "text-color",
+          "label": "Text Color"
+        },         
+		{
+          "type": "text",
+          "id": "text22",
+          "label": "Button"
+        },
+		{
+          "type": "url",
+          "id": "url1",
+          "label": "Button URL"
+        },
+		{
+          "type": "text",
+          "id": "preheading",
+          "label": "Preheading"
+        },
+		{
+		  "type": "color",
+          "id": "title-color",
+          "label": "Title Color"
+        }         
+      ],
+  "presets": [
+	{
+      "name": "Image With Left Text",
+      "category": "Image"
+    }
+  ]
+}
+
+{% endschema %}

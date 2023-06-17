@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blog.png",
+        "image_darken": true,
+        "subtitle": "",
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "blog__main",
+      "blocks": {
+        "fa02a5d8-679e-42e3-ae86-02d76ed6abda": {
+          "type": "recent_posts",
+          "settings": {
+            "title": "Recent posts",
+            "blog": "doctors-desk",
+            "blog_post_count": 10
+          }
+        }
+      },
+      "block_order": [
+        "fa02a5d8-679e-42e3-ae86-02d76ed6abda"
+      ],
+      "settings": {
+        "blog_tags": true,
+        "blog_posts_per_row": 3,
+        "blog_posts_per_page": 20,
+        "pagination_type": "basic_pagination",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "blog_author": false,
+        "blog_date": false,
+        "read_time": false,
+        "blog_comment_count": false,
+        "blog_show_tags": false,
+        "blog_show_excerpt": true,
+        "show_border": true,
+        "button_label": "Read More",
+        "button_type": "button--link-style",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "fadeInDown",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main"
+  ]
+}

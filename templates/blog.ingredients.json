@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blog.png",
+        "image_darken": true,
+        "subtitle": "",
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "blog__main",
+      "disabled": true,
+      "blocks": {
+        "fa02a5d8-679e-42e3-ae86-02d76ed6abda": {
+          "type": "recent_posts",
+          "settings": {
+            "title": "Recent posts",
+            "blog": "",
+            "blog_post_count": 10
+          }
+        }
+      },
+      "block_order": [
+        "fa02a5d8-679e-42e3-ae86-02d76ed6abda"
+      ],
+      "settings": {
+        "blog_tags": true,
+        "blog_posts_per_row": 3,
+        "blog_posts_per_page": 20,
+        "pagination_type": "basic_pagination",
+        "show_sidebar": false,
+        "sidebar_position": "left",
+        "blog_author": false,
+        "blog_date": false,
+        "read_time": false,
+        "blog_comment_count": false,
+        "blog_show_tags": false,
+        "blog_show_excerpt": true,
+        "show_border": true,
+        "button_label": "Read More",
+        "button_type": "button--link-style",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "animation": "fadeInDown",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1648793055b532292c": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "Ingredients",
+        "heading_font": "montserrat_n5",
+        "heading_color": "rgba(0,0,0,0)",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "<p>Information and inspiration for better mind & body nourishment <\/p>",
+        "text_font": "montserrat_n4",
+        "text_color": "#303030",
+        "text_alignment": "center",
+        "text_size": 14,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "background": "#efedef",
+        "gradient": "#efedef",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16487982260801eee9": {
+      "type": "tags",
+      "settings": {
+        "text1": "Sleep",
+        "url1": "shopify:\/\/pages\/sleep",
+        "text2": "Immunity",
+        "url2": "shopify:\/\/pages\/immune-system",
+        "text3": "Stress",
+        "url3": "shopify:\/\/pages\/anxiety",
+        "text4": "Pain",
+        "url4": "shopify:\/\/pages\/pain",
+        "text5": "Shop MDbio",
+        "url5": "shopify:\/\/collections\/all",
+        "display_search": true,
+        "icon_style": "icons"
+      }
+    },
+    "16487933680fb16be3": {
+      "type": "blog-image-text-sec",
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/mint.png",
+        "preheading": "Mint",
+        "heading": "Extracts of this popular and fragrant plant have been used throughout history in herbal medicines",
+        "text2": "",
+        "text22": "Read More",
+        "url1": "shopify:\/\/blogs\/ingredients\/mint-supplement"
+      }
+    },
+    "1648793326f989300d": {
+      "type": "index__blog-posts",
+      "settings": {
+        "title": "What's Trending",
+        "btn-text2": "",
+        "url1": "",
+        "blog_widget_select": "ingredients",
+        "home_page_articles": 3,
+        "blog_show_tags": true,
+        "blog_author": false,
+        "read_time": false,
+        "blog_date": false,
+        "blog_comment_count": false,
+        "blog_show_excerpt": true,
+        "show-border": false,
+        "button_label": "Read more",
+        "button_type": "button--primary",
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16487938242d2e47be": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "Latest Stories",
+        "heading_font": "montserrat_n5",
+        "heading_color": "rgba(0,0,0,0)",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "",
+        "text_font": "open_sans_n4",
+        "text_color": "rgba(0,0,0,0)",
+        "text_alignment": "left",
+        "text_size": 14,
+        "columns": 2,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "background": "#efedef",
+        "gradient": "#efedef",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16487936713e4f0da6": {
+      "type": "blog-latest-stories",
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/Screen_Shot_2022-03-24_at_11.06.43_AM.png",
+        "preheading": "DIET & WELLBEING",
+        "heading": "Eat foods rich in Quercetin to boost your circulatory health",
+        "text2": "<p>Considered one of the most abundant antioxidants in the human <br\/>diet, quercetin plays an important part in fighting free radical <br\/>damage, as well as the effects of aging and inflammation. <\/p>",
+        "text22": "Read More",
+        "url1": "shopify:\/\/blogs\/ingredients\/quercetin-supplement",
+        "left_image2": "shopify:\/\/shop_images\/Layer_8.png",
+        "preheading2": "MENTAL HEALTH",
+        "heading2": "The growing trend toward natural solutions for improved  mental health increases herbal remedy popularity",
+        "text221": "<p>Safety concerns about side effects of many antidepressant<br\/>medications have led to increased herbal psychopharmacology <br\/>research & development.<\/p>",
+        "text222": "Read More",
+        "url12": "shopify:\/\/blogs\/doctors-desk\/natural-medicines-for-anxiety-remedies-herbal-treatments"
+      }
+    },
+    "1650860687e76a0214": {
+      "type": "all-blogs",
+      "settings": {
+        "title": "All Articles",
+        "btn-text2": "",
+        "url1": "",
+        "blog_widget_select": "ingredients",
+        "home_page_articles": 3,
+        "blog_show_tags": false,
+        "blog_author": false,
+        "read_time": false,
+        "blog_date": false,
+        "blog_comment_count": false,
+        "blog_show_excerpt": false,
+        "show-border": false,
+        "button_label": "Read more",
+        "button_type": "button--primary",
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 29,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "1648793055b532292c",
+    "16487982260801eee9",
+    "16487933680fb16be3",
+    "1648793326f989300d",
+    "16487938242d2e47be",
+    "16487936713e4f0da6",
+    "1650860687e76a0214"
+  ]
+}

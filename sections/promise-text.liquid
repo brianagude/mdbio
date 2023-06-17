@@ -1,0 +1,67 @@
+<div class="promise-content">
+    <div class="wrapper" >
+      <div class="promise-sec" >
+      {%- for block in section.blocks -%}
+      <div class="promise-one" id="block-{{ block.id }}">
+        <div class="promise-text">
+          {%- if block.settings.text11 != blank -%}
+          	<h3 style="color:{{ block.settings.colorsubheading11 }};'">{{ block.settings.text11 }}</h3>
+          {%- endif -%}
+          {%- if block.settings.subheading != blank -%}
+          	<h2 style="color:{{ block.settings.colorsubheading }};'">{{ block.settings.subheading }}</h2>
+          {%- endif -%}
+          {%- if block.settings.text2 != blank -%}
+         	 <p>{{ block.settings.text2 }}</p>
+          {%- endif -%}
+        </div>
+      </div>
+	{%- endfor -%}
+      </div>
+  </div>
+</div>
+    
+    
+    
+{% schema %}
+{
+  "name": "Promise Text",
+  "class": "promise-cls",  
+      "settings": [],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        },
+		{
+        "type": "color",
+        "id": "colorsubheading11",
+        "label": "Heading color",
+        "default": "#36013F"
+      },
+		{
+          "type": "text",
+          "id": "subheading",
+          "label": "sub heading"
+        },
+		{
+        "type": "color",
+        "id": "colorsubheading",
+        "label": "Sub Headings color",
+        "default": "#3d4246"
+      },
+		{
+		  "type": "richtext",
+          "id": "text2",
+          "label": "Paragraph"
+        }
+      ]
+}
+   ]
+}
+
+{% endschema %}

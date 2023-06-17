@@ -1,0 +1,85 @@
+<div class="video-top-sec">
+      <div class="video-feel" >
+        {%- if section.settings.video != blank -%}
+        	<video autoplay loop muted playsinline id="video1" class="deks-vid"  >
+            <source src="{{ section.settings.video }}" type="video/mp4">
+              
+          </video>
+        {%- endif -%}
+        {%- if section.settings.video1 != blank -%}
+        	<video autoplay loop muted playsinline class="mob-vid" poster="https://cdn.shopify.com/s/files/1/0617/6876/1575/files/image.png?v=1656313789">
+            <source src="{{ section.settings.video1 }}" type="video/mp4">
+          </video>
+        {%- endif -%}
+        <div class="video-right-top">
+          <div class="wrapper">
+                          {% if section.settings.title != blank %}
+                  <h2 class="banner__heading title">
+                   {{ section.settings.title }}
+                  </h2>
+                {% endif %}
+                {% if section.settings.subtitle != blank %}
+           <div class="image-with-text-overlay__subheading banner__subheading subtitle">
+              {{ section.settings.subtitle }}
+            </div>
+                {% endif %}
+         
+          {%- if section.settings.btn != blank -%}
+              <a class="button button--secondary" href="{{ section.settings.btn_url }}"><span></span>{{ section.settings.btn }}</a>
+            {%- endif -%}
+        </div>
+        </div>
+      </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Video Banner",
+  "class": "video-slider-cls",  
+      "settings": [
+		{
+          "type": "text",
+          "id": "video",
+          "label": "Desktop Video"
+        },
+		{
+          "type": "text",
+          "id": "video1",
+          "label": "Mobile Video"
+        },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured video"
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subheading",
+      "default": "<p>Preheading</p>"
+    },
+		{
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button URL"
+        },
+		{
+          "type": "text",
+          "id": "btn",
+          "label": "Button Text"
+        }
+      ], 
+"blocks": [
+
+  ],
+  "presets": [
+    {
+      "name": "Video Top",
+      "category":  "Images"
+    }
+  ]
+}
+
+{% endschema %}

@@ -1,0 +1,950 @@
+{
+  "sections": {
+    "16553552193e53f672": {
+      "type": "video-banner",
+      "settings": {
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5cad624c4b4a4052b13340ddefa87f7e.mp4",
+        "video1": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f1fade52c5de4ac1b7d513bb9a6b5a4b.mp4",
+        "title": "Plant Medicine.<br> Developed by Doctors.",
+        "subtitle": "<p>Experience the therapeutic power of plant medicine with MDbio’s medical-grade plant extracts and botanical formulations.<\/p>",
+        "btn_url": "\/collections\/all",
+        "btn": "SHOP"
+      }
+    },
+    "1557099047693": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify:\/\/shop_images\/Layer_39_3fc41cb5-fee5-405b-aa19-99dc76dd285c.png",
+        "mobile_image": "shopify:\/\/shop_images\/mobile-home-bg.png",
+        "pretext": "",
+        "title": "Developed by Doctors.<br> Tested by Patients.",
+        "subtitle": "<p>Experience the therapeutic power of plant medicine with MDbio’s medical-grade plant extracts and botanical formulations.  <\/p>",
+        "pretext_color": "#211f1f",
+        "heading_color": "#0b3f6c",
+        "subheading_color": "#0b3f6c",
+        "text_alignment": "left",
+        "text_horizontal_position": "left",
+        "text_vertical_position": "top",
+        "background_color": "#d3d3d3",
+        "background_opacity": 0,
+        "border_color": "#000000",
+        "border_width": 0,
+        "text_width": 72,
+        "button_1": "Shop Our Store",
+        "button_1_link": "https:\/\/www.mdbiowellness.com\/products",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--link-style",
+        "mobile_image_crop": "center",
+        "mobile_text_below_image": false,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 24,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "fadeInLeft",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1640855760a7c23b65": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "MDbio. The Doctors' Brand.™",
+        "heading_font": "montserrat_n7",
+        "heading_color": "#3c59a2",
+        "heading_alignment": "center",
+        "heading_size": 32,
+        "text": "<p>All natural, MD-Approved alternative to presecription drugs.<\/p>",
+        "text_font": "montserrat_n6",
+        "text_color": "rgba(0,0,0,0)",
+        "text_alignment": "center",
+        "text_size": 21,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "background": "#f0efef",
+        "gradient": "#f0efef",
+        "gradient_rotation": 0,
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 15,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164369533522e87986": {
+      "type": "three-products",
+      "blocks": {
+        "0b35fa9d-02cc-420a-b697-f2163e46cac5": {
+          "type": "Doctor",
+          "settings": {
+            "top_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/SLEEP-SOUNDLY.svg?v=1645613473",
+            "back_image": "shopify:\/\/shop_images\/4.png",
+            "back_image2": "shopify:\/\/shop_images\/4.png",
+            "image_links": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+            "heading": "MDsleep™",
+            "sub_title": "Softgel Capsules",
+            "para_on": false,
+            "para": "1500 mg CBD, 300 mg CBN Valerian Root, Hops Flower",
+            "price": "14.95",
+            "text22": "Shop MDsleep",
+            "url1": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement"
+          }
+        },
+        "85175459-0422-45c1-8f4f-7b257feccb0f": {
+          "type": "Doctor",
+          "settings": {
+            "top_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/RECOVERY.svg?v=1645614565",
+            "back_image": "shopify:\/\/shop_images\/2.png",
+            "image_links": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+            "heading": "MDrelief™",
+            "sub_title": "Softgel Capsules",
+            "para_on": false,
+            "para": "1800 mg CBD, 400 mg CBG White Willow Bark, Frankincense",
+            "price": "14.95",
+            "text22": "Shop MDrelief",
+            "url1": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement"
+          }
+        },
+        "b75c310d-71ea-4c96-8843-58040f3fce83": {
+          "type": "Doctor",
+          "settings": {
+            "top_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/CALM-YOUR-MIND.svg?v=1645614565",
+            "back_image": "shopify:\/\/shop_images\/1.png",
+            "back_image2": "shopify:\/\/shop_images\/1.png",
+            "image_links": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+            "heading": "MDcalm™",
+            "sub_title": "Softgel Capsules",
+            "para_on": false,
+            "para": "1500 mg CBD, Lavender Flower Mint Leaves, Reishi Mushroom",
+            "price": "14.95",
+            "text22": "Shop MDcalm",
+            "url1": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement"
+          }
+        },
+        "9e86dd08-11f0-42b8-8b8b-cd88dfec4a09": {
+          "type": "Doctor",
+          "settings": {
+            "top_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/MDbio_Immune_icon-svg_1.svg?v=1658217496",
+            "back_image": "shopify:\/\/shop_images\/3.png",
+            "back_image2": "shopify:\/\/shop_images\/3.png",
+            "image_links": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+            "heading": "MDimmune+™",
+            "sub_title": "Softgel Capsules",
+            "para_on": false,
+            "para": "1500 mg CBD, Lavender Flower Mint Leaves, Reishi Mushroom",
+            "price": "$14.95",
+            "text22": "Shop MDimmune+",
+            "url1": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement"
+          }
+        }
+      },
+      "block_order": [
+        "0b35fa9d-02cc-420a-b697-f2163e46cac5",
+        "85175459-0422-45c1-8f4f-7b257feccb0f",
+        "b75c310d-71ea-4c96-8843-58040f3fce83",
+        "9e86dd08-11f0-42b8-8b8b-cd88dfec4a09"
+      ],
+      "settings": {
+        "headinga": "",
+        "title1": "Sleeplessness",
+        "links1": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+        "title2": "Pain Relief",
+        "links2": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+        "title3": "Anxiousness",
+        "links3": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+        "title4": "Immune Support",
+        "links4": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+        "bottom_heading": "Developed by four award-winning doctors"
+      }
+    },
+    "1562162827149": {
+      "type": "index__featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "SHOP OUR STORE",
+        "collection": "frontpage",
+        "products_per": 4,
+        "mobile_products_per_row": "1",
+        "products_limit": 4,
+        "align_height": true,
+        "collection_height": 360,
+        "collection_style": "grid",
+        "width": "wide",
+        "show_gutter": true,
+        "padding_top": 49,
+        "padding_bottom": 30,
+        "animation": "fadeIn",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16458563489181fa2c": {
+      "type": "index__logo-list",
+      "blocks": {
+        "1645856348dafa9664-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_38.png",
+            "link": ""
+          }
+        },
+        "1645856348dafa9664-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_39.png",
+            "link": ""
+          }
+        },
+        "1645856348dafa9664-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_40.png",
+            "link": ""
+          }
+        },
+        "1645856348dafa9664-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_41_1.png",
+            "link": ""
+          }
+        },
+        "1645856348dafa9664-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_37_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645856348dafa9664-0",
+        "1645856348dafa9664-3",
+        "1645856348dafa9664-1",
+        "1645856348dafa9664-4",
+        "1645856348dafa9664-2"
+      ],
+      "settings": {
+        "logos_per_row": 5,
+        "text11": "Featured In",
+        "logo_size": "small",
+        "background": "#a8c7e5",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "width": "wide",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16458570608bf2425a": {
+      "type": "index-featured-section",
+      "disabled": true,
+      "blocks": {
+        "1645857060971cddbf-0": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/Layer_38.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1645857060971cddbf-1": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/Layer_40.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1645857060971cddbf-2": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/Layer_37_1.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1645857060971cddbf-3": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/Layer_39.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "000a13ce-5ea6-4894-b393-40e836f41899": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/Layer_41_1.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645857060971cddbf-0",
+        "1645857060971cddbf-1",
+        "1645857060971cddbf-2",
+        "1645857060971cddbf-3",
+        "000a13ce-5ea6-4894-b393-40e836f41899"
+      ],
+      "settings": {
+        "text_heading": "",
+        "heading_text_color": "rgba(0,0,0,0)",
+        "icons_per_row": 4,
+        "icon_size": "medium",
+        "align_text": "center",
+        "button_style": "button--primary",
+        "icon_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "f6e67254-78a9-438f-acff-f67270355428": {
+      "type": "sleep-image-text-overlay",
+      "settings": {
+        "back_image": "shopify:\/\/shop_images\/Doctors_Brand-v2.jpg",
+        "image_alignment": "top",
+        "image_size": "cover",
+        "back_image1": "shopify:\/\/shop_images\/Doctors_Brand_Mobile.png",
+        "mobile_image_alignment": "left",
+        "color_text": "#000000",
+        "preheading": "",
+        "heading": "We are The Doctors' Brand",
+        "text2": "<p>Our products originate from our four renowned, Board-Certified<br\/>Medical Doctors, whose lifelong mission has been to maximize positive patient outcomes and minimize harm.<\/p><p>Our doctors rely on the latest in modern medical science, which also includes plant-based medicines, to guide our company and product formulations. We hold ourselves to the highest possible standards to create the most efficacious products on the market.<\/p><p><strong>Our doctors will stand for nothing less.<\/strong><\/p>",
+        "text22": "Meet The Doctors",
+        "url1": "shopify:\/\/pages\/our-doctors"
+      }
+    },
+    "1642587745d82e74d8": {
+      "type": "why-image-overlay",
+      "disabled": true,
+      "settings": {
+        "why_image": "shopify:\/\/shop_images\/Doctor_s_Panel_3.jpg",
+        "image_alignment": "center",
+        "image_size": "cover",
+        "why_image1": "shopify:\/\/shop_images\/Doctor_s-Panel_3-mobile.jpg",
+        "mobile_image_alignment": "center",
+        "preheading": "",
+        "heading": "We are The Doctors' Brand",
+        "text2": "<p class=\"first-para\">Our products originate from our four renowned, Board-Certified<br>Medical Doctors, whose lifelong mission has been to maximize positive patient outcomes and minimize harm.<\/p><p>Our doctors rely on the latest in modern medical science, which also includes plant-based medicines, to guide our company and product formulations. We hold ourselves to the highest possible standards to create the most efficacious products on the market.<\/p><p><strong>Our doctors will stand for nothing less.<\/strong><\/p>",
+        "text22": "Meet The Doctors",
+        "url1": "shopify:\/\/pages\/our-doctors"
+      }
+    },
+    "16456160353e401168": {
+      "type": "index__icon-with-text-column",
+      "blocks": {
+        "164561603551ea7d6f-0": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/sleep_icon_a3cbd785-0143-40d8-bc32-81761354dd00.png",
+            "title": "",
+            "text": "",
+            "button_label": "Can't Sleep?",
+            "link": "shopify:\/\/pages\/sleep"
+          }
+        },
+        "164561603551ea7d6f-1": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "bag",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/calm_icon_9760b94f-bd9e-406c-847a-473da889aa5a.png",
+            "title": "",
+            "text": "",
+            "button_label": "Feel Anxious?",
+            "link": "shopify:\/\/pages\/anxiety"
+          }
+        },
+        "164561603551ea7d6f-2": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "tag",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/relief_icon_9f485a5f-824f-46e1-a0fe-c485131dbe43.png",
+            "title": "",
+            "text": "",
+            "button_label": "Have Pain?",
+            "link": "shopify:\/\/pages\/pain"
+          }
+        },
+        "164561603551ea7d6f-3": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "star",
+            "text_n": "",
+            "image": "shopify:\/\/shop_images\/immunity_icon_b9efcde1-938e-4f1e-8442-bae9b86965d5.png",
+            "title": "",
+            "text": "",
+            "button_label": "Feeling Sick?",
+            "link": "shopify:\/\/pages\/immune-system"
+          }
+        }
+      },
+      "block_order": [
+        "164561603551ea7d6f-0",
+        "164561603551ea7d6f-1",
+        "164561603551ea7d6f-2",
+        "164561603551ea7d6f-3"
+      ],
+      "settings": {
+        "text_heading": "Learn More By Symptom",
+        "heading_text_color": "#3c3c3c",
+        "icons_per_row": 4,
+        "icon_size": "medium",
+        "align_text": "center",
+        "button_style": "button--primary",
+        "icon_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "f7e5f597-bfbb-4c66-8568-3f7a41232f65": {
+      "type": "why-image-overlay",
+      "settings": {
+        "why_image": "shopify:\/\/shop_images\/Naturally_powered.png",
+        "image_alignment": "center",
+        "image_size": "cover",
+        "why_image1": "shopify:\/\/shop_images\/Naturally_powered_mobile.png",
+        "mobile_image_alignment": "right",
+        "preheading": "",
+        "heading": "Naturally Powered by Plant Extracts",
+        "text2": "<p>Over a three-year time period MDbio worked with product formulators, herbalists, botanical experts, and hemp farmers from around the country to source the highest potency, safest, and most pure ingredients for our products, and continuously experimented with varying amounts of each ingredient to arrive at the optimal ratios and blends to maximize patientefficacy.<\/p>",
+        "text22": "<span class=\"fornone\">Learn About<\/span> Our Ingredients",
+        "url1": "shopify:\/\/blogs\/doctors-desk"
+      }
+    },
+    "1643696627e8935007": {
+      "type": "sleep-image-text-overlay",
+      "disabled": true,
+      "settings": {
+        "back_image": "shopify:\/\/shop_images\/sleep-top-new.png",
+        "image_alignment": "center",
+        "image_size": "cover",
+        "back_image1": "shopify:\/\/shop_images\/Layer_22.png",
+        "mobile_image_alignment": "center",
+        "color_text": "",
+        "preheading": "",
+        "heading": "Naturally Powered by Plant Extracts",
+        "text2": "<p>Over a three-year time period MDbio worked with product formulators, herbalists, botanical experts, and hemp farmers from around the country to source the highest potency, safest, and most pure ingredients for our products, and continuously experimented with varying amounts of each ingredient to arrive at the optimal ratios and blends to maximize patient<br\/>efficacy.<\/p>",
+        "text22": "<span class=\"fornone\">Learn About<\/span> Our Ingredients",
+        "url1": "shopify:\/\/blogs\/doctors-desk"
+      }
+    },
+    "1562163151831": {
+      "type": "index__featured-promotions",
+      "disabled": true,
+      "blocks": {
+        "1562163151831-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-s.png",
+            "link": "shopify:\/\/collections\/products-that-work",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 70,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "Products That Work",
+            "text": ""
+          }
+        },
+        "1562163151831-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/natural.png",
+            "link": "shopify:\/\/collections\/natural-ingredients",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 70,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "Natural Ingredients",
+            "text": ""
+          }
+        },
+        "1562163151831-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/doc.png",
+            "link": "shopify:\/\/collections\/doctor-formulated",
+            "overlay_background": "rgba(0,0,0,0)",
+            "overlay_background_opacity": 70,
+            "overlay_text": "rgba(0,0,0,0)",
+            "icon_label": "",
+            "title": "Doctor Formulated",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1562163151831-2",
+        "1562163151831-0",
+        "1562163151831-1"
+      ],
+      "settings": {
+        "border_radius": 0,
+        "crop_images": false,
+        "overlay_background": "#1f1e21",
+        "overlay_background_opacity": 30,
+        "overlay_text": "#ffffff",
+        "show_border": false,
+        "width": "wide",
+        "show_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164309319639a54fe5": {
+      "type": "two-products",
+      "blocks": {
+        "d158e9ce-310f-4f99-9514-a5c55510b1c1": {
+          "type": "Doctor",
+          "settings": {
+            "back_image": "shopify:\/\/shop_images\/sleep_a36ab04e-f2da-4d1c-bbc5-b38e8ed9d8ed.png",
+            "back_image1": "shopify:\/\/shop_images\/md-sleep-cutout_5eb5951a-5efb-4976-b815-fcea80923df1.png",
+            "heading": "MDsleep™",
+            "text22": "Buy Now",
+            "price": "",
+            "url1": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement"
+          }
+        },
+        "ffe3e806-9fdf-416c-817e-f34377cdf371": {
+          "type": "Doctor",
+          "settings": {
+            "back_image": "shopify:\/\/shop_images\/calm_423456c7-e854-4d0c-adb8-d9e93a4f469a.png",
+            "back_image1": "shopify:\/\/shop_images\/md-calm-cutout_89679e7d-ddca-40e2-83b3-3bee26799bcc.png",
+            "heading": "MDcalm™",
+            "text22": "Buy Now",
+            "price": "",
+            "url1": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement"
+          }
+        }
+      },
+      "block_order": [
+        "d158e9ce-310f-4f99-9514-a5c55510b1c1",
+        "ffe3e806-9fdf-416c-817e-f34377cdf371"
+      ],
+      "settings": {
+        "headinga": "Best Sellers"
+      }
+    },
+    "16425861377b616e4a": {
+      "type": "image-overlay",
+      "settings": {
+        "back_image": "shopify:\/\/shop_images\/Ancient_Wisdom.png",
+        "image_alignment": "center",
+        "image_size": "cover",
+        "back_image1": "shopify:\/\/shop_images\/Ancient_Wisdom_mobile.png",
+        "mobile_image_alignment": "right",
+        "preheading": "",
+        "heading": "Ancient Medicine Meets Modern Science",
+        "text2": "<p>By employing a Plant Medicine approach that has been in use since ancient times, and enhancing it with the best of modern medical science, MDbio utilizes full-spectrum hemp extracts in addition to botanical compounds to activate and supercharge the “Entourage Effect” – naturally bringing your entire body back into a balanced state of equilibrium.<\/p>",
+        "text22": "Our Products",
+        "url1": "shopify:\/\/collections\/all"
+      }
+    },
+    "16425830684675b081": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-01-31_at_4.29.55_PM.png",
+        "pretext": "",
+        "title": "NATURALLY POWERED BY PLANT EXTRACTS",
+        "subtitle": "<p>Over a three-year time period MDbio worked with product formulators, herbalists, botanical experts, and hemp farmers from around the country to source the highest potency, safest, and most pure ingredients for our products, and continuously experimented with varying amounts of each ingredient to arrive at the optimal ratios and blends to maximize patient efficacy.<\/p>",
+        "pretext_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "text_alignment": "right",
+        "text_horizontal_position": "right",
+        "text_vertical_position": "top",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "Learn About Our Ingredients",
+        "button_1_link": "shopify:\/\/blogs\/doctors-desk-blogs",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": false,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "fadeInDown",
+        "css_class": "nature-science",
+        "custom_css": ""
+      }
+    },
+    "164127735060b04540": {
+      "type": "right-image-text",
+      "disabled": true,
+      "blocks": {
+        "1641277350046241b2-2": {
+          "type": "text",
+          "settings": {
+            "title": "Our Promise To You",
+            "heading_size": "regular",
+            "text": "<p>Founded by four renowned Medical Doctors committed to providing safe and effective alternatives to harsh pharmaceutical drugs, MDbio provides medical-grade, patient-tested CBD+plant-based wellness products that are unique in the industry for their innovation, quality, potency, and safety. MDbio products naturally and safely restore the body’s endocannabinoid balance to maximize overall health and wellbeing in patients.<\/p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "1641277350046241b2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trials-tile_1000x_d1d3b6b3-ddbe-42d7-95f7-68837670a34c.png",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641277350046241b2-2",
+        "1641277350046241b2-0"
+      ],
+      "settings": {
+        "width": "wide",
+        "show_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1640860871b266905c": {
+      "type": "index__featured-product",
+      "disabled": true,
+      "blocks": {
+        "6d70fd87-2f85-45ce-b8c2-6c97f1117765": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Sleep Soundly: Hops Extract + Valarian Root<\/strong><\/p>"
+          }
+        },
+        "16408608714c0945ba-0": {
+          "type": "title",
+          "settings": {}
+        },
+        "16408608714c0945ba-1": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "16408608714c0945ba-2": {
+          "type": "description",
+          "settings": {
+            "custom_description": "<p>A good rest supports your body, mind, spirit and life. MDsleep contains a full-spectrum organic hemp extract rich in natural CBD and CBN with GABA and botanical extracts that work synergistically to help you get a good night’s sleep.<\/p>"
+          }
+        },
+        "16408608714c0945ba-3": {
+          "type": "form",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "6d70fd87-2f85-45ce-b8c2-6c97f1117765",
+        "16408608714c0945ba-0",
+        "16408608714c0945ba-1",
+        "16408608714c0945ba-2",
+        "16408608714c0945ba-3"
+      ],
+      "settings": {
+        "featured_product": "mdsleep-hemp-oil-sleep-supplement",
+        "product_images_position": "left",
+        "set_product_height": true,
+        "product_height": 680,
+        "video_looping": false,
+        "gallery_arrows": false,
+        "enable_zoom": false,
+        "enable_product_lightbox": true,
+        "slideshow_speed": 0,
+        "slideshow_transition": "fade",
+        "display_thumbnails": false,
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": false,
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1642584836ca295268": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify:\/\/shop_images\/one.jpg",
+        "pretext": "",
+        "title": "WHY ARE WE \"THE DOCTORS' BRAND™\"?",
+        "subtitle": "<p>Our wellness solutions originate with our four renowned Board-Certified Medical Doctors, whose lifelong mission throughout their careers has been to maximize positive patient outcomes and minimize harm.<\/p><p>We rely on the doctors who founded MDbio, and they in turn rely on the latest in modern medical science, which today also includes holistic practices and plant-based medicines derived from “non-Western” sources, to guide all of our company decisions and product formulations.<\/p><p>Our doctors want nothing but the best solutions for their patients and, by extension, MDbio’s customers, and to provide that we engage in the most rigorous possible processes and hold ourselves to the highest possible standards in the formulation of, and sourcing ingredients for, our products. <\/p><p><strong>Our doctors will stand for nothing less.<\/strong><\/p>",
+        "pretext_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "text_alignment": "left",
+        "text_horizontal_position": "left",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "Meet the Doctors",
+        "button_1_link": "shopify:\/\/pages\/our-doctors",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": false,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1562701274900": {
+      "type": "index__icon-with-text-column",
+      "disabled": true,
+      "blocks": {
+        "1562701274900-1": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icons-03-01.svg?v=1640858719",
+            "title": "Support your Body",
+            "text": "<p>Maintain a healthy lifestyle by supporting the natural functions of your body with our botanical infused products<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1562701274900-0": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icons-03-02.svg?v=1640858719",
+            "title": "Sign up & Save",
+            "text": "<p>Join our membership club and receive medical insights directly from our doctors on common ailments<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1562701274900-2": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icons-03-03.svg?v=1640858719",
+            "title": "Our Products",
+            "text": "<p>Built to provide you a boost in wellness and joy<\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1562701274900-1",
+        "1562701274900-0",
+        "1562701274900-2"
+      ],
+      "settings": {
+        "text_heading": "",
+        "heading_text_color": "rgba(0,0,0,0)",
+        "icons_per_row": 3,
+        "icon_size": "medium",
+        "align_text": "center",
+        "button_style": "button--primary",
+        "icon_color": "#76c355",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16430294870fe1f82c": {
+      "type": "sleep-two-column",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Layer_3_1.png",
+        "text11": "MDsleep™",
+        "subheading": "",
+        "price": "$ 14",
+        "btn_title": "Add to Cart",
+        "btn_url": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+        "colorsubheading": "#3d4246"
+      }
+    },
+    "1645697478d603e174": {
+      "type": "index__blog-posts",
+      "settings": {
+        "title": "Doctor’s Desk",
+        "btn-text2": "Read More Articles",
+        "url1": "shopify:\/\/blogs\/doctors-desk",
+        "blog_widget_select": "doctors-desk",
+        "home_page_articles": 2,
+        "blog_show_tags": true,
+        "blog_author": true,
+        "read_time": true,
+        "blog_date": true,
+        "blog_comment_count": true,
+        "blog_show_excerpt": true,
+        "show-border": true,
+        "button_label": "Read more",
+        "button_type": "button--primary",
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164395734777268605": {
+      "type": "index__newsletter",
+      "settings": {
+        "display_first_name": false,
+        "display_last_name": false,
+        "newsletter_title": "Sign Up for Our Newsletter for New Releases, discounts, and more!",
+        "newsletter_richtext": "",
+        "newsletter_section_text_align": "center",
+        "background_color": "#cccccd",
+        "text_color": "#000000",
+        "image_darken": false,
+        "image_cropping": "center",
+        "image_position": "left",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "16553552193e53f672",
+    "1557099047693",
+    "1640855760a7c23b65",
+    "164369533522e87986",
+    "1562162827149",
+    "16458563489181fa2c",
+    "16458570608bf2425a",
+    "f6e67254-78a9-438f-acff-f67270355428",
+    "1642587745d82e74d8",
+    "16456160353e401168",
+    "f7e5f597-bfbb-4c66-8568-3f7a41232f65",
+    "1643696627e8935007",
+    "1562163151831",
+    "164309319639a54fe5",
+    "16425861377b616e4a",
+    "16425830684675b081",
+    "164127735060b04540",
+    "1640860871b266905c",
+    "1642584836ca295268",
+    "1562701274900",
+    "16430294870fe1f82c",
+    "1645697478d603e174",
+    "164395734777268605"
+  ]
+}

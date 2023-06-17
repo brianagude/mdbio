@@ -1,0 +1,131 @@
+<div class="vision-content">
+    <div class="wrapper" >
+      <div class="vision sleep-all-in" >
+         {%- if section.settings.top-title != blank -%}
+        <div class="vision-top-title">
+              <h2>{{ section.settings.top-title }}</h2>
+        </div>
+            {%- endif -%}
+       
+        <div class="vision sleep-one">
+          
+          <div class="vision sleep-text-left">
+            
+                       
+            {%- if section.settings.title != blank -%}
+              <h2>{{ section.settings.title }}</h2>
+            {%- endif -%}
+            
+            {%- if section.settings.content != blank -%}
+              <p>{{ section.settings.content }}</p>
+            {%- endif -%}
+            
+         
+          </div>
+          <div class="vision sleep-text-right">
+                 {%- if section.settings.title1 != blank -%}
+              <h2>{{ section.settings.title1 }}</h2>
+            {%- endif -%}
+            
+            {%- if section.settings.content1 != blank -%}
+              <p>{{ section.settings.content1 }}</p>
+            {%- endif -%}
+          </div>
+          
+        </div>
+        
+        
+              <div class="vision sleep-one">
+          
+        <div class="vision sleep-text-left">
+            
+                       
+            {%- if section.settings.title11 != blank -%}
+              <h2>{{ section.settings.title11 }}</h2>
+            {%- endif -%}
+            
+            {%- if section.settings.content11 != blank -%}
+              <p>{{ section.settings.content11 }}</p>
+            {%- endif -%}
+            
+         
+          </div>
+          <div class="vision sleep-text-right">
+                 {%- if section.settings.title22 != blank -%}
+              <h2>{{ section.settings.title22 }}</h2>
+            {%- endif -%}
+            
+            {%- if section.settings.content22 != blank -%}
+              <p>{{ section.settings.content22 }}</p>
+            {%- endif -%}
+          </div>
+                
+                
+          </div>
+                
+        </div>
+        
+        
+        
+      </div>
+  </div>
+
+    
+    
+    
+{% schema %}
+{
+  "name": "vision",
+  "class": "vision",  
+      "settings": [
+   		{
+          "type": "text",
+          "id": "top-title",
+          "label": "Top Heading"
+        },
+		{
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
+		{
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        },
+	   {
+          "type": "text",
+          "id": "title1",
+          "label": "Heading"
+        },
+		{
+          "type": "richtext",
+          "id": "content1",
+          "label": "Content"
+        },
+		
+         {
+          "type": "text",
+          "id": "title11",
+          "label": "Heading"
+        },
+		{
+          "type": "richtext",
+          "id": "content11",
+          "label": "Content"
+        },
+	   {
+          "type": "text",
+          "id": "title22",
+          "label": "Heading"
+        },
+		{
+          "type": "richtext",
+          "id": "content22",
+          "label": "Content"
+        }
+		
+		]  
+}
+
+{% endschema %}

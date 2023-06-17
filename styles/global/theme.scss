@@ -1,0 +1,52 @@
+/* COLORS */
+$color-primary: var(--color-primary);
+$color-primary-light: var(--color-primary-light);
+$color-secondary: var(--color-secondary);
+$color-secondary-light: var(--color-secondary-light);
+$color-tertiary: var(--color-tertiary);
+$color-tertiary-light: var(--color-tertiary-light);
+
+$color-black: var(--color-black);
+$color-white: var(--color-white);
+$color-light: var(--color-light);
+$color-gray: var(--color-gray);
+$color-cream: var(--color-light);
+
+/* TYPOGRAPHY */
+
+$font-header-bold: var(--font-header-bold);
+$font-stack-body-bold: var(--font-body-bold);
+
+$font-stack-header: var(--font-stack-header);
+$font-style-header: var(--font-style-header);
+$font-weight-header: var(--font-weight-header);
+
+$font-stack-body: var(--font-stack-body);
+$font-style-body: var(--font-style-body);
+$font-weight-body: var(--font-weight-body);
+
+$font-stack-button: var(--font-stack-button);
+$font-style-button: var(--font-style-button);
+$font-weight-button: var(--font-weight-button);
+
+$font-size-header: var(--font-size-header);
+$font-size-body: var(--font-size-body);
+$font-size-button: var(--font-size-button);
+
+// begin delete later
+$yellow: $color-primary;
+$blue: $color-secondary;
+$brown: $color-tertiary;
+$cream: $color-cream;
+$black: $color-black;
+$white: $color-white;
+$gray: $color-gray;
+
+$primary: $yellow;
+$secondary: $blue;
+
+$font-header: $font-stack-header;
+$font-text: $font-stack-body;
+$font-button: $font-stack-button;
+
+// end delete later

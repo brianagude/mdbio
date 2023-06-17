@@ -1,0 +1,95 @@
+<div class="blog-content blog-content--{{ section.id }}-1">
+    <div class="wrapper" >
+      <div class="blog-p_p" >
+        {% comment %}
+          {%- for block in section.blocks -%}
+          <div class="blog-one" id="block-{{ block.id }}">
+            {%- if block.settings.text_url != blank -%}
+            <a href="{{ block.settings.text_url }}">
+            <div class="blog-a-image">
+              {%- if block.settings.image != blank -%} 
+              <img class="blog-a-one" src="{{ block.settings.image | img_url: 'master' }}">
+              {%- endif -%}
+            </div>
+            <div class="blog-a-text">
+              {%- if block.settings.subheading != blank -%}
+                <h4 style="color:{{ block.settings.colorsubheading }};'">{{ block.settings.subheading }}</h4>
+              {%- endif -%}
+                 {%- if block.settings.text11 != blank -%}
+                <h2>{{ block.settings.text11 }}</h2>
+              {%- endif -%}
+            </div>
+              </a>
+             {%- endif -%}
+          </div>
+        {%- endfor -%}
+{% endcomment %}
+
+      {%- assign blogtag = page.metafields.custom.blog_tag -%}
+        {% for article in blogs.doctors-desk.articles %}   
+            {% if article.tags contains blogtag and article.tags!= null and article.tags!= "" %}
+              <div class="blog-one">
+                <div class="blog-a-image">
+                  <a href="{{ article.url }}"><img src="{{ article.image.src | img_url: '533x' }}" ></a>
+                </div>
+                <div class="blog-a-text">
+                  <a href="{{ article.url }}"><h2>{{ article.title }}</h2></a>
+                </div>
+              </div>
+            {% endif %}
+        {% endfor %}
+      </div>
+  </div>
+  
+</div>
+<!--   <div class="shopify-section" style="text-align: center;margin: 50px auto;"><a class="btn-read-pain" href="/products/mdsleep-hemp-oil-sleep-supplement">Shop MDsleep™</a></div> -->
+  <div class="shopify-section" style="text-align: center;margin: 50px auto;"><a class="btn-read-pain" href="/products/mdcalm-hemp-oil-anxiety-supplement">Shop MDcalm™</a></div>
+    
+    
+{% schema %}
+{
+  "name": "Blog Top",
+  "class": "abt-blog-cls",  
+      "settings": [],
+  		"blocks": [
+     {
+       "name": "Blog",
+       "type": "Blog",
+       "settings": [
+		{
+		  "type": "url",
+          "id": "text_url",
+          "label": "Button URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image one"
+        },
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "subheading",
+          "label": "sub heading"
+        },
+		{
+        "type": "color",
+        "id": "colorsubheading",
+        "label": "Sub Headings color",
+        "default": "#3d4246"
+      },
+		{
+		  "type": "text",
+          "id": "text2",
+          "label": "Button"
+        }
+      ]
+}
+   ]
+}
+
+{% endschema %}

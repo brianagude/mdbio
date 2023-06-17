@@ -1,0 +1,344 @@
+{
+  "sections": {
+    "banner": {
+      "type": "fallback_image_banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sleep-tile.png",
+        "image_darken": true,
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection__main",
+      "disabled": true,
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "show_sidebar": true,
+        "sidebar_position": "left",
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 2,
+        "mobile_products_per_row": "1",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164628146994223941": {
+      "type": "shop-three-products",
+      "disabled": true,
+      "blocks": {
+        "e5d5b898-28a4-407c-8714-4c1486c4364a": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_SleepFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDsleep™",
+            "para": "A good rest supports your body, mind, spirit and life. MDsleep™ contains a full-spectrum organic hemp extract rich in natural full spectrum hemp with GABA and botanical extracts that work synergistically to help you get a good night’s sleep.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        },
+        "02f20ba0-cec3-45c6-aac9-d2498d850197": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_ReliefFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDrelief™",
+            "para": "Pain, either minor or ongoing, can affect your overall quality of life. MDrelief™ blends a full-spectrum hemp extract and a unique combination of botanical ingredients used to soothe pain for thousands of years. Take a stand against pain and experience more joy of living.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        },
+        "1d908683-ce02-4d3d-b65f-d2de88a1b3d8": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_CalmFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDcalm™",
+            "para": "Anxiety and stress can affect your mood, sleep, and health, making your days and nights more difficult than they need to be. MDcalm™ combines a full-spectrum hemp extract with adaptogens, botanicals and Magnesium L-Threonate to ease your mind, naturally.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        },
+        "dad03ab8-f9c4-4794-b2c6-625dc97851ad": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_ImmuneFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDimmune+™",
+            "para": "Protect yourself from everyday immune system challenges that can negatively impact your health. MDimmune+™ contains a full-spectrum hemp extract blended with immunity-boosting botanicals like black seed oil, quercetin, plus vitamins and zinc to ramp up your defenses and keep you strong.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        }
+      },
+      "block_order": [
+        "e5d5b898-28a4-407c-8714-4c1486c4364a",
+        "02f20ba0-cec3-45c6-aac9-d2498d850197",
+        "1d908683-ce02-4d3d-b65f-d2de88a1b3d8",
+        "dad03ab8-f9c4-4794-b2c6-625dc97851ad"
+      ],
+      "settings": {
+        "headinga": ""
+      }
+    },
+    "16575253010a81e041": {
+      "type": "custom-featured-collection",
+      "settings": {
+        "title": "Softgel Capsules",
+        "collection": "frontpage",
+        "products_per": 4,
+        "mobile_products_per_row": "1",
+        "products_limit": 4,
+        "align_height": false,
+        "collection_height": 200,
+        "collection_style": "grid",
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 20,
+        "animation": "none",
+        "btn_text": "Choose options",
+        "price_text": "Starting at",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16548529711ba5fb4b": {
+      "type": "collection-variant-template",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "grid": 4,
+        "rows": 2,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true,
+        "infinite_scroll_enable": false,
+        "heading": "Doctor developed, all natural alternatives for targeting sleeplessness, pain, anxiety and immunity."
+      }
+    },
+    "165485777116200a74": {
+      "type": "questions",
+      "blocks": {
+        "b7270964-5b44-4a11-82e3-a9b233a760a7": {
+          "type": "Question",
+          "settings": {
+            "text11": "How long before I feel the effects of MDbio supplements?",
+            "text2": "All natural medicines (and most pharmaceuticals for that matter) require a few days to build up in your body, which is sometimes called the \"load phase\". We see the vast majority of users experience the intended benefits of our products within 3 days of use. Metabolism rates vary from person to person and therefore we recommend following our dosing guidelines to effectively reach your optimal daily dose."
+          }
+        },
+        "bd399226-46d4-4f66-8615-c0c55760ae57": {
+          "type": "Question",
+          "settings": {
+            "text11": "Are MDbio products safe to take long term?",
+            "text2": "All of our products are plant based, using only naturally derived ingredients. We combine organic raw materials that have been used for thousands of years in eastern medicine. Additionally, all of our products are manufactured using the safest standards and we rigorously test everything that goes into our products."
+          }
+        },
+        "be6e7415-64e7-4c59-bd90-566cfda2262b": {
+          "type": "Question",
+          "settings": {
+            "text11": "Are there any side effects to MDbio products?",
+            "text2": "All products have an inherent risk of side effects, as each person reacts differently to different products. At MDbio, we have tested our products on a wide range of trial participants to ensure our products show minimal to no side effects in most people."
+          }
+        },
+        "d3518166-4173-450e-bca9-015a6233fb5c": {
+          "type": "Question",
+          "settings": {
+            "text11": "Why are your products so effective?",
+            "text2": "We spent months developing and testing products that our doctors can recommend to their own patients. All of our products are tested to ensure the highest efficacy and best patient outcomes before we even thought of selling our first jar. We believe in our early trials so much, we are currently undergoing strict clinical trials (the same kind pharmaceutical company's use) to ensure our products help our most problematic patients. We've done the work, so you can feel the relief."
+          }
+        },
+        "3a89b485-60f4-426b-8646-a9d54682c7dc": {
+          "type": "Question",
+          "settings": {
+            "text11": "How do I know how much to take?",
+            "text2": "As with all medicines, there is no \"one size fits all\". We have designed our products to be effective for most people with 1 softgel per serving. It will depend on your own metabolism, and other various internal and external factors. Read our dosing page for more details."
+          }
+        }
+      },
+      "block_order": [
+        "b7270964-5b44-4a11-82e3-a9b233a760a7",
+        "bd399226-46d4-4f66-8615-c0c55760ae57",
+        "be6e7415-64e7-4c59-bd90-566cfda2262b",
+        "d3518166-4173-450e-bca9-015a6233fb5c",
+        "3a89b485-60f4-426b-8646-a9d54682c7dc"
+      ],
+      "settings": {
+        "heading": "You’ve got questions. We’ve got answers."
+      }
+    },
+    "16548596159b0d3060": {
+      "type": "medical",
+      "blocks": {
+        "6bdcf01a-6050-45c2-8439-eae0a1245d44": {
+          "type": "Medical",
+          "settings": {
+            "text11": "Valerian Root",
+            "image": "shopify:\/\/shop_images\/Valerian-Root.png",
+            "text2": "From the tall grass like plant, the Valerian Root is a gentle yet powerful tool to decrease the time it takes to fall asleep and once asleep, promotes deeper rest. There’s a reason this plant has been used since the 2nd century in Greece for restlessness!"
+          }
+        },
+        "6c0f58e6-26ed-4122-9285-117381c38cfa": {
+          "type": "Medical",
+          "settings": {
+            "text11": "Reishi Mushroom",
+            "image": "shopify:\/\/shop_images\/Reishi-Mushroom.png",
+            "text2": "The adaptogenic beta-D-glucans and triterpenes in reishi work to relax the nervous system and ease mental stress, creating a relaxed state of focus similar to a meditative state."
+          }
+        },
+        "4762630c-f97d-4e80-9bdd-02c96f9cd1c8": {
+          "type": "Medical",
+          "settings": {
+            "text11": "Ashwagandha",
+            "image": "shopify:\/\/shop_images\/ashwagandha1.png",
+            "text2": "One of the oldest and most storied ingredients we use in our blends, this herb has properties to calm you down, while also boosting your stamina. Used as a great tool to calm the mind, while keeping you moving throughout your day."
+          }
+        },
+        "379ec400-5aeb-4903-b10e-e72e76427274": {
+          "type": "Medical",
+          "settings": {
+            "text11": "Hops Flower",
+            "image": "shopify:\/\/shop_images\/Hops-Flower.png",
+            "text2": "Derived from the flower, Hops has been shown to effectively decrease nocturnal activity in the circadian activity rhythm and increase the production of natural GABA. Combined with the valerian root, this can achieve a powerful result."
+          }
+        },
+        "813450f7-fdff-4814-84a1-a037670599d9": {
+          "type": "Medical",
+          "settings": {
+            "text11": "Lavender Flower",
+            "image": "shopify:\/\/shop_images\/Lavender-Flower.png",
+            "text2": "Derived from the flower, lavender has become a household name in calm and relaxation.. Lavender inhibits the body’s natural fight-or-flight mechanism to create a serene mind while exhibiting no sedative effects. There’s a reason this powerful flower is used in almost every spa and relaxation clinic across the world."
+          }
+        },
+        "5a449aab-bae9-472b-a066-b409cdd435fc": {
+          "type": "Medical",
+          "settings": {
+            "text11": "White Willow Bark",
+            "image": "shopify:\/\/shop_images\/White-Willow-Bark.png",
+            "text2": "This herb has been long coined as “nature’s Aspirin”. Willow Bark contains the chemical, Salicin, which is seen to help reduce inflammation and therefore targeting pain."
+          }
+        },
+        "d00e2e19-ed22-4ee2-b5f5-4d20eed14ca2": {
+          "type": "Medical",
+          "settings": {
+            "text11": "Frankincense",
+            "image": "shopify:\/\/shop_images\/Frankincense1.png",
+            "text2": "One of the most foundational herbs used in ancient medicine, Frankincense has analgesic, anti-inflammatory and antiseptic properties. Still a powerful tool to fight inflammation and target pain."
+          }
+        },
+        "a2fc35b6-0b48-43e1-8d17-e8f4f3fb849e": {
+          "type": "Medical",
+          "settings": {
+            "text11": "Black Seed Oil",
+            "image": "shopify:\/\/shop_images\/Black-Seed-Oil.png",
+            "text2": "A real superhero to fight against illness, Black Seed Oil is a powerful immune modulator, keeping the immune system in balance so it does not overreact or underreact"
+          }
+        }
+      },
+      "block_order": [
+        "6bdcf01a-6050-45c2-8439-eae0a1245d44",
+        "6c0f58e6-26ed-4122-9285-117381c38cfa",
+        "4762630c-f97d-4e80-9bdd-02c96f9cd1c8",
+        "379ec400-5aeb-4903-b10e-e72e76427274",
+        "813450f7-fdff-4814-84a1-a037670599d9",
+        "5a449aab-bae9-472b-a066-b409cdd435fc",
+        "d00e2e19-ed22-4ee2-b5f5-4d20eed14ca2",
+        "a2fc35b6-0b48-43e1-8d17-e8f4f3fb849e"
+      ],
+      "settings": {
+        "heading": "Medically tested botanicals that are proven effective."
+      }
+    },
+    "165486114943f5080c": {
+      "type": "dont",
+      "blocks": {
+        "04bbd0e8-839f-4701-911d-f136eb8cefaf": {
+          "type": "Dont",
+          "settings": {
+            "text11": "Seth., age 52",
+            "star": "<i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i>",
+            "text2": "I take a lot of ibuprofen usually throughout the day. But when I tried MDrelief - I found that I could take 2 in the mid-morning and I'd feel relief all day - which is awesome. Highly recommend."
+          }
+        },
+        "f248b743-3625-4a3b-8546-545a90350b93": {
+          "type": "Dont",
+          "settings": {
+            "text11": "Jennifer., age 44",
+            "star": "<i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i>",
+            "text2": "This product was quick to work and helped me regain my day. It didn't make me drowsy, but a full relaxation that helped me stay productive and positive!"
+          }
+        },
+        "7cbc0212-b814-4239-9bd0-ba38df01589a": {
+          "type": "Dont",
+          "settings": {
+            "text11": "Robert., age 37",
+            "star": "<i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i><i class=\"fa fa-star\" aria-hidden=\"true\"><\/i>",
+            "text2": "The onset of sleep seemed to come faster and I didn't wake up nearly as much as I usually do. Well Done!"
+          }
+        }
+      },
+      "block_order": [
+        "04bbd0e8-839f-4701-911d-f136eb8cefaf",
+        "f248b743-3625-4a3b-8546-545a90350b93",
+        "7cbc0212-b814-4239-9bd0-ba38df01589a"
+      ],
+      "settings": {
+        "heading": "Customer Reviews"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "164628146994223941",
+    "16575253010a81e041",
+    "16548529711ba5fb4b",
+    "165485777116200a74",
+    "16548596159b0d3060",
+    "165486114943f5080c"
+  ]
+}

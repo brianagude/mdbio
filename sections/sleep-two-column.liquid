@@ -1,0 +1,109 @@
+<div class="sleep-twp-column-sections">
+    <div class="container" >
+      <div class="product__images one-half column medium-down--one-whole">
+        <div class="image-box-area">
+          {%- if section.settings.image != blank -%} 
+          <img class="a-one" src="{{ section.settings.image | img_url: 'master' }}">
+          {%- endif -%}
+        </div>
+        <div class="text-box-area">
+          {%- if section.settings.text11 != blank -%}
+          	<h2>{{ section.settings.text11 }}</h2>
+          {%- endif -%}
+          {%- if section.settings.subheading != blank -%}
+          	<h4 style="color:{{ section.settings.colorsubheading }};'">{{ section.settings.subheading }}</h4>
+          {%- endif -%}
+          {%- if section.settings.subheadinga != blank -%}
+          	<h5>{{ section.settings.subheadinga }}</h5>
+          {%- endif -%}
+          {%- if section.settings.text2 != blank -%}
+         	 <p>{{ section.settings.text2 }}</p>
+          {%- endif -%}
+          {%- if section.settings.btn_title != blank and section.settings.btn_url != blank -%}
+          	<a class="button ajax-submit action_button" href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }} | {{ section.settings.price }}</a>
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="product__images one-half column medium-down--one-whole">
+        <div class="image-box-area">
+          {%- if section.settings.image != blank -%} 
+          <img class="a-one" src="{{ section.settings.image | img_url: 'master' }}">
+          {%- endif -%}
+        </div>
+        <div class="text-box-area">
+          {%- if section.settings.text11 != blank -%}
+          	<h2>{{ section.settings.text11 }}</h2>
+          {%- endif -%}
+          {%- if section.settings.subheading != blank -%}
+          	<h4 style="color:{{ section.settings.colorsubheading }};'">{{ section.settings.subheading }}</h4>
+          {%- endif -%}
+          {%- if section.settings.subheadinga != blank -%}
+          	<h5>{{ section.settings.subheadinga }}</h5>
+          {%- endif -%}
+          {%- if section.settings.text2 != blank -%}
+         	 <p>{{ section.settings.text2 }}</p>
+          {%- endif -%}
+          {%- if section.settings.btn_title != blank and section.settings.btn_url != blank -%}
+          	<a class="button ajax-submit action_button" href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }} | {{ section.settings.price }}</a>
+          {%- endif -%}
+        </div>
+      </div>      
+  </div>
+</div>
+    
+    
+    
+{% schema %}
+{
+  "name": "Sleep Two Column Section",
+  "class": "sleep-two-column-section",  
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "subheading",
+          "label": "sub heading"
+        },
+		{
+          "type": "text",
+          "id": "price",
+          "label": "Product Price"
+        },
+		{
+          "type": "text",
+          "id": "btn_title",
+          "label": "Button Title"
+        },
+		{
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button URL"
+        },
+		{
+          "type": "color",
+          "id": "colorsubheading",
+          "label": "Sub Headings color",
+          "default": "#3d4246"
+      	}
+	],
+  "presets": [
+        {
+        "name": "Sleep Two Column Section",
+        "category": "Product",
+        "settings": {
+
+        }
+      }
+	]
+}
+
+{% endschema %}

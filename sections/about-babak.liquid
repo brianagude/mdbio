@@ -1,0 +1,161 @@
+<div class="about-babak" {% if section.settings.back_image %} style="background-image:url({{ section.settings.back_image | img_url: "master" }});"{% endif %}>
+    <div class="wrapper" >
+      {%- for block in section.blocks -%}
+      <div class="abt-one" id="block-{{ block.id }}">
+        <div class="abt-image">
+          
+          
+          {%- if block.settings.image != blank -%} 
+          <img class="a-one" src="{{ block.settings.image | img_url: 'master' }}">
+          {%- endif -%}
+        </div>
+        <div class="abt-text">
+          {%- if block.settings.text11 != blank -%}
+          	<h2>{{ block.settings.text11 }}</h2>
+          {%- endif -%}
+          {%- if block.settings.subheading != blank -%}
+          	<h4 style="color:{{ block.settings.colorsubheading }};'">{{ block.settings.subheading }}</h4>
+          {%- endif -%}
+          {%- if block.settings.subheadinga != blank -%}
+          	
+          <h5><img class="left-coma" src="https://cdn.shopify.com/s/files/1/0617/6876/1575/files/Layer_6.png?v=1648617357">{{ block.settings.subheadinga }}<img src="https://cdn.shopify.com/s/files/1/0617/6876/1575/files/Layer_6_copy.png?v=1648617357" class="right-coma"></h5>
+          
+          {%- endif -%}
+          {%- if block.settings.text2 != blank -%}
+         	 <p>{{ block.settings.text2 }}</p>
+          {%- endif -%}
+        </div>
+        
+<!--             <div class="abt-image">
+          {%- if block.settings.image != blank -%} 
+          <img class="a-one" src="{{ block.settings.image | img_url: 'master' }}">
+          {%- endif -%}
+        </div> -->
+      </div>
+	{%- endfor -%}
+  </div>
+</div>
+    
+    
+    
+{% schema %}
+{
+  "name": "About Top",
+  "class": "abt-cls",  
+      "settings": [],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+		{
+          "type": "image_picker",
+          "id": "back_image",
+          "label": "Back Image"
+        },
+      
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image one"
+        },
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "subheading",
+          "label": "sub heading"
+        },
+		{
+        "type": "color",
+        "id": "colorsubheading",
+        "label": "Sub Headings color",
+        "default": "#3d4246"
+        },
+		{
+          "type": "text",
+          "id": "subheadinga",
+          "label": "sub heading down"
+        },
+		{
+		  "type": "richtext",
+          "id": "text2",
+          "label": "Paragraph"
+        }
+      ]
+}
+   ]
+}
+
+{% endschema %}
+
+<style>
+.abt-text a{
+    background: transparent;
+    padding: 0px 0px;
+    color: #3857a6;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+.abt-text a:hover{
+  background: transparent;
+  color: #3857a6;
+text-decoration:underline;
+}
+@media screen and (min-device-width: 851px) and (max-device-width: 1024px) {
+body.page-babak-larian-md-facs img.left-coma {
+    width: 30px;
+}
+body.page-babak-larian-md-facs img.right-coma {
+    width: 30px;
+}
+  body.page-babak-larian-md-facs .abt-text h5 {
+    font-size: 16px !important;
+  }
+}
+@media screen and (min-device-width: 767px) and (max-device-width: 850px) {
+body.page-babak-larian-md-facs .abt-text {
+    width: 100%; 
+}
+}
+@media screen and (min-device-width: 810px) and (max-device-width: 849px) {
+     body.page-babak-larian-md-facs img.left-coma {
+    width: 30px;
+}
+body.page-babak-larian-md-facs img.right-coma {
+    width: 30px;
+}
+  body.page-babak-larian-md-facs .abt-text h5 {
+    font-size: 16px !important;
+  }
+}
+@media screen and (min-device-width: 767px) and (max-device-width: 809px) {
+     body.page-babak-larian-md-facs img.left-coma {
+    width: 35px;
+}
+body.page-babak-larian-md-facs img.right-coma {
+    width: 35px;
+}
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 600px) {
+body.page-babak-larian-md-facs .abt-text p {
+  display: block !important;
+}
+  body.page-babak-larian-md-facs .abt-text h2 {
+    font-size: 20px !important;
+  }
+  body.page-babak-larian-md-facs img.left-coma {
+    width: 22px;
+  }
+  body.page-babak-larian-md-facs img.right-coma {
+    width: 22px;
+  }
+  body.page-babak-larian-md-facs .abt-text h5 {
+    font-size: 13px;
+  }
+}
+</style>

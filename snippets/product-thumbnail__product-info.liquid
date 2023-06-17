@@ -1,0 +1,259 @@
+<div class="product-thumbnail">
+  {% if settings.display_vendor %}
+  <span class="product-thumbnail__vendor">{{ product.vendor }}</span>
+  {% endif %}
+
+  {% if hover_enabled %}
+  <span class="product-thumbnail__title">{{ product.title }}</span>
+  {% else %}
+  <a href="{{ product.url | within: collection }}" class="product-thumbnail__title">{{ product.title }}</a>
+  {% endif %}
+  {%- if product.metafields.custom.product_sub_title != blank -%}
+  <div class="product_cls_three"><h3 class="sub_title">{{ product.metafields.custom.product_sub_title }}</h3></div>
+  {% endif %}
+  <div data-oke-reviews-product-listing-rating>{{ product.metafields.okendo.ProductListingSnippet }}</div>
+  <div class="product-content-inner-box">
+    {% if collection_handles contains 'coming-soon' %}
+    {% if settings.stickers_enabled == false %}
+    {{ 'collections.general.coming_soon' | t }}
+    {% endif %}
+    {% else %}
+    <span class="product-thumbnail__price price {% if product.compare_at_price_max > product.price %}sale{% endif %}">
+      {% comment %}
+      {% if product.price_varies and product.price_min > 0 %}
+      <small><em>{{ 'products.general.from' | t }}</em></small>
+      {% endif %}
+      {% endcomment %}
+      {% if product.price_min > 0 %}
+      <span class="money">{{ section.settings.price_text }}
+        {%
+            render 'price-element',
+        price: product.price_min
+        %}
+      </span>
+      {% else %}
+      {{ settings.free_price_text }}
+      {% endif %}
+      {%- assign variant = product.selected_or_first_available_variant -%}
+      {% if variant.price < variant.compare_at_price %}
+      <span class="product-thumbnail__was-price compare-at-price">
+        <span class="money">
+          {%
+              render 'price-element',
+          price: variant.compare_at_price
+          %}
+        </span>
+      </span>
+      {% endif %}
+    </span>
+    {% if settings.select_first_available_variant %}
+    {%- assign variant_for_unit_price = product.variants | sort: 'price' | first -%}
+    {%
+        render 'unit-price',
+    item: variant_for_unit_price,
+    class: 'product-thumbnail__unit-price'
+    %}
+    {% endif %}
+    {% endif %}
+
+    {%- if section.settings.btn_text != blank -%}
+    <div data-id="{{product.id}}" id="choosebtn_{{product.id}}" class="product-button choosebtn product-{{ product.id }}">
+      <div class="btn btn-three main_bt">
+        {{ section.settings.btn_text }} <i class="fa fa-angle-double-right"></i></div>
+    </div> 
+    {% endif %}
+    
+
+   
+  
+    
+    <div id="choose_{{product.id}}" class="product-variation optnbtns product-{{ product.id }}">
+
+         
+   <div class="form-field suboptions">
+  <input type="radio" id="one-time-{{product.id}}" class="chooseoptn" name="sub_type-{{product.id}}" value="one-time" data-pid="{{product.id}}">
+     <label for="onr-time"><span id="otprice-{{product.id}}"></span>One Time</label>
+  </div>
+      
+	   <div class="form-field suboptions">
+  <input type="radio" id="subndsave-{{product.id}}" class="chooseoptn" name="sub_type-{{product.id}}" value="subndsave" data-pid="{{product.id}}">
+         <label for="onr-time"><span id="stprice-{{product.id}}"></span>Subscribe and Save 15%</label>
+</div>
+      
+      <div class="form-fields sub-time-options" id="subnsave-{{product.id}}">
+        <label for="count">Delivery Frequency:</label>
+        <br >
+         
+          {% for variant in product.variants %}
+        <div class="all-price price-{{product.id}}" id="var-{{variant.id}}">
+        <select class="freqoptn" name="frequency-select-{{product.id}}" id="frequency-select" data-pid={{product.id}}>
+         
+           {% for allocation in variant.selling_plan_allocations %}
+        <option data-aid="{{allocation.selling_plan.id}}" data-pid="{{product.id}}" data-price="{{ variant.price | money }}" data-allprice="{{allocation.price | money}}" value="{{ variant.title }}">{{allocation.selling_plan.name}}</option>
+         {% endfor %}        
+        </select> 
+        </div>
+         {% endfor %}
+         
+      </div>
+     
+      
+      <div class="form-fields one-time-options" id="one-{{product.id}}">
+        <label for="count">Count:</label>
+        <br >
+        <select name="count-select" class="count-select" id="count-select-{{product.id}}">     
+         
+          {% for option in product.options %}
+          {% if option == 'Count' %}
+          {% assign index = forloop.index0 %}
+
+          {% for variant in product.variants %}      
+
+          <option data-vid="{{variant.id}}" data-pid={{product.id}} data-price="{{ variant.price | money }}" value="{{ variant.title }}">{{ variant.title }}</option>
+
+          {% endfor %}
+          {% endif %}
+          {% endfor %}
+        </select>  
+       
+      
+      </div>
+    
+ 
+     
+     
+       <div class="cart-warning-{{product.id}}"></div>
+     
+    <div class="product-button add-to-cart-button">
+      <button type="submit" name="add" id="crtbtn-{{product.id}}" class="button--add-to-cart btn btn-three ajax-submit-coll" data-label="Add to cart" data-add-to-cart-trigger="" data-pid="{{product.id}}" data-addtype="one-time" data-variantid="" data-sellingid=""> <span class="text">Add to cart</span> <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" class="checkmark"> <path fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"></path></svg> <p class="spanprice" style="margin-left:10px;"></p></button>
+      </div>
+     
+    </div>
+    
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+  //$(document).on('click', '.ajax-submit-coll', function (e) {
+    $(document).on('click','#crtbtn-'+{{product.id}},function(e){ 
+     e.preventDefault();
+   
+     var $pid=$(this).attr('data-pid');
+     var $addToCartBtn = '#crtbtn-'+$pid;
+   
+     var $variantid=$(this).attr('data-variantid');
+     var $sellingid=$(this).attr('data-sellingid');
+     var $addtype=$(this).attr('data-addtype');
+     
+     // window.PXUTheme.jsAjaxCart.addToCartnew($pid,$variantid,$sellingid,$addtype);
+       
+  
+     
+     // return false;
+      
+         $('.cart-warning-'+$pid).empty();
+      
+       if($addtype=='one-time'){
+       
+        data = {
+      "id": $variantid,
+      "quantity": 1
+     
+    }
+       }else{
+         data = {
+           "id": $variantid,
+      "quantity": 1,
+      "selling_plan": $sellingid
+       }
+       }
+      
+      $.ajax({
+      type: 'POST',
+      url: '/cart/add.js',
+      data: data,
+      dataType: 'json',
+        beforeSend: function () {
+          $($addToCartBtn)
+            .attr('disabled', 'disabled')
+            .addClass('disabled');
+
+          $($addToCartBtn).find('span')
+            .removeClass("fadeInDown")
+            .addClass('animated zoomOut');
+        },
+      success: function(product) {
+   let $el = $('[data-ajax-cart-trigger]');
+
+          $($addToCartBtn)
+            .find('.checkmark')
+            .addClass('checkmark-active');
+ window.setTimeout(function () {
+          function addedToCart() {
+
+            if (!isScreenSizeLarge()) {
+              $el = $('.mobile-header [data-ajax-cart-trigger]');
+              window.PXUTheme.scrollToTop($el);
+            } else {
+              $el = $('[data-ajax-cart-trigger]');
+            }
+
+            $el.addClass('show-mini-cart');
+
+              $($addToCartBtn).find('span')
+              .removeClass('fadeInDown');
+          }
+    
+
+         
+            $($addToCartBtn)
+              .removeAttr('disabled')
+              .removeClass('disabled');
+
+            $($addToCartBtn).find('.checkmark')
+              .removeClass('checkmark-active');
+
+            $($addToCartBtn).find('.text, .icon')
+              .removeClass('zoomOut')
+              .addClass('fadeInDown');
+
+            $($addToCartBtn).on('webkitAnimationEnd oanimationend msAnimationEnd animationend', addedToCart);
+           // $($addToCartBtn).html('Added to Cart');
+
+          }, 1000);
+
+          window.PXUTheme.jsAjaxCart.showDrawer();
+          window.PXUTheme.jsAjaxCart.updateView();
+        
+
+    },
+         error: function (XMLHttpRequest) {
+          let response = eval('(' + XMLHttpRequest.responseText + ')');
+          response = response.description;
+
+          const cartWarning = `<p class="cart-warning__message animated bounceIn">${response.replace('All 1 ', 'All ')}</p>`;
+
+
+
+          $('.cart-warning-'+$pid).html(cartWarning);
+
+          $($addToCartBtn)
+            .removeAttr('disabled')
+            .removeClass('disabled');
+
+          $($addToCartBtn).find('.text, .icon')
+            .removeClass('zoomOut')
+            .addClass('zoomIn');
+
+          $($addToCartBtn)
+            .find('span:not(.icon)')
+            .text($addToCartBtn.data('label'))
+            .removeClass('zoomOut')
+            .addClass('zoomIn');
+        }
+    
+  });
+      
+      
+    });
+</script>

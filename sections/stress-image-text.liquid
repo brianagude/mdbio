@@ -1,0 +1,55 @@
+<div class="pain-content">
+    <div class="wrapper" >
+      <div class="pain-all-in" >
+          <div class="pain-image">
+            {%- if section.settings.image != blank -%} 
+              <img class="a-one" src="{{ section.settings.image | img_url: 'master' }}">
+            {%- endif -%}
+          </div>
+          <div class="pain-text">
+            {%- if section.settings.text11 != blank -%}
+              <h2>{{ section.settings.text11 }}</h2>
+            {%- endif -%}
+             {%- if section.settings.text2 != blank -%}
+            <p>{{ section.settings.text2 }}</p>
+             {%- endif -%}
+          </div>
+      </div>
+  </div>
+</div>
+    
+    
+    
+{% schema %}
+{
+  "name": "Sleep Top",
+  "class": "pain-cls",  
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image one"
+        },
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        },
+{
+		  "type": "text",
+          "id": "text2",
+          "label": "para"
+        }
+		],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+		
+      ]
+}
+   ]
+}
+
+{% endschema %}

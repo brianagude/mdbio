@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections__main",
+      "disabled": true,
+      "settings": {
+        "collections_per_row": 3,
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "align_height": false,
+        "collection_height": 400,
+        "enable_zoom": true,
+        "button_style": "button--secondary",
+        "overlay_background": "#939393",
+        "overlay_background_opacity": 70,
+        "overlay_text": "#ffffff",
+        "collection_title_below_image": false,
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1643956641e16d1811": {
+      "type": "why-image-overlay",
+      "disabled": true,
+      "settings": {
+        "preheading": "",
+        "heading": "OUR PRODUCTS",
+        "text2": "<p><strong>Doctor-formulated high-potency full-spectrum CBD combined with extra strength botanical extracts designed to <\/strong><em><strong>naturally <\/strong><\/em><strong>restore your body's health.<\/strong><\/p>",
+        "text22": "",
+        "url1": ""
+      }
+    },
+    "16439550717390ad3d": {
+      "type": "shop-three-products",
+      "blocks": {
+        "bbb79065-4221-45c2-86a4-2eb448228c0c": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_SleepFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDsleep™",
+            "para": "A good rest supports your body, mind, spirit and life. MDsleep™ contains a full-spectrum organic hemp extract rich in natural full spectrum hemp with GABA and botanical extracts that work synergistically to help you get a good night’s sleep.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        },
+        "d6628b8e-b1da-413f-954a-66105b40ffb9": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_ReliefFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDrelief™",
+            "para": "Pain, either minor or ongoing, can affect your overall quality of life. MDrelief™ blends a full-spectrum hemp extract and a unique combination of botanical ingredients used to soothe pain for thousands of years. Take a stand against pain and experience more joy of living.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        },
+        "0c09a987-9654-49a2-8b85-39ed50c821b1": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_CalmFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDcalm™",
+            "para": "Anxiety and stress can affect your mood, sleep, and health, making your days and nights more difficult than they need to be. MDcalm™ combines a full-spectrum hemp extract with adaptogens, botanicals and Magnesium L-Threonate to ease your mind, naturally.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        },
+        "5485e5d0-7406-49ce-acf5-61999c6195bf": {
+          "type": "Doctor",
+          "settings": {
+            "back_imageurl": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+            "back_image": "shopify:\/\/shop_images\/MDBio_ImmuneFamilyGels.jpg",
+            "subheading": "",
+            "heading": "MDimmune+™",
+            "para": "Protect yourself from everyday immune system challenges that can negatively impact your health. MDimmune+™ contains a full-spectrum hemp extract blended with immunity-boosting botanicals like black seed oil, quercetin, plus vitamins and zinc to ramp up your defenses and keep you strong.*",
+            "price": "Starting at $14.95",
+            "text22": "Details",
+            "url1": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+            "text222": "Buy Now",
+            "url2": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+            "text333": "",
+            "url3": ""
+          }
+        }
+      },
+      "block_order": [
+        "bbb79065-4221-45c2-86a4-2eb448228c0c",
+        "d6628b8e-b1da-413f-954a-66105b40ffb9",
+        "0c09a987-9654-49a2-8b85-39ed50c821b1",
+        "5485e5d0-7406-49ce-acf5-61999c6195bf"
+      ],
+      "settings": {
+        "headinga": ""
+      }
+    },
+    "1654852381676029c7": {
+      "type": "two-featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "products_per": 5,
+        "mobile_products_per_row": "1",
+        "products_limit": 10,
+        "align_height": false,
+        "collection_height": 200,
+        "collection_style": "grid",
+        "width": "wide",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1654852817ea6d1ae6": {
+      "type": "collection-variant-template",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "grid": 4,
+        "rows": 8,
+        "show_collection_image": false,
+        "show_vendor": false,
+        "sort_enable": false,
+        "tags_enable": false,
+        "infinite_scroll_enable": false,
+        "heading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1643956641e16d1811",
+    "16439550717390ad3d",
+    "1654852381676029c7",
+    "1654852817ea6d1ae6"
+  ]
+}

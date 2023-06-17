@@ -1,0 +1,2980 @@
+{
+  "current": {
+    "show_announcement_bar": false,
+    "header_layout": "classic",
+    "footer_layout": "promotional",
+    "logo_mobile": "shopify:\/\/shop_images\/logo-mdb-white-footer_1.png",
+    "mobile_logo_width": 50,
+    "show_search_icon_mobile": false,
+    "mobile_menu_background_color": "#211f1f",
+    "mobile_menu_link_color": "rgba(255,255,255,1)",
+    "button_primary_bg_color": "#3857a6",
+    "button_primary_bg_color_transparency": 100,
+    "button_primary_bg_color--highlight": "#ff8066",
+    "button_primary_border_radius": 3,
+    "button_secondary_bg_color": "#3857a6",
+    "button_secondary_bg_color_transparency": 100,
+    "button_secondary_border_color": "rgba(0,0,0,0)",
+    "button_secondary_text_color": "#ffffff",
+    "button_secondary_bg_color--highlight": "#ff8066",
+    "button_secondary_border_color--highlight": "rgba(0,0,0,0)",
+    "button_secondary_border_radius": 3,
+    "button_link_padding": "small",
+    "button_cart_bg_color": "#3857a6",
+    "button_cart_bg_color--highlight": "#ff8066",
+    "button_cart_border_color": "rgba(0,0,0,0)",
+    "toggle_icon_style": "plus_and_minus",
+    "social_media_share_style": "rounded",
+    "breadcrumb_separator": "slash",
+    "breadcrumb_size": "small",
+    "use_placeholders": true,
+    "form_button_style": "button--primary",
+    "display_heading_divider": false,
+    "heading_divider_style": "long",
+    "qty_box_style": "stacked",
+    "mega_menu_2": true,
+    "mega_menu_3": true,
+    "mega_menu_4": true,
+    "shop_bg_color": "#f0efef",
+    "regular_color": "#334658",
+    "link_color": "#3857a6",
+    "link_hover_color": "#3857a6",
+    "heading_color": "#3857a6",
+    "header_background": "#81afcd",
+    "header_link_hover_color": "#ffffff",
+    "header_cart_badge_color": "#3857a6",
+    "dropdown_background": "#f0efef",
+    "dropdown_link_hover_color": "#3857a6",
+    "footer_background": "#303b46",
+    "footer_link_hover_color": "#ffffff",
+    "banner_new": "#3857a6",
+    "regular__font": "montserrat_n4",
+    "regular_font_size": 16,
+    "logo__font": "montserrat_n4",
+    "nav__font": "montserrat_n4",
+    "nav_font_size": 17,
+    "nav_letter_spacing": 1,
+    "dropdown_heading_font_size": 15,
+    "button__font": "montserrat_n5",
+    "heading__font": "montserrat_n6",
+    "heading_size": 25,
+    "preheading_font": "montserrat_n4",
+    "preheading_size": 15,
+    "subheading_font": "montserrat_n4",
+    "banner_heading__font": "montserrat_n7",
+    "banner_heading_size": 45,
+    "banner_text__font": "montserrat_n4",
+    "banner_text_size": 22,
+    "footer_heading_font_size": 18,
+    "search_display_style": "overlay",
+    "search_popup_bg": "#cfcfcf",
+    "search_menu": "main-menu",
+    "thumbnail_hover_enabled": false,
+    "display_product_quantity": false,
+    "product_form_style": "radio",
+    "enable_swatches": false,
+    "enable_quickshop": false,
+    "twitter_link": "twitter.com\/mdbiowellness",
+    "facebook_link": "facebook.com\/mdbiowellness",
+    "instagram_link": "instagram.com\/mdbiowellness",
+    "linkedin_link": "https:\/\/www.linkedin.com\/company\/mdbio-the-doctors-brand",
+    "email_link": "hello@mdbiowellnes..com",
+    "favicon": "shopify:\/\/shop_images\/MD-bio-favicon-64x64.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/image_4.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#d7e9f5",
+    "checkout_sidebar_background_color": "#f0efef",
+    "checkout_accent_color": "#0b3f6c",
+    "checkout_button_color": "#f2865b",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "icon_label": "",
+          "text": "<p>Spend $90 And Get <strong>Free<\/strong> Shipping  |  Free 30-Day Returns<\/p>",
+          "alignment": "center",
+          "size": "regular",
+          "button_label": "",
+          "link": "",
+          "button_style": "button--primary",
+          "background": "#ba4d58",
+          "text_color": "#ffffff",
+          "width": "wide",
+          "homepage_only": false,
+          "enable_sticky": false,
+          "show_close_icon": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header__top-bar": {
+        "type": "header__top-bar",
+        "blocks": {
+          "header__top-bar-0": {
+            "type": "text",
+            "settings": {
+              "text": "TRY A FREE STARTER PACK"
+            }
+          },
+          "header__top-bar-1": {
+            "type": "social_media",
+            "disabled": true,
+            "settings": {}
+          },
+          "58bb72c9-0a86-437a-bbfc-f73e6317d0c3": {
+            "type": "text",
+            "settings": {
+              "text": "•     use FREESTART at checkout. Limt 1 per customer. EXPIRES 08\/15"
+            }
+          }
+        },
+        "block_order": [
+          "header__top-bar-0",
+          "header__top-bar-1",
+          "58bb72c9-0a86-437a-bbfc-f73e6317d0c3"
+        ],
+        "settings": {
+          "show_top_bar": false,
+          "font": "open_sans_n4",
+          "font_style": "none",
+          "font_size": 16,
+          "letter_spacing": 1,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "background": "#0b3f6c",
+          "link_color": "rgba(0,0,0,0)",
+          "link_hover_color": "rgba(0,0,0,0)",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-classic": {
+        "type": "header-classic",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo-mdb-white-footer_1.png",
+          "logo_width": 110,
+          "shopa": "shopify:\/\/collections\/all",
+          "shopaa": "Shop All",
+          "shop_new_t": "Shop by  Product",
+          "one": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+          "oneaa": "Shop MDsleep™",
+          "two": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+          "twoaa": "Shop MDrelief™",
+          "three": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+          "threeaa": "Shop MDcalm™",
+          "four": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+          "fouraa": "Shop MDimmune+™",
+          "syma": "#",
+          "symaa": "Shop By Symptom",
+          "symone": "shopify:\/\/pages\/sleep",
+          "symonea": "Problem Sleeping",
+          "symtwo": "shopify:\/\/pages\/pain",
+          "symtwoa": "Body Aches & pain",
+          "symthree": "shopify:\/\/pages\/anxiety",
+          "symthreea": "Elevated Stress",
+          "symfour": "shopify:\/\/pages\/immune-system",
+          "symfoura": "Compromised Immunity",
+          "main_linklista": "",
+          "dctraa": "About Us",
+          "main_linklistb": "learn-more",
+          "main_linklistc": "about-menu",
+          "main_linklist": "main-menu",
+          "menu_alignment": "start",
+          "dropdown_click": true,
+          "display_search": false,
+          "icon_style": "icons",
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_link_color": "#ffffff",
+          "overlay_link_hover_color": "#ffffff",
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_logo": "shopify:\/\/shop_images\/logo-mdb-white-footer_1.png",
+          "overlay_logo_width": 55,
+          "enable_sticky": true,
+          "sticky_background_opacity": 80,
+          "scroll_logo_width": 120,
+          "width": "standard",
+          "vertical_alignment": "center",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "32dbd52e-5f76-4b1d-bf6e-f372bbc43609": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "about-menu",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-4": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Babek.png",
+              "image_link": "#",
+              "image_caption": "<p><a href=\"https:\/\/mdbiowellness.myshopify.com\/pages\/our-doctors#block-ff0520fa-2b4b-4df7-b028-dc00c8121bf8\" title=\"https:\/\/mdbiowellness.myshopify.com\/pages\/our-doctors#block-ff0520fa-2b4b-4df7-b028-dc00c8121bf8\"><span style=\"text-decoration:underline\">Dr. Larian<\/span><\/a><\/p>"
+            }
+          },
+          "0e4a5444-9b00-40f5-86f8-b882e5d68f94": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kia.png",
+              "image_link": "#",
+              "image_caption": "<p><a href=\"https:\/\/mdbiowellness.myshopify.com\/pages\/our-doctors#block-4c307b3a-8e50-401e-a212-ed76db24203b\" title=\"https:\/\/mdbiowellness.myshopify.com\/pages\/our-doctors#block-4c307b3a-8e50-401e-a212-ed76db24203b\"><span style=\"text-decoration:underline\">Dr. Michel<\/span><\/a><\/p>"
+            }
+          },
+          "8bf8b05e-559b-4a8d-b6c8-9286daf4541c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Siamak.png",
+              "image_link": "#",
+              "image_caption": "<p><a href=\"https:\/\/mdbiowellness.myshopify.com\/pages\/our-doctors#block-a9700f65-de70-4df6-9d2f-040569ab37f0\" title=\"https:\/\/mdbiowellness.myshopify.com\/pages\/our-doctors#block-a9700f65-de70-4df6-9d2f-040569ab37f0\"><span style=\"text-decoration:underline\">Dr. Tabib<\/span><\/a><\/p>"
+            }
+          },
+          "c29f9b54-a0fe-477f-91c2-af2827e45aef": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kamran.png",
+              "image_link": "#",
+              "image_caption": "<p><a href=\"#block-efb5bc3c-2878-4440-b7d4-2e035e354668\" title=\"#block-efb5bc3c-2878-4440-b7d4-2e035e354668\"><span style=\"text-decoration:underline\">Dr. Jamshidinia<\/span><\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "32dbd52e-5f76-4b1d-bf6e-f372bbc43609",
+          "mega-menu-1-4",
+          "0e4a5444-9b00-40f5-86f8-b882e5d68f94",
+          "8bf8b05e-559b-4a8d-b6c8-9286daf4541c",
+          "c29f9b54-a0fe-477f-91c2-af2827e45aef"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer__icon-bar": {
+        "type": "footer__icon-bar",
+        "blocks": {
+          "footer__icon-bar-0": {
+            "type": "text",
+            "settings": {
+              "icon": "leaf",
+              "text": "100% Organic",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-1": {
+            "type": "text",
+            "settings": {
+              "icon": "bunny",
+              "text": "Cruelty free",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-2": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "24\/7 support",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-3": {
+            "type": "text",
+            "settings": {
+              "icon": "truck",
+              "text": "Free shipping",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer__icon-bar-0",
+          "footer__icon-bar-1",
+          "footer__icon-bar-2",
+          "footer__icon-bar-3"
+        ],
+        "settings": {
+          "show_icon_bar": false,
+          "alignment": "center",
+          "icon_position": "row",
+          "size": "medium",
+          "background": "#8b8b8b",
+          "link_color": "#ffffff",
+          "link_hover_color": "#000000",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-classic": {
+        "type": "footer-classic",
+        "blocks": {
+          "footer-classic-0": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/logo-mdb-white-footer_1.png",
+              "size": "small",
+              "text": "",
+              "social_icons_footer": false
+            }
+          },
+          "footer-classic-1": {
+            "type": "link_list",
+            "settings": {
+              "menu": "main-menu",
+              "social_icons_footer": false
+            }
+          },
+          "9201f97d-7f53-4e5a-a4de-aabb570312ba": {
+            "type": "link_list",
+            "settings": {
+              "menu": "information",
+              "social_icons_footer": false
+            }
+          },
+          "b1daf8df-aa48-4668-845c-be70baa76859": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_title": "Subscribe",
+              "newsletter_richtext": "<p>Join our newsletter for 15% off your first order<\/p>",
+              "display_first_name": false,
+              "display_last_name": false
+            }
+          }
+        },
+        "block_order": [
+          "footer-classic-0",
+          "footer-classic-1",
+          "9201f97d-7f53-4e5a-a4de-aabb570312ba",
+          "b1daf8df-aa48-4668-845c-be70baa76859"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": false,
+          "display_shopify": false,
+          "display_payment_methods": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-centered__top-bar": {
+        "type": "header-centered__top-bar",
+        "settings": {
+          "show_social_icons": true,
+          "text": "<p>Add a phone number or other information.<\/p>",
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "font": "open_sans_n4",
+          "font_style": "none",
+          "font_size": 14,
+          "letter_spacing": 0,
+          "top_bar_background": "rgba(0,0,0,0)",
+          "top_bar_link": "rgba(0,0,0,0)",
+          "top_bar_link_hover": "rgba(0,0,0,0)",
+          "top_bar_text": "rgba(0,0,0,0)",
+          "display_search": true,
+          "icon_style": "icons",
+          "cart_button_background": "#000000",
+          "cart_button_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-centered": {
+        "type": "header-centered",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo-mdb-white-footer_1.png",
+          "logo_width": 200,
+          "logo_position": "above",
+          "main_linklist": "main-menu",
+          "menu_spacing": "default",
+          "dropdown_click": false,
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_logo_width": 80,
+          "enable_sticky": true,
+          "display_search": true,
+          "sticky_background_opacity": 50,
+          "scroll_logo_width": 200,
+          "width": "wide",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-2": {
+        "type": "mega-menu-2",
+        "blocks": {
+          "mega-menu-2-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "mdsleep-hemp-oil-sleep-supplement",
+              "richtext_bottom": ""
+            }
+          },
+          "d00d9c2f-0529-4cd7-b309-a02630348ef7": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "mdcalm-hemp-oil-anxiety-supplement",
+              "richtext_bottom": ""
+            }
+          },
+          "721088e8-d9ee-4861-b5eb-b70e07ea31f1": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "mdimmune-hemp-oil-immunity-supplement",
+              "richtext_bottom": ""
+            }
+          },
+          "b4796483-9272-4a15-b418-60a7e9b05d81": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "mdrelief-hemp-oil-pain-supplement",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-2-5",
+          "d00d9c2f-0529-4cd7-b309-a02630348ef7",
+          "721088e8-d9ee-4861-b5eb-b70e07ea31f1",
+          "b4796483-9272-4a15-b418-60a7e9b05d81"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-3": {
+        "type": "mega-menu-3",
+        "blocks": {
+          "mega-menu-3-0": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "menu_1": "",
+              "menu_1_link": ""
+            }
+          },
+          "cb4c557f-6881-429a-b40a-3c0273801abe": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "shopify:\/\/shop_images\/icon-sleep_2x_298e8bc2-ab15-4e85-b4c1-f2047426f415.png",
+              "image_link_top": "shopify:\/\/pages\/sleep",
+              "image_caption_top": "<p>Better Sleep<\/p>",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "40a64764-d433-44fe-ac18-21058b527cee": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "shopify:\/\/shop_images\/icon-pain_2x_bfc614f6-338f-473d-a080-ac150406b7d8.png",
+              "image_link_top": "shopify:\/\/pages\/pain",
+              "image_caption_top": "<p>Pain Relief<\/p>",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "6afb1964-ece0-42cc-830e-e330f0365669": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "shopify:\/\/shop_images\/icon-mood_2x_63a77299-3997-419e-9325-71ba0056f723.png",
+              "image_link_top": "shopify:\/\/pages\/anxiety",
+              "image_caption_top": "<p>Decreased Stress<\/p>",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "15df80a1-2eee-4276-8360-cfed2f79eb89": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_top": "shopify:\/\/shop_images\/icon-immune_2x_998d0410-28d5-41a6-9c81-54a3e62e2fe8.png",
+              "image_link_top": "shopify:\/\/pages\/immune-system",
+              "image_caption_top": "<p>Improved Immunity<\/p>",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-3-0",
+          "cb4c557f-6881-429a-b40a-3c0273801abe",
+          "40a64764-d433-44fe-ac18-21058b527cee",
+          "6afb1964-ece0-42cc-830e-e330f0365669",
+          "15df80a1-2eee-4276-8360-cfed2f79eb89"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#39207c",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-centered": {
+        "type": "footer-centered",
+        "blocks": {
+          "footer-centered-0": {
+            "type": "logo",
+            "settings": {
+              "size": "small"
+            }
+          },
+          "footer-centered-1": {
+            "type": "link_list",
+            "settings": {
+              "menu": "main-menu"
+            }
+          },
+          "footer-centered-2": {
+            "type": "text",
+            "settings": {
+              "title": "Title",
+              "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            }
+          },
+          "footer-centered-3": {
+            "type": "social",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "footer-centered-0",
+          "footer-centered-1",
+          "footer-centered-2",
+          "footer-centered-3"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": true,
+          "display_shopify": true,
+          "display_payment_methods": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-promotional": {
+        "type": "footer-promotional",
+        "blocks": {
+          "footer-promotional-1": {
+            "type": "link_list",
+            "settings": {
+              "menu_1": "about-menu",
+              "menu_2": "information",
+              "menu_3": ""
+            }
+          },
+          "footer-promotional-2": {
+            "type": "text",
+            "settings": {
+              "title": "The Doctors' Brand™",
+              "content": "<p>Founded by four renowned Medical Doctors committed to providing therapeutic alternatives to harsh pharmaceutical drugs, MDbio provides medical-grade, patient-tested Full Spectrum Hemp and plant-based wellness products that are unique in the industry for their innovation, quality, potency, and safety.<\/p>"
+            }
+          },
+          "687664fc-14de-4a50-aba3-0780d2884ea9": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "newsletter_title": "Join our newsletter for 15% off your first order",
+              "newsletter_richtext": "",
+              "display_first_name": false,
+              "display_last_name": false
+            }
+          },
+          "0287eed9-3358-4108-af47-2e7b0c27b0ee": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": "<p>*These statements have not been evaluated by the U.S. Food and Drug Administration. This product is not intended to cure or treat any disease.<\/p>"
+            }
+          },
+          "3dc57e69-b7fa-4c79-9da3-784456b43c3b": {
+            "type": "social",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "footer-promotional-1",
+          "footer-promotional-2",
+          "687664fc-14de-4a50-aba3-0780d2884ea9",
+          "0287eed9-3358-4108-af47-2e7b0c27b0ee",
+          "3dc57e69-b7fa-4c79-9da3-784456b43c3b"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": false,
+          "display_shopify": false,
+          "display_payment_methods": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "enable_promo": false,
+          "promo_background": "#334658",
+          "promo_text": "#f9f9f9",
+          "promo_position": "row",
+          "promo_image": "shopify:\/\/shop_images\/img.png",
+          "richtext": "<p>Anxiety and stress can affect your mood, sleep and health, making your days and nights more difficult than they need to be<\/p>",
+          "promo_link": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+          "button_label": "ShopNow",
+          "button_style": "button--primary",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-banner": {
+        "type": "about-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/doctors.png",
+          "image_darken": true,
+          "subtitle": "Our Doctors are the Difference",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-text": {
+        "type": "about-text",
+        "blocks": {
+          "4c307b3a-8e50-401e-a212-ed76db24203b": {
+            "type": "Doctor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.1.png",
+              "text11": "Kiarash Michel, MD<span class=\"founder\"> | FOUNDER<\/span>",
+              "link-1": "",
+              "subheading": "",
+              "colorsubheading": "#3556a8",
+              "subheadinga": "<img class=\"left-coma\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6.png?v=1648617357\">The essence of life is to find balance, and to experience your own joys.<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6_copy.png?v=1648617357\" class=\"right-coma\">",
+              "text2": "<p>Dr. Kia Michel is an accomplished Urological Oncological Surgeon with expertise in robotic surgery and minimally invasive therapeutic . modalities for the treatment of urological cancers.  Dr. Michel is sought out internationally for his medical expertise. He founded the prestigious Comprehensive Urology Medical Group, located at Cedars Sinai Medical Tower in Los Angeles.<br\/><br\/>Dr. Michel has an illustrious academic path. He received his undergraduate degree from Whitman  College, where he was a Presidential Scholar for four years. He graduated with honors from the University of Washington School of Medicine, and was recognized by the AOA Society for his  academic achievements. Dr. Michel completed his residency at UCLA where he was a Pfizer Scholar. During a urological oncology fellowship at UCLA, his clinical and research efforts were recognized by the American Cancer Institute, the National Institute for Health (NIH), and the American Foundation for Urological Diseases.<br\/><br\/>After starting his medical practice in Los Angeles, Dr. Michel helped co found several medically related businesses including La Peer Surgery Center, Path MD and Advanced Radiation Center of Beverly Hills.<br\/><br\/>Dr. Michel finds joy in nature, in a sense of inner calm, and in seeing a <br\/>smile on the face of those he loves. <\/p>"
+            }
+          },
+          "ff0520fa-2b4b-4df7-b028-dc00c8121bf8": {
+            "type": "Doctor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.3.png",
+              "text11": "Babak Larian, MD, FACS <span class=\"founder\"> | FOUNDER<\/span>",
+              "link-1": "https:\/\/www.mdbiowellness.com\/pages\/babak-larian-md-facs",
+              "subheading": "",
+              "colorsubheading": "#3556a8",
+              "subheadinga": "<img class=\"left-coma\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6.png?v=1648617357\">If you bring your mind and body into balance, the possibilities for joy are limitless.<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6_copy.png?v=1648617357\" class=\"right-coma\">",
+              "text2": "<p>Dr. Babak Larian is Clinical Chief, Division of Otolaryngology, Head and Neck Surgery at  Cedars-Sinai Medical Center in Los Angeles California. In practice since 2002, Dr. Larian is internationally recognized for his contributions in the field of minimally invasive surgery for head and neck tumors and cancers.<br\/><br\/>Dr. Larian is a board-certified Diplomate of the American Board of Otolaryngology\/Head and Neck  Surgery. He is also a Clinical Instructor of Surgery at the David Geffen School of Medicine, UCLA.  He has written numerous peer-reviewed articles and has presented at both national and  international conferences.<br\/><br\/>Dr. Larian received his bachelor’s and medical degrees from University of California, Irvine. He completed his internship in General Surgery and residency in Otolaryngology\/Head and Neck Surgery at UCLA.<br\/><br\/>Dr. Larian is also involved in several charities including Medical Missions for Children and Global  Smile Foundation. He is Medical Director of the Los Angeles chapter of HELPS International Medical Mission, a medical\/surgical operation serving rural Guatemala. He is also on the board of International Society for Children with Cancer.<br\/><br\/>Dr. Larian has been a managing partner and member of the Governing Board of the La Peer Surgery Center since 2005, a facility that performs nearly 10,00 surgeries annually, with more than 50 partner surgeons. He has been a member of the board and owner of PathMD pathology laboratories.<br\/><br\/>Dr. Larian finds joy in being present in every moment, and experiencing life to its fullest.<\/p>"
+            }
+          },
+          "a9700f65-de70-4df6-9d2f-040569ab37f0": {
+            "type": "Doctor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.2.png",
+              "text11": "Siamak Tabib, MD <span class=\"founder\"> | FOUNDER<\/span>",
+              "link-1": "",
+              "subheading": "",
+              "colorsubheading": "#3556a8",
+              "subheadinga": "<img class=\"left-coma\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6.png?v=1648617357\">Every day of healing brings you closer to your joy.<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6_copy.png?v=1648617357\" class=\"right-coma\">",
+              "text2": "<p>Dr. Siamak Tabib is a Board-Certified Gastroenterologist and Hepatologist with a private practice in the Beverly Hills\/West Los Angeles area. His expertise has been showcased on CBS News, ABC News, Fox News, Beverly Hills-213 Magazine, US World & News, and Voice of America. Dr. Tabib has repeatedly received the Best Doctor award by SuperDoctors.com. He has also won  the Vitals Patients’ Choice Award and Vitals On-Time Doctor Award many times.  He currently serves  as Assistant Clinical Professor of Medicine at UCLA.<br\/><br\/>A graduate of UCLA, Dr. Tabib also received his medical degree from the UCLA Geffen School of Medicine. He completed his internship and residency in Internal Medicine at Cedars-Sinai Medical Center, and his fellowship in Gastroenterology and Hepatology at the combined UCLA\/Cedars-Sinai medical program.<br\/><br\/>Dr. Tabib has authored countless peer reviewed articles and textbook chapters and has an extensive research background in the field of digestive diseases. He has presented and been a panelist at national and international medical and healthcare conferences.<br\/><br\/>Dr. Tabib is the co-founder and managing member of multiple healthcare entities including La Peer Health Systems, BluFrog Path Lab Solutions, PathMD and Specialized University Pathologists. He sits on the advisory board for Angel City Sports, a non-profit entity dedicated to expanding opportunities in adaptive sports for children and adults with physical disabilities. <br\/><br\/>As a practicing gastroenterologist, Dr. Tabib has extensive experience with patients who suffer the debilitating effects of inflammatory bowel disease. His goal is to continue to help his patients and others through innovative research focused on natural remedies that can rival the pharmaceutical drugs currently available. True to his goal, he helped found MDbio, which is advancing this mission.<br\/><br\/>Dr. Tabib finds joy in his work, and seeing his patients regain the ability to perform everyday functions without an ailment getting in the way.<\/p>"
+            }
+          },
+          "efb5bc3c-2878-4440-b7d4-2e035e354668": {
+            "type": "Doctor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.4.png",
+              "text11": "Kamran Jamshidinia, DPM, FACFAS <span class=\"founder\"> | FOUNDER<\/span>",
+              "link-1": "",
+              "subheading": "",
+              "colorsubheading": "#3556a8",
+              "subheadinga": "<img class=\"left-coma\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6.png?v=1648617357\">A state of wellbeing is the pathway to joy.<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6_copy.png?v=1648617357\" class=\"right-coma\">",
+              "text2": "<p>Dr. Jamshidinia is an accomplished Foot and Ankle Surgeon. A Fellow of the American College of Foot and Ankle Surgeons, he is certified by the American Board of Foot & Ankle Surgery.<br\/><br\/>Dr. Jamshidinia received his Bachelor of Arts in Biology at California State University Northridge before attending California College of Podiatric Medicine in San Francisco . where he received his Doctor of  Podiatric Medicine degree.<br\/><br\/>Dr. Jamshidinia received post doctoral training including a joint . residency program of the Department of Veterans Affairs and Olive View UCLA, where he trained in all aspects of foot surgery. He has . affiliations with the Department of Veterans Affairs Hospital, West Los Angeles, CA, and Cedars Sinai Medical Center.<br\/><br\/>Dr. Jamshidinia’s teaching posts include Department of Veterans Affairs West Los Angeles and Cedars  Sinai Medical Center where he participates in residency training programs, teaching new graduates all aspects of foot and ankle surgery. He also serves as the Consultant Foot and Ankle Specialist for the  California Rehabilitation Institute.<br\/><br\/>Dr. Jamshidinia is the founder of Tower Foot & Ankle Surgery, one of the leading foot and ankle centers in Los Angeles. Along with his private practice, Dr Jamshidinia also participates in medical research and publishes journal articles on his work.<br\/><br\/>Dr. Jamshidinia is a cofounder and managing member of several successful medically related enterprises, including La Peer Health Systems and Surgery Center, Streamline Management, PathMD Pathology Laboratory and BluFrog Path Lab Solutions.<br\/><br\/>With an impressive track record of successful medical start-ups, Dr Jamshidinia and his partners have  identified many unmet patient needs in the burgeoning cannabinoid medicine market, leading to his  participation in the founding of MDbio.<br\/><br\/>Dr. Jamshidinia finds joy in spending time with family, traveling, and playing beach volleyball with friends.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "4c307b3a-8e50-401e-a212-ed76db24203b",
+          "ff0520fa-2b4b-4df7-b028-dc00c8121bf8",
+          "a9700f65-de70-4df6-9d2f-040569ab37f0",
+          "efb5bc3c-2878-4440-b7d4-2e035e354668"
+        ],
+        "settings": {}
+      },
+      "about-rich-text": {
+        "type": "about-rich-text",
+        "settings": {
+          "link": "<a class=\"learn-link\" href=\"https:\/\/www.mdbiowellness.com\/pages\/why-we-created-mdbio\">Learn Why We Started MDbio > <\/a>",
+          "title": "Meet Our Doctors",
+          "heading_font": "montserrat_n7",
+          "heading_color": "rgba(0,0,0,0)",
+          "heading_alignment": "left",
+          "heading_size": 30,
+          "text": "<p>The four medical doctors who founded MDbio are specialists with notable, successful careers at premier American hospitals and medical centers in Southern California. Through the course of their respective practices, encompassing over 80 combined years of patient care, our founders have written thousands of pharmaceutical prescriptions for their patients. Over the years, however, it became increasingly clear to the doctors that the drugs they proscribed to alleviate conditions regarding sleep, anxiety, pain, and immunity, were, unfortunately, a double-edged sword.  While the drugs definitely worked to some degree, in a significant percentage of cases they also had toxic, harmful, or addictive impacts on patients. <\/p>",
+          "text_font": "montserrat_n4",
+          "text_color": "#2e2e2e",
+          "text_alignment": "left",
+          "text_size": 14,
+          "columns": 1,
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "button--primary",
+          "background": "#ffffff",
+          "gradient": "#ffffff",
+          "gradient_rotation": 180,
+          "width": "wide",
+          "padding_top": 34,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "promise-banner": {
+        "type": "promise-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/banner-image.jpg",
+          "image_darken": true,
+          "subtitle": "We Are Here To Better Customer Outcomes",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "promise-text": {
+        "type": "promise-text",
+        "blocks": {
+          "fc5696d0-d813-414a-9569-38a30018d181": {
+            "type": "Doctor",
+            "disabled": true,
+            "settings": {
+              "text11": "NO. 1",
+              "colorsubheading11": "#36013f",
+              "subheading": "The Doctor's Brand",
+              "colorsubheading": "#36013f",
+              "text2": "<p>Our products originate with our Board-Certified Medical Doctors, whose lifelong mission throughout their careers has been to maximize positive patient outcomes and minimize harm. We rely on the doctors who founded MDbio, and they in turn rely on the latest in modern medical science, which today also includes holistic practices and plant-based medicines derived from “non-Western” sources, to guide all of our company decisions and product formulations.<\/p>"
+            }
+          },
+          "a6a040bb-5d68-4a13-9e42-c8301489b6cd": {
+            "type": "Doctor",
+            "disabled": true,
+            "settings": {
+              "text11": "NO. 2",
+              "colorsubheading11": "#36013f",
+              "subheading": "Quality, High-Potency Ingredients",
+              "colorsubheading": "#36013f",
+              "text2": "<p>We source our ingredients strictly from reputable farms and other suppliers. We use the highest possible, safe concentrations of ingredients to ensure that each softgel formula provides optimal therapeutic value rather than focusing on maximum profits per unit - because while it costs more to produce, it works better for our patients.  All the botanicals we source are grown to clean standards and are ultra pure. Free of heavy metals and pesticides, these plants are grown in soils nurtured over time by experienced botanical growers. All raw ingredients are laboratory tested before going into production.<\/p>"
+            }
+          },
+          "b09662ad-be92-4878-92d1-ad3e2452fe8d": {
+            "type": "Doctor",
+            "disabled": true,
+            "settings": {
+              "text11": "NO. 3",
+              "colorsubheading11": "#36013f",
+              "subheading": "Uniquely Synergistic",
+              "colorsubheading": "#36013f",
+              "text2": "<p>All our products are carefully and professionally formulated to maximize benefits though the synergistic effects of selected ingredients.<\/p><p> The botanical ingredients in our products engage the body’s own endocannabinoid system to allow maximum uptake of phytocannabinoids, making the formula more effective overall.<\/p>"
+            }
+          },
+          "942728a0-77da-4c4a-bf79-b4dede09f965": {
+            "type": "Doctor",
+            "disabled": true,
+            "settings": {
+              "text11": "NO. 4",
+              "colorsubheading11": "#36013f",
+              "subheading": "Patient-Tested Innovation",
+              "colorsubheading": "#36013f",
+              "text2": "<p>Our products, processes and practices will always be informed by up-to-date feedback from our patients and customers.  Every formula approved by our doctors is developed in consultation with biochemists with decades of experience and who have been actively working with cannabinoids since 2012. Our product lineup has undergone extensive product research trials with patients experiencing various ailments, and their feedback informs each new iteration of our offerings in an ongoing cycle of R&D and reformulation.  This entirely Patient Data-Driven approach to continuous product improvement is unique within the industry.  In fact, MDBio is the first cannabinoid company in the market to develop products through on-going observational research studies designed to continually evaluate, improve and evolve our product line.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "fc5696d0-d813-414a-9569-38a30018d181",
+          "a6a040bb-5d68-4a13-9e42-c8301489b6cd",
+          "b09662ad-be92-4878-92d1-ad3e2452fe8d",
+          "942728a0-77da-4c4a-bf79-b4dede09f965"
+        ],
+        "settings": {}
+      },
+      "about-trials": {
+        "type": "about-trials",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/2b152d_fc8d1b0b4f8b4ca193492c5f1c6f82dd_mv2_1.png",
+          "image_darken": true,
+          "subtitle": "MDbio is looking for individuals to participate in our product research trial.",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "trials-rich-text": {
+        "type": "trials-rich-text",
+        "settings": {
+          "title": "Data Driven Formulations",
+          "heading_font": "montserrat_n7",
+          "heading_color": "rgba(0,0,0,0)",
+          "heading_alignment": "center",
+          "heading_size": 30,
+          "text": "<p>Our team of physicians, biochemists and industry experts have formulated products that we believe will help support your body's natural functions to ease pain and anxiety, using an entourage of natural botanicals and non-psychoactive cannabinoids. We are seeking participants to join a confidential 14-day trial for either our chronic pain or chronic anxiety observational trial.<\/p><p>MDBio is the first cannabinoid company on the market to develop products through on-going observational and clinical studies to continually evaluate, improve and evolve our product line. Our board of doctors have dedicated their lives to caring for the well being and health of their patients and we are carrying over that dedication to our customers.<\/p>",
+          "text_font": "montserrat_n4",
+          "text_color": "rgba(0,0,0,0)",
+          "text_alignment": "left",
+          "text_size": 14,
+          "columns": 1,
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "button--primary",
+          "background": "#ffffff",
+          "gradient": "#ffffff",
+          "gradient_rotation": 180,
+          "width": "wide",
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "trials-icon": {
+        "type": "trials-icon",
+        "blocks": {
+          "3d877c7b-b91b-47da-aa8b-586d18c03aeb": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Anxiety_and_PTSD-01.svg?v=1641206709",
+              "title": "Anxiety and PTSD",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "faf47adb-e88e-4c91-b881-2d32bdc7bfe2": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Chronic_and_Acute_Pain-01.svg?v=1641206709",
+              "title": "Chronic and Acute Pain",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "49eea64e-64bd-44b2-ad50-8398aa118112": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Trails-01-01.svg?v=1641279087",
+              "title": "14 - Day Trials",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "703e615f-32ec-426f-8249-29be62615f6e": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Free_Discounted_Products-01.svg?v=1641206709",
+              "title": "Free & Discounted Products",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "3d877c7b-b91b-47da-aa8b-586d18c03aeb",
+          "faf47adb-e88e-4c91-b881-2d32bdc7bfe2",
+          "49eea64e-64bd-44b2-ad50-8398aa118112",
+          "703e615f-32ec-426f-8249-29be62615f6e"
+        ],
+        "settings": {
+          "icons_per_row": 4,
+          "icon_size": "large",
+          "align_text": "center",
+          "button_style": "button--primary",
+          "button_label_a": "Sign up now",
+          "link_a": "shopify:\/\/pages\/contact",
+          "icon_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "background": "#f1f1f1",
+          "gradient": "#f1f1f1",
+          "gradient_rotation": 0,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "fadeInDown",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "compliance-banner": {
+        "type": "compliance-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/11062b_4bd02e8f5cd04bce9bfd05ad9d49a30b_mv2_d_5250_3500_s_4_2.png",
+          "image_darken": true,
+          "subtitle": "",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 30,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "compliance-rich-text": {
+        "type": "compliance-rich-text",
+        "settings": {
+          "title": "",
+          "heading_font": "open_sans_n4",
+          "heading_color": "rgba(0,0,0,0)",
+          "heading_alignment": "center",
+          "heading_size": 29,
+          "text": "<p>Our formulas are made from carefully sourced ingredients, including natural phytocannabinoids.  All of our products are fully compliant with state and federal laws and are tested to be safe for use. Each ingredient and formulation undergoes rigorous lab testing to ensure there are no pesticides, metals or other harmful chemicals present.<\/p>",
+          "text_font": "open_sans_n4",
+          "text_color": "rgba(0,0,0,0)",
+          "text_alignment": "center",
+          "text_size": 19,
+          "columns": 1,
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "button--primary",
+          "background": "#ffffff",
+          "gradient": "#ffffff",
+          "gradient_rotation": 180,
+          "width": "wide",
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "compliance-products": {
+        "type": "compliance-products",
+        "blocks": {
+          "3d7755ff-ead8-4a0b-97fd-707bffd4f933": {
+            "type": "Doctor",
+            "settings": {
+              "image_url": "https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/hemp-extract",
+              "image": "shopify:\/\/shop_images\/MDBio_SleepFamilyGels.jpg",
+              "text11": "MDsleep™",
+              "text_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/23f24d_36c9f4c79f404b00a7a52cc4ebe6dd10.pdf?v=1641187687",
+              "text2": "Certificate of analysis can be viewed HERE."
+            }
+          },
+          "3a4a56e9-81a9-4c38-9abf-6ccf2e0ada4d": {
+            "type": "Doctor",
+            "settings": {
+              "image_url": "https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/quercetin",
+              "image": "shopify:\/\/shop_images\/MDBio_ReliefFamilyGels.jpg",
+              "text11": "MDrelief™",
+              "text_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/MDrelief.pdf?v=1641187957",
+              "text2": "Certificate of analysis can be viewed HERE."
+            }
+          },
+          "ca6e5006-7253-40c4-9d4e-d2aed48ef53f": {
+            "type": "Doctor",
+            "settings": {
+              "image_url": "https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/white-willow-bark-extract",
+              "image": "shopify:\/\/shop_images\/MDBio_CalmFamilyGels.jpg",
+              "text11": "MDcalm™",
+              "text_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/MDcalm.pdf?v=1641189076",
+              "text2": "Certificate of analysis can be viewed HERE."
+            }
+          },
+          "6878d7cd-0690-43e7-a9de-e8ab2efbd711": {
+            "type": "Doctor",
+            "settings": {
+              "image_url": "https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/frankincense",
+              "image": "shopify:\/\/shop_images\/MDBio_ImmuneFamilyGels.jpg",
+              "text11": "MDimmunity+™",
+              "text_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/MDimmunity.pdf?v=1641189221",
+              "text2": "Certificate of analysis can be viewed HERE."
+            }
+          }
+        },
+        "block_order": [
+          "3d7755ff-ead8-4a0b-97fd-707bffd4f933",
+          "3a4a56e9-81a9-4c38-9abf-6ccf2e0ada4d",
+          "ca6e5006-7253-40c4-9d4e-d2aed48ef53f",
+          "6878d7cd-0690-43e7-a9de-e8ab2efbd711"
+        ],
+        "settings": {}
+      },
+      "sleep-banner": {
+        "type": "sleep-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/sleep_2a0a7e1a-d022-445b-9296-6168ede73c2c.png",
+          "image_darken": true,
+          "image_n": "shopify:\/\/shop_images\/sleep-icon.png",
+          "subtitle": "Good sleep is essential for good health. Quality rest boosts immunity, performance, mood and your energy levels. Chronic lack of sleep raises your risk of diseases such as diabetes, inflammation, and obesity.",
+          "btn_url_a": "Shop MDsleep™",
+          "btn_url": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "sleep-image-text": {
+        "type": "sleep-image-text",
+        "blocks": {
+          "3e64c948-484b-4b65-a993-40d6bb3c1c4d": {
+            "type": "Doctor",
+            "settings": {
+              "text2": "You normally fall asleep in 15-20 minutes"
+            }
+          },
+          "1ea5c23c-b90b-4d76-af40-b93fe6db6ce9": {
+            "type": "Doctor",
+            "settings": {
+              "text2": "Sleep lasts for 7-9 hours"
+            }
+          },
+          "1cbe5dde-311e-4e5b-8b8e-1a623714ff1b": {
+            "type": "Doctor",
+            "settings": {
+              "text2": "Sleep is continuous (not start and stop)"
+            }
+          },
+          "51007bff-4894-4927-9343-3a05569098fc": {
+            "type": "Doctor",
+            "settings": {
+              "text2": "You wake up once for less than 5 minutes"
+            }
+          },
+          "420cc739-ad97-440e-b805-d914785cd7fd": {
+            "type": "Doctor",
+            "settings": {
+              "text2": "You awaken feeling refreshed"
+            }
+          },
+          "7fda65d5-97d9-409f-abe2-d343ef2f78fb": {
+            "type": "Doctor",
+            "settings": {
+              "text2": "You feel alert throughout the day"
+            }
+          }
+        },
+        "block_order": [
+          "3e64c948-484b-4b65-a993-40d6bb3c1c4d",
+          "1ea5c23c-b90b-4d76-af40-b93fe6db6ce9",
+          "1cbe5dde-311e-4e5b-8b8e-1a623714ff1b",
+          "51007bff-4894-4927-9343-3a05569098fc",
+          "420cc739-ad97-440e-b805-d914785cd7fd",
+          "7fda65d5-97d9-409f-abe2-d343ef2f78fb"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Graphic-Sleep.png",
+          "text11": "A Healthy Sleep Cycle"
+        }
+      },
+      "sleep-faq": {
+        "type": "sleep-faq",
+        "blocks": {
+          "4547bb6d-289b-4e46-b8a3-ce249a5a8ac0": {
+            "type": "content",
+            "settings": {
+              "title": "Why is Sleep Vital to Good Health?",
+              "answer": "<p>It’s easy to lose sleep. But good sleep is critical to your health. Sleep revitalizes your entire life, from the health of your body and brain to your social\/emotional well-being and capacity for joy.<\/p>"
+            }
+          },
+          "63f927b5-eff9-4adc-afff-055673421fa7": {
+            "type": "content",
+            "settings": {
+              "title": "Benefits of Regular Sleep",
+              "answer": "<ul>\n<li>Allows the body to repair and restore itself naturally<\/li>\n<li>Strengthens your immune system and supports defense against illness<\/li>\n<li>Keeps your nervous system functioning normally<\/li>\n<li>Maintains emotional balance, improves ability to cope with stress<\/li>\n<li>Cleanses your brain of toxins that build up over the day<\/li>\n<li>Helps maintain body weight, reduces hunger response<\/li>\n<li>Supports your ability to function socially with other people<\/li>\n<li>Creates balance that improves mood, supports a joyful life<\/li>\n<\/ul>"
+            }
+          },
+          "2b41c62e-6e41-4bd4-befe-455075a656a9": {
+            "type": "content",
+            "settings": {
+              "title": "Barriers to Better Sleep",
+              "answer": "<ul>\n<li>Too much light in the room, not dark enough<\/li>\n<li>Artificial light sources inhibit the body’s natural production of melatonin in evening<\/li>\n<li>Blue light, EMF emitters (computer screens, phones, TV, games) “fool” your brain into thinking it’s daytime, keeping you awake<\/li>\n<li>Stresses of all kinds raise blood cortisol (keeps your body and mind from relaxing)<\/li>\n<li>Shift work, up late working, jet lag can all disrupt natural sleep patterns<\/li>\n<li>Lifestyle and diet: alcohol, caffeine, energy drinks, eating a large meal late at night, indigestion<\/li>\n<li>Low-carb diet (in evening, low-carb reduces serotonin, can prevent sleepiness)<\/li>\n<\/ul>"
+            }
+          },
+          "13e8c5c8-c290-448e-a453-0f447eddf805": {
+            "type": "content",
+            "settings": {
+              "title": "Healthy Tips for Better Sleep",
+              "answer": "<ul>\n<li>Make sleep a priority<\/li>\n<li>Give yourself an 8-hour window for rest<\/li>\n<li>Regulate your system, go to bed and wake up at the same time<\/li>\n<li>Turn off screens\/use night mode to avoid blue light<\/li>\n<li>Make bedroom electronics-free<\/li>\n<li>Reset your natural circadian rhythm: Go outside for 15 min in a.m. (blue lightwaves) and at dusk (red lightwaves)<\/li>\n<li>Use blackout shades to make the room dark, or wear a sleep mask<\/li>\n<li>Lower the temperature of the room you sleep in<\/li>\n<li>Avoid emotional texts, emails and conversations at nighttime<\/li>\n<li>Reduce ambient noise or use a white sound machine<\/li>\n<li>Get exercise daily to encourage nighttime drowsiness, sounder sleep<\/li>\n<li>Take a natural <a href=\"https:\/\/mdbiodesign.wixsite.com\/mysite\/product-page\/mdsleep\" target=\"_self\"><span style=\"text-decoration:underline\">sleep supplement<\/span><\/a> as needed<\/li>\n<\/ul>"
+            }
+          },
+          "b00f8939-092d-40c1-b7a3-fda23c966dff": {
+            "type": "side",
+            "settings": {
+              "text2": "Feel tired during the day"
+            }
+          },
+          "fd637003-468d-47ea-8526-68db01884da6": {
+            "type": "side",
+            "settings": {
+              "text2": "Nervous system on overdrive"
+            }
+          },
+          "09a32fa2-add5-404b-898b-ea9e1410058e": {
+            "type": "side",
+            "settings": {
+              "text2": "Healing and recovery are slowed"
+            }
+          },
+          "0649cef7-fcc3-400a-ab19-a39cc6024fcd": {
+            "type": "side",
+            "settings": {
+              "text2": "Immune system is challenged"
+            }
+          },
+          "df73ae0f-221d-464d-ad7a-78760132ef4c": {
+            "type": "side",
+            "settings": {
+              "text2": "Feel hungry often, have difficulty losing weight"
+            }
+          },
+          "9c637e4d-446b-41a1-99ea-eca85cdd7ca1": {
+            "type": "side",
+            "settings": {
+              "text2": "Emotions feel out of balance"
+            }
+          },
+          "6a36056e-03af-4b37-99ad-0c63f8a0b876": {
+            "type": "side",
+            "settings": {
+              "text2": "Social interactions are diminished"
+            }
+          }
+        },
+        "block_order": [
+          "4547bb6d-289b-4e46-b8a3-ce249a5a8ac0",
+          "63f927b5-eff9-4adc-afff-055673421fa7",
+          "2b41c62e-6e41-4bd4-befe-455075a656a9",
+          "13e8c5c8-c290-448e-a453-0f447eddf805",
+          "b00f8939-092d-40c1-b7a3-fda23c966dff",
+          "fd637003-468d-47ea-8526-68db01884da6",
+          "09a32fa2-add5-404b-898b-ea9e1410058e",
+          "0649cef7-fcc3-400a-ab19-a39cc6024fcd",
+          "df73ae0f-221d-464d-ad7a-78760132ef4c",
+          "9c637e4d-446b-41a1-99ea-eca85cdd7ca1",
+          "6a36056e-03af-4b37-99ad-0c63f8a0b876"
+        ],
+        "settings": {
+          "title": "",
+          "width": "standard",
+          "padding_top": 0,
+          "padding_bottom": 30,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": "",
+          "heading_t": "ARE YOU GETTING ENOUGH SLEEP?<br> COMMON SYMPTOMS:"
+        }
+      },
+      "sleep-featured-product": {
+        "type": "sleep-featured-product",
+        "blocks": {
+          "cde332d7-271b-477b-9de8-3ffaaecdf83e": {
+            "type": "title",
+            "settings": {}
+          },
+          "d7a7f452-2e8e-45e5-9fc9-408f4f82ce49": {
+            "type": "price",
+            "disabled": true,
+            "settings": {
+              "display_savings": true
+            }
+          },
+          "83114dd1-c761-489e-88e8-546d17738946": {
+            "type": "text",
+            "settings": {
+              "text": "<p>A good rest supports your body, mind, spirit and life. MDsleep contains a full-spectrum organic hemp extract rich in natural CBD and CBN with GABA and botanical extracts that work synergistically to help you get a good night’s sleep.<\/p>"
+            }
+          },
+          "8e1ce82e-5ccd-4bf7-bc20-87814898e551": {
+            "type": "form",
+            "disabled": true,
+            "settings": {
+              "show_payment_button": true
+            }
+          },
+          "0362247f-093d-49a6-badb-2368033b9ee5": {
+            "type": "product-links",
+            "disabled": true,
+            "settings": {
+              "show_collections": true,
+              "show_types": true,
+              "show_tags": true
+            }
+          }
+        },
+        "block_order": [
+          "cde332d7-271b-477b-9de8-3ffaaecdf83e",
+          "d7a7f452-2e8e-45e5-9fc9-408f4f82ce49",
+          "83114dd1-c761-489e-88e8-546d17738946",
+          "8e1ce82e-5ccd-4bf7-bc20-87814898e551",
+          "0362247f-093d-49a6-badb-2368033b9ee5"
+        ],
+        "settings": {
+          "featured_product": "mdsleep-hemp-oil-sleep-supplement",
+          "product_images_position": "left",
+          "set_product_height": true,
+          "product_height": 410,
+          "video_looping": false,
+          "gallery_arrows": true,
+          "enable_zoom": true,
+          "enable_product_lightbox": true,
+          "slideshow_speed": 0,
+          "slideshow_transition": "slide",
+          "display_thumbnails": false,
+          "thumbnail_position": "bottom-thumbnails",
+          "enable_thumbnail_slider": true,
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "sleep-rich-text": {
+        "type": "sleep-rich-text",
+        "settings": {
+          "title": "Pillars of Health & Balance",
+          "heading_font": "open_sans_n4",
+          "heading_color": "rgba(0,0,0,0)",
+          "heading_alignment": "center",
+          "heading_size": 35,
+          "text": "<p>Staying healthy means keeping different parts of your life in balance. It’s not always easy. Building on the basic pillars of health can help you live a better, more fulfilling life of wellness, energy and joy.<\/p>",
+          "text_font": "montserrat_n4",
+          "text_color": "rgba(0,0,0,0)",
+          "text_alignment": "center",
+          "text_size": 19,
+          "columns": 1,
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "button--primary",
+          "background": "#ffffff",
+          "gradient": "#ffffff",
+          "gradient_rotation": 180,
+          "width": "standard",
+          "padding_top": 0,
+          "padding_bottom": 26,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "sleep-icons": {
+        "type": "sleep-icons",
+        "blocks": {
+          "71dfaa63-f377-4278-a8ed-f063bd7b14f2": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icon-Food.jpg?v=1642768580",
+              "title": "Nutrition",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "5e563397-37f4-47cb-bb23-e4a1b49157aa": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icon-Exercise.jpg?v=1642768580",
+              "title": "Movement",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "db0e55cc-933c-4838-8846-da095f0931ea": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icon-Mindfulness.jpg?v=1642768579",
+              "title": "Mindfulness",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "4f3c26cb-dc78-4aa5-9d5d-b4652d6228b0": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icon-Connections.jpg?v=1642768580",
+              "title": "Connections",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "6ddfe07f-c5d5-4560-833a-251b04c72bdc": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "",
+              "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/icon-Environment.jpg?v=1642768580",
+              "title": "Environment",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "71dfaa63-f377-4278-a8ed-f063bd7b14f2",
+          "5e563397-37f4-47cb-bb23-e4a1b49157aa",
+          "db0e55cc-933c-4838-8846-da095f0931ea",
+          "4f3c26cb-dc78-4aa5-9d5d-b4652d6228b0",
+          "6ddfe07f-c5d5-4560-833a-251b04c72bdc"
+        ],
+        "settings": {
+          "icons_per_row": 5,
+          "icon_size": "medium",
+          "align_text": "center",
+          "button_style": "button--primary",
+          "button_label_a": "",
+          "link_a": "",
+          "icon_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "background": "#ffffff",
+          "gradient": "#ffffff",
+          "gradient_rotation": 0,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "sleep-blog": {
+        "type": "sleep-blog",
+        "blocks": {
+          "a5b8c9ed-7010-4194-aa22-af8d1f4809a3": {
+            "type": "Blog",
+            "settings": {
+              "text_url": "shopify:\/\/blogs\/doctors-desk\/plant-based-medicine-to-soothe-your-body",
+              "image": "shopify:\/\/shop_images\/istockphoto-1173102150-612x612_1.jpg",
+              "text11": "Natural Ingredients for Better Sleep",
+              "subheading": "ARTICLE",
+              "colorsubheading": "#3556a8",
+              "text2": "Learn More"
+            }
+          },
+          "939b4fb9-5f05-444e-912f-a2f02c6c6fa8": {
+            "type": "Blog",
+            "settings": {
+              "text_url": "shopify:\/\/blogs\/doctors-desk\/cbn-for-sleep-cbn-effects-and-how-it-can-help-you-get-a-good-nights-rest",
+              "image": "shopify:\/\/shop_images\/product.png",
+              "text11": "MDsleep™",
+              "subheading": "PRODUCT SPOTLIGHT",
+              "colorsubheading": "#3556a8",
+              "text2": "Learn More"
+            }
+          },
+          "6471cc56-4cd4-45b4-98b7-7abee4e8d883": {
+            "type": "Blog",
+            "settings": {
+              "text_url": "",
+              "text11": "",
+              "subheading": "",
+              "colorsubheading": "#3d4246",
+              "text2": ""
+            }
+          }
+        },
+        "block_order": [
+          "a5b8c9ed-7010-4194-aa22-af8d1f4809a3",
+          "939b4fb9-5f05-444e-912f-a2f02c6c6fa8",
+          "6471cc56-4cd4-45b4-98b7-7abee4e8d883"
+        ],
+        "settings": {}
+      },
+      "pain-banner": {
+        "type": "pain-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/pain-robs-images.png",
+          "image_darken": true,
+          "image_n": "shopify:\/\/shop_images\/relief-icon.png",
+          "subtitle": "Pain is the thief that steals your enjoyment of life. Pain robs you of your good mood, and over time it can become a chronic, unwanted companion. Understanding pain and how to minimize it is a crucial step toward finding relief.",
+          "btn_url_a": "Shop MDrelief™",
+          "btn_url": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "pain-image-text": {
+        "type": "pain-image-text",
+        "blocks": {
+          "987d5524-d5a2-4f3d-9ba5-174c1a688120": {
+            "type": "Doctor",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "987d5524-d5a2-4f3d-9ba5-174c1a688120"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/pain.png",
+          "text11": "When pain becomes chronic",
+          "text2": "Acute pain is the body’s alarm signal, traveling fast from the injury up the spinal cord and into the brain. Acute pain alerts you to a problem happening right now. But chronic, ongoing pain can stem from a traumatic event or an underlying health condition triggering painful sensations. When pain lingers for 12 weeks or more, it’s considered chronic. Managing chronic pain can reduce stress and help return life to balance."
+        }
+      },
+      "pain-featured-product": {
+        "type": "pain-featured-product",
+        "blocks": {
+          "a645d597-902a-4b42-8473-32aac4f82f8e": {
+            "type": "title",
+            "settings": {}
+          },
+          "bce6029a-b9b6-4d1e-9a8e-0e56c3c2fa23": {
+            "type": "price",
+            "settings": {
+              "display_savings": true
+            }
+          },
+          "78229f34-4720-478f-8d5f-85515158bbcc": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Pain, either minor or ongoing, can affect your overall quality of life. MDrelief blends a full-spectrum organic hemp extract with CBD plus CBG, CBC, and a unique combination of botanical ingredients used to soothe pain for thousands of years. Take a stand against pain and experience more joy of living.<\/p>"
+            }
+          },
+          "0bf03912-906b-47d8-b5b8-86beb8a0f272": {
+            "type": "form",
+            "settings": {
+              "show_payment_button": true
+            }
+          }
+        },
+        "block_order": [
+          "a645d597-902a-4b42-8473-32aac4f82f8e",
+          "bce6029a-b9b6-4d1e-9a8e-0e56c3c2fa23",
+          "78229f34-4720-478f-8d5f-85515158bbcc",
+          "0bf03912-906b-47d8-b5b8-86beb8a0f272"
+        ],
+        "settings": {
+          "featured_product": "mdrelief-hemp-oil-pain-supplement",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "gallery_arrows": true,
+          "enable_zoom": true,
+          "enable_product_lightbox": true,
+          "slideshow_speed": 0,
+          "slideshow_transition": "slide",
+          "display_thumbnails": false,
+          "thumbnail_position": "bottom-thumbnails",
+          "enable_thumbnail_slider": true,
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "pain-rich-text": {
+        "type": "pain-rich-text",
+        "settings": {
+          "title": "Pillars of Health & Balance",
+          "heading_font": "open_sans_n4",
+          "heading_color": "rgba(0,0,0,0)",
+          "heading_alignment": "center",
+          "heading_size": 30,
+          "text": "<p>Staying healthy means keeping different parts of your life in balance. It’s not always easy. Building on the basic pillars of health can help you live a better, more fulfilling life of wellness, energy and joy.<\/p>",
+          "text_font": "montserrat_n4",
+          "text_color": "rgba(0,0,0,0)",
+          "text_alignment": "center",
+          "text_size": 14,
+          "columns": 1,
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "button--primary",
+          "background": "#ffffff",
+          "gradient": "#ffffff",
+          "gradient_rotation": 180,
+          "width": "wide",
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "pain-icons": {
+        "type": "pain-icons",
+        "blocks": {
+          "774508e0-9543-44ae-a399-cc5066e32d75": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "truck",
+              "text_n": "",
+              "title": "Icon with text",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "5a62447e-e721-47f8-856f-893f8ae859e5": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "truck",
+              "text_n": "",
+              "title": "Icon with text",
+              "text": "<p>Describe the feature, service or product that this icon represents.<\/p>",
+              "button_label": "Learn more",
+              "link": ""
+            }
+          },
+          "ebf5afb1-3af1-4838-a396-d94b71910086": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "truck",
+              "text_n": "",
+              "title": "Icon with text",
+              "text": "<p>Describe the feature, service or product that this icon represents.<\/p>",
+              "button_label": "Learn more",
+              "link": ""
+            }
+          },
+          "b18953f6-dab7-4265-95d9-383d3bb2fb1f": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "truck",
+              "text_n": "",
+              "title": "Icon with text",
+              "text": "<p>Describe the feature, service or product that this icon represents.<\/p>",
+              "button_label": "Learn more",
+              "link": ""
+            }
+          },
+          "95ef44a7-b31b-4a7a-b061-098e49a70b33": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "truck",
+              "text_n": "",
+              "title": "Icon with text",
+              "text": "<p>Describe the feature, service or product that this icon represents.<\/p>",
+              "button_label": "Learn more",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "774508e0-9543-44ae-a399-cc5066e32d75",
+          "5a62447e-e721-47f8-856f-893f8ae859e5",
+          "ebf5afb1-3af1-4838-a396-d94b71910086",
+          "b18953f6-dab7-4265-95d9-383d3bb2fb1f",
+          "95ef44a7-b31b-4a7a-b061-098e49a70b33"
+        ],
+        "settings": {
+          "icons_per_row": 5,
+          "icon_size": "medium",
+          "align_text": "center",
+          "button_style": "button--primary",
+          "button_label_a": "",
+          "link_a": "",
+          "icon_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "background": "#CCCCCC",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "pain-faq": {
+        "type": "pain-faq",
+        "blocks": {
+          "144904cd-78ee-48e8-806e-c8e473664436": {
+            "type": "content",
+            "settings": {
+              "title": "Conventional Approach to Chronic Pain",
+              "answer": "<ul>\n<li>Medications<\/li>\n<li>Physical therapy<\/li>\n<li>Cold and hot therapy<\/li>\n<li>Biofeedback<\/li>\n<li>Massage and bodywork<\/li>\n<li>Electrical stimulation (TENS)<\/li>\n<li>Counseling (Cognitive Behavioral Therapy)<\/li>\n<ul><\/ul>\n<\/ul>"
+            }
+          },
+          "859e01ad-e8e0-4530-8409-678516401458": {
+            "type": "content",
+            "settings": {
+              "title": "Pain and Stress",
+              "answer": "<p>Stress and pain are often interconnected. For instance, worrying can literally give you a headache. Sitting too long at the computer can cause muscles to tense up, leading to shoulder and neck pain. <\/p><p>Ongoing pain or a slow recovery from injury can ramp up your stress level.  As stress and pain become intertwined, chronic pain and stress can become part of your life. By alleviating pain, you also reduce a source of stress.<\/p>"
+            }
+          },
+          "27a43fc4-67c9-48d2-9ab0-b2f459223637": {
+            "type": "side",
+            "settings": {
+              "text2": "Movement ​"
+            }
+          },
+          "6f7545d3-7993-4ae8-86e7-ccc2b61ba080": {
+            "type": "side",
+            "settings": {
+              "text2": "Restful sleep"
+            }
+          },
+          "435f2492-3d89-4458-a807-31a64fa4b922": {
+            "type": "side",
+            "settings": {
+              "text2": "Acupuncture, acupressure"
+            }
+          },
+          "bf1679f4-1a20-494c-84f1-328120d3e40a": {
+            "type": "side",
+            "settings": {
+              "text2": "Meditation"
+            }
+          },
+          "5dbe3259-db2d-4eef-a4b1-4bc5f1c2b22e": {
+            "type": "side",
+            "settings": {
+              "text2": "Hypnosis"
+            }
+          },
+          "6d753df3-15ea-443d-9844-8c91ecee343e": {
+            "type": "side",
+            "settings": {
+              "text2": "Visualization"
+            }
+          },
+          "18c0bbf1-28c5-442e-a2fb-682f7e28656b": {
+            "type": "side",
+            "settings": {
+              "text2": "Anti-inflammatory diet"
+            }
+          },
+          "902358d3-4082-480c-9972-ddf8848ce7bb": {
+            "type": "side",
+            "disabled": true,
+            "settings": {
+              "text2": "CBD supplements"
+            }
+          },
+          "dcd83aa8-be85-4e09-a42a-5ee9f9abff1e": {
+            "type": "side",
+            "settings": {
+              "text2": "Energy medicine (Reiki and others)"
+            }
+          },
+          "23e5286c-f036-4544-b0a1-8d2a47713a5f": {
+            "type": "side",
+            "settings": {
+              "text2": "Eastern medicines (TCM, herbs, Ayurveda)"
+            }
+          },
+          "414a0c9f-eeef-48a9-a7f9-506c79046cd3": {
+            "type": "side",
+            "settings": {
+              "text2": "Chiropractic care"
+            }
+          },
+          "d4b54143-cfde-4ac5-b18c-bbd14489b821": {
+            "type": "side",
+            "settings": {
+              "text2": "Gentle yoga, walking, water therapy"
+            }
+          }
+        },
+        "block_order": [
+          "144904cd-78ee-48e8-806e-c8e473664436",
+          "859e01ad-e8e0-4530-8409-678516401458",
+          "27a43fc4-67c9-48d2-9ab0-b2f459223637",
+          "6f7545d3-7993-4ae8-86e7-ccc2b61ba080",
+          "435f2492-3d89-4458-a807-31a64fa4b922",
+          "bf1679f4-1a20-494c-84f1-328120d3e40a",
+          "5dbe3259-db2d-4eef-a4b1-4bc5f1c2b22e",
+          "6d753df3-15ea-443d-9844-8c91ecee343e",
+          "18c0bbf1-28c5-442e-a2fb-682f7e28656b",
+          "902358d3-4082-480c-9972-ddf8848ce7bb",
+          "dcd83aa8-be85-4e09-a42a-5ee9f9abff1e",
+          "23e5286c-f036-4544-b0a1-8d2a47713a5f",
+          "414a0c9f-eeef-48a9-a7f9-506c79046cd3",
+          "d4b54143-cfde-4ac5-b18c-bbd14489b821"
+        ],
+        "settings": {
+          "title": "",
+          "width": "standard",
+          "padding_top": 56,
+          "padding_bottom": 56,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": "",
+          "heading_t": "HOLISTIC WAYS TO MANAGE CHRONIC PAIN"
+        }
+      },
+      "stress-banner": {
+        "type": "stress-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Stress.png",
+          "image_darken": true,
+          "image_n": "shopify:\/\/shop_images\/calm-icon.png",
+          "subtitle": "Stress is an inevitable part of life, but too much can impact your health and keep you from enjoying your life. De-stressing can help you cope by supporting balance from the inside - but sometimes we all need help to do so.",
+          "btn_url_a": "Shop MDcalm™",
+          "btn_url": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "stress-image-text": {
+        "type": "stress-image-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/stress-anxiety.png",
+          "text11": "Stress has many forms",
+          "text2": "Any physical, chemical or emotional factor that causes tension in your body or mind creates “stress.” Stress can feel overwhelming in the moment, and if it becomes chronic, it takes a serious toll on your health. While it’s hard to eliminate stress, you can moderate your response to it. Pay attention to positive moments in your day, make time for connections, take a nature break to keep feeling healthy and balanced."
+        }
+      },
+      "stress-faq": {
+        "type": "stress-faq",
+        "blocks": {
+          "ba4c70a0-5155-44ce-9861-516f156587ef": {
+            "type": "content",
+            "settings": {
+              "title": "Fight Everyday Stress",
+              "answer": "<ul>\n<li>Minimize exposure to people who stress you out<\/li>\n<li>Reduce exposure to media and social media<\/li>\n<li>Let go of the need to “do it perfectly”<\/li>\n<li>Don’t watch news or upsetting content before bed<\/li>\n<li>Take frequent breaks<\/li>\n<li>Limit sugar and alcohol<\/li>\n<li>Keep hydrated<\/li>\n<li>Learn to say “no”<\/li>\n<li>Take unimportant tasks off your to-do list<\/li>\n<li>Focus on one, two or three important tasks a day<\/li>\n<li>Reframe the situation when you feel your emotions rising<\/li>\n<\/ul>"
+            }
+          },
+          "bd1e6d0c-6689-4102-b657-395735887b7b": {
+            "type": "content",
+            "settings": {
+              "title": "Ways to Restore Balance",
+              "answer": "<ul>\n<li>Stay hydrated, drink lots of water<\/li>\n<li>Get a good night's sleep<\/li>\n<li>Try mindfulness practices like meditating, deep breathing<\/li>\n<li>Move your body through whatever exercise brings you joy<\/li>\n<li>Spend time in nature; notice beauty in everyday moments<\/li>\n<li>Start a gratitude journal or practice gratitude in other ways<\/li>\n<li>Recharge your batteries; make time for play<\/li>\n<\/ul>"
+            }
+          },
+          "47cdba24-ac8c-41d9-91fe-e86a2105241c": {
+            "type": "content",
+            "settings": {
+              "title": "Foods to Calm You",
+              "answer": "<ul>\n<li>Salmon is full of vitamin D and Omega-3 fatty acids<\/li>\n<li>Chamomile tea fights inflammation, increases relaxation<\/li>\n<li>Dark chocolate is rich in flavonoids that have a neuroprotective effect, can lower anxiety<\/li>\n<li>Fermented foods and yogurts; Probiotics help your gut bacteria produce mood-boosting neurotransmitters<\/li>\n<li>Green tea contains L-Theanine and ECGC, ingredients that promote calm and reduce anxiety<\/li>\n<\/ul>"
+            }
+          },
+          "46aed445-99f0-4644-ac20-c9b2add25b73": {
+            "type": "side",
+            "settings": {
+              "text2": "Frequent angry outbursts"
+            }
+          },
+          "e10380c1-65d9-4525-98e9-dd8ec193d299": {
+            "type": "side",
+            "settings": {
+              "text2": "Constant worrying"
+            }
+          },
+          "3dd8a6c8-b555-4833-a13f-38ac99a6e4b0": {
+            "type": "side",
+            "settings": {
+              "text2": "Forgetting things, big and small"
+            }
+          },
+          "89cdfc61-8ccd-4dad-8340-1c223fa2ec55": {
+            "type": "side",
+            "settings": {
+              "text2": "Making mistakes you could have avoided"
+            }
+          },
+          "d3ced8ad-b7a2-42ec-8f92-2f711a334f8a": {
+            "type": "side",
+            "settings": {
+              "text2": "Withdrawing from other people"
+            }
+          },
+          "b9ed8b26-54ae-452c-bb47-b77321740251": {
+            "type": "side",
+            "settings": {
+              "text2": "Sleep problems, waking up at night"
+            }
+          },
+          "4df95d33-b408-466c-96be-90abf1c3e3f1": {
+            "type": "side",
+            "settings": {
+              "text2": "Racing thoughts"
+            }
+          },
+          "66aea92b-6d5b-4f8b-89bb-255e3698525f": {
+            "type": "side",
+            "settings": {
+              "text2": "Rapid heartbeat"
+            }
+          },
+          "5426a7ab-9826-4452-acc3-56ec6cc23340": {
+            "type": "side",
+            "settings": {
+              "text2": "Difficulty making decisions"
+            }
+          }
+        },
+        "block_order": [
+          "ba4c70a0-5155-44ce-9861-516f156587ef",
+          "bd1e6d0c-6689-4102-b657-395735887b7b",
+          "47cdba24-ac8c-41d9-91fe-e86a2105241c",
+          "46aed445-99f0-4644-ac20-c9b2add25b73",
+          "e10380c1-65d9-4525-98e9-dd8ec193d299",
+          "3dd8a6c8-b555-4833-a13f-38ac99a6e4b0",
+          "89cdfc61-8ccd-4dad-8340-1c223fa2ec55",
+          "d3ced8ad-b7a2-42ec-8f92-2f711a334f8a",
+          "b9ed8b26-54ae-452c-bb47-b77321740251",
+          "4df95d33-b408-466c-96be-90abf1c3e3f1",
+          "66aea92b-6d5b-4f8b-89bb-255e3698525f",
+          "5426a7ab-9826-4452-acc3-56ec6cc23340"
+        ],
+        "settings": {
+          "title": "",
+          "width": "standard",
+          "padding_top": 56,
+          "padding_bottom": 56,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": "",
+          "heading_t": "ARE YOU OVERSTRESSED?"
+        }
+      },
+      "stress-featured-product": {
+        "type": "stress-featured-product",
+        "blocks": {
+          "97caf246-e0c9-42a8-9519-17ee3f155ea2": {
+            "type": "title",
+            "settings": {}
+          },
+          "3b32172a-cfe3-4a9f-9060-943dd401f21a": {
+            "type": "price",
+            "settings": {
+              "display_savings": true
+            }
+          },
+          "2fc0f16f-5da9-4be0-9058-22a2c8368739": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Anxiety and stress can affect your mood, sleep and health, making your days and nights more difficult than they need to be. MDcalm combines a CBD-rich full-spectrum organic hemp extract with adaptogens, botanicals and magnesium L-Threonate to calm your body and ease your mind, naturally.<\/p>"
+            }
+          },
+          "1b3a5f33-4dae-44a5-ba80-4cfde9fc7ecc": {
+            "type": "form",
+            "settings": {
+              "show_payment_button": true
+            }
+          }
+        },
+        "block_order": [
+          "97caf246-e0c9-42a8-9519-17ee3f155ea2",
+          "3b32172a-cfe3-4a9f-9060-943dd401f21a",
+          "2fc0f16f-5da9-4be0-9058-22a2c8368739",
+          "1b3a5f33-4dae-44a5-ba80-4cfde9fc7ecc"
+        ],
+        "settings": {
+          "featured_product": "mdcalm-hemp-oil-anxiety-supplement",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "gallery_arrows": true,
+          "enable_zoom": true,
+          "enable_product_lightbox": true,
+          "slideshow_speed": 0,
+          "slideshow_transition": "slide",
+          "display_thumbnails": false,
+          "thumbnail_position": "bottom-thumbnails",
+          "enable_thumbnail_slider": true,
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "immune-banner": {
+        "type": "immune-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/immunity-banner-image.png",
+          "image_darken": true,
+          "image_n": "shopify:\/\/shop_images\/immunity-icon.png",
+          "subtitle": "Take care of your body’s vital defense network so it can defend you and your good health, whatever challenges you might face.",
+          "btn_url_a": "Shop MDimmune™",
+          "btn_url": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "immune-image-text": {
+        "type": "immune-image-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Graphic-Immunity.png",
+          "text11": "A Healthy Immune System<br> Strengthens Your Body’s Defenses",
+          "text2": "Immunity is a complex system. It relies on a dynamic balance between many different parts of the body, so that dangerous invaders are recognized and attacked without overreacting to normal cells or everyday allergens. Support your immune system with healthy choices, habits and nutrition to protect yourself every day."
+        }
+      },
+      "immune-faq": {
+        "type": "immune-faq",
+        "blocks": {
+          "9f6fdf05-2130-4bf9-b126-45e067bce33e": {
+            "type": "content",
+            "settings": {
+              "title": "Whole-Life Immunity",
+              "answer": "<ul>\n<li>Eat more whole organic plant foods rich in nutrients and antioxidants<\/li>\n<li>Increase healthy fats (olive oil, nuts, wild salmon) to reduce inflammation<\/li>\n<li>Fermented foods (yogurt, sauerkraut, kimchi, kefir) supply gut-friendly bacteria<\/li>\n<li>Stay hydrated, water is essential<\/li>\n<li>Get some sunshine daily; consider a vitamin D supplement if needed<\/li>\n<li>Practice any movement or exercise that brings you joy<\/li>\n<li>Get a good night’s sleep to restore and repair yourself<\/li>\n<li>Spend more time with people who nourish your soul<\/li>\n<li>Being “too clean” does not promote a robust immune response<\/li>\n<li>Add an immune support supplement with antioxidants, botanicals, vitamins<\/li>\n<\/ul>"
+            }
+          },
+          "454ffbaa-223c-41d9-b969-64f9be171452": {
+            "type": "content",
+            "settings": {
+              "title": "Defending Your Life",
+              "answer": "<ul>\n<li>Limit your intake of sugar (reduces inflammation)<\/li>\n<li>Minimize stress: Try deep breathing, meditating, journaling<\/li>\n<li>Avoid exposure to environmental toxins at work and home<\/li>\n<li>Limit alcohol consumption<\/li>\n<li>Avoiding processed “junk” food<\/li>\n<li>Tobacco, nicotine, vaping all weaken immunity<\/li>\n<li>Limit screen exposure before bedtime<\/li>\n<\/ul>"
+            }
+          },
+          "4b2d664a-49b7-4e23-884d-e0f7c3cbff8a": {
+            "type": "content",
+            "settings": {
+              "title": "Immune-Boosting Foods",
+              "answer": "<ul>\n<li>Citrus fruits: orange, lemon, grapefruit, tangerine (vitamin C)<\/li>\n<li>Colorful foods: carrots, red peppers, sweet potatoes (beta carotene)<\/li>\n<li>Deep greens: kale, spinach, collard greens (beta carotene)<\/li>\n<li>Garlic<\/li>\n<li>Ginger<\/li>\n<li>Fermented foods with live cultures & probiotics (yogurt, sauerkraut, kimchi, kefir)<\/li>\n<li>Turmeric (antioxidant)<\/li>\n<li>Green tea (antioxidant and immunomodulatory properties)<\/li>\n<li>Poultry (chicken soup)<\/li>\n<li>Bone broth<\/li>\n<li>Elderberry<\/li>\n<\/ul>"
+            }
+          },
+          "fd8be84c-1b82-4875-8408-c3b9719c3ea4": {
+            "type": "content",
+            "settings": {
+              "title": "Inside Immunity",
+              "answer": "<p>Provide the answer to the question here.<\/p>"
+            }
+          },
+          "cf7ad0f1-e8f0-4611-b703-abe77db31225": {
+            "type": "side",
+            "settings": {
+              "text2": "Positive emotions, feelings strengthen immune system"
+            }
+          },
+          "4fddba36-6f0a-4bdd-8963-4f8e037a456d": {
+            "type": "side",
+            "settings": {
+              "text2": "Fermented foods supply friendly gut bacteria"
+            }
+          },
+          "34cfecdf-4747-47e3-923f-964d3b2d9850": {
+            "type": "side",
+            "settings": {
+              "text2": "Good night’s sleep restores and repairs the body"
+            }
+          },
+          "1eb10b0e-d4fd-44a4-bfbf-03f5ab8f9e2a": {
+            "type": "side",
+            "settings": {
+              "text2": "Anxiety and stress weaken immunity"
+            }
+          },
+          "718b0b86-839d-4fd6-8970-71b73c65f9d6": {
+            "type": "side",
+            "settings": {
+              "text2": "Sunlight, vitamin D help your body’s defenses"
+            }
+          },
+          "98fbf251-8a1d-4fea-bc11-73ced9fda93f": {
+            "type": "side",
+            "settings": {
+              "text2": "Exercise boosts blood flow, circulates immune cells"
+            }
+          },
+          "47536778-ed09-4021-b214-ab8f8f6d065c": {
+            "type": "side",
+            "settings": {
+              "text2": "Deep breathing, meditation and being in nature decreases stress"
+            }
+          },
+          "ef9b0b5d-1a87-48c3-bf9b-a8623c2e6343": {
+            "type": "side",
+            "settings": {
+              "text2": "Add a supplement with antioxidants, botanicals, vitamins"
+            }
+          }
+        },
+        "block_order": [
+          "9f6fdf05-2130-4bf9-b126-45e067bce33e",
+          "454ffbaa-223c-41d9-b969-64f9be171452",
+          "4b2d664a-49b7-4e23-884d-e0f7c3cbff8a",
+          "fd8be84c-1b82-4875-8408-c3b9719c3ea4",
+          "cf7ad0f1-e8f0-4611-b703-abe77db31225",
+          "4fddba36-6f0a-4bdd-8963-4f8e037a456d",
+          "34cfecdf-4747-47e3-923f-964d3b2d9850",
+          "1eb10b0e-d4fd-44a4-bfbf-03f5ab8f9e2a",
+          "718b0b86-839d-4fd6-8970-71b73c65f9d6",
+          "98fbf251-8a1d-4fea-bc11-73ced9fda93f",
+          "47536778-ed09-4021-b214-ab8f8f6d065c",
+          "ef9b0b5d-1a87-48c3-bf9b-a8623c2e6343"
+        ],
+        "settings": {
+          "title": "",
+          "width": "standard",
+          "padding_top": 56,
+          "padding_bottom": 56,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": "",
+          "heading_t": "STAYING IN BALANCE"
+        }
+      },
+      "immune-featured-product": {
+        "type": "immune-featured-product",
+        "blocks": {
+          "6f7a1e3f-6d67-4ef7-9da8-8410274e2499": {
+            "type": "title",
+            "settings": {}
+          },
+          "20517d53-40cf-49c3-b93d-0a7a43889ff8": {
+            "type": "price",
+            "settings": {
+              "display_savings": true
+            }
+          },
+          "254ed295-3d19-49b6-bdbb-084ab18af029": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Protect yourself from everyday immune system challenges that can impact your life. MDimmune+ contains a CBD-rich full-spectrum organic hemp extract blended with immunity-boosting botanicals like black seed oil, quercetin, plus vitamins and zinc to ramp up your defenses and keep you strong.<\/p>"
+            }
+          },
+          "e4d51f4a-c57b-41bd-bca8-6e249598012d": {
+            "type": "form",
+            "settings": {
+              "show_payment_button": true
+            }
+          }
+        },
+        "block_order": [
+          "6f7a1e3f-6d67-4ef7-9da8-8410274e2499",
+          "20517d53-40cf-49c3-b93d-0a7a43889ff8",
+          "254ed295-3d19-49b6-bdbb-084ab18af029",
+          "e4d51f4a-c57b-41bd-bca8-6e249598012d"
+        ],
+        "settings": {
+          "featured_product": "mdimmune-hemp-oil-immunity-supplement",
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "gallery_arrows": true,
+          "enable_zoom": true,
+          "enable_product_lightbox": true,
+          "slideshow_speed": 0,
+          "slideshow_transition": "slide",
+          "display_thumbnails": false,
+          "thumbnail_position": "bottom-thumbnails",
+          "enable_thumbnail_slider": false,
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "promise-single-text": {
+        "type": "promise-single-text",
+        "settings": {
+          "main_heading_color": "#87a5c3",
+          "main_heading": "At MDbio, the greatest result we can hope for is you to enjoy the benefits of good health and confidence in our products.",
+          "link": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+          "pretext": "",
+          "title": "Join Our Newsletter",
+          "subtitle": "<p>15% off your first order<\/p><p>Access to our MD Forum<\/p><p>Participate in our product trial<\/p>",
+          "pretext_color": "#87a5c3",
+          "heading_color": "#ffffff",
+          "subheading_color": "#87a5c3",
+          "text_alignment": "left",
+          "text_horizontal_position": "center",
+          "text_vertical_position": "middle",
+          "background_color": "#efedef",
+          "background_opacity": 0,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 40,
+          "button_1": "",
+          "button_1_link": "",
+          "button_1_style": "button--secondary",
+          "button_2": "Subscribe",
+          "button_2_link": "shopify:\/\/pages\/our-doctors",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "pretext_color_mobile": "#87a5c3",
+          "heading_color_mobile": "#000000",
+          "subheading_color_mobile": "#87a5c3",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-4": {
+        "type": "mega-menu-4",
+        "blocks": {
+          "5434eeae-0a75-4f4b-89cd-48c07c7aeaf6": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "menu_1": "information",
+              "menu_1_link": ""
+            }
+          },
+          "bf460c38-1d2e-40d2-b39f-e46ec7a3a8f6": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Our Doctors",
+              "image_top": "shopify:\/\/shop_images\/our-doct.jpg",
+              "image_link_top": "shopify:\/\/pages\/our-doctors",
+              "image_caption_top": "<p>Learn more about our 4 Board-Certified MD founders<\/p>",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "211d65a2-69c1-4f1f-9556-b8a30924dd4c": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Our Promise",
+              "image_top": "shopify:\/\/shop_images\/Trials-tile_1000x_1000x_edb67a4c-ca5f-4360-b643-d6cf35525dd3.png",
+              "image_link_top": "shopify:\/\/pages\/our-promise",
+              "image_caption_top": "<p>Learn how MDbio products restore your endocannabinoid balance and maximize health<\/p>",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "5434eeae-0a75-4f4b-89cd-48c07c7aeaf6",
+          "bf460c38-1d2e-40d2-b39f-e46ec7a3a8f6",
+          "211d65a2-69c1-4f1f-9556-b8a30924dd4c"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "sleep-product-image-text": {
+        "type": "sleep-product-image-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/md-sleep-cutout_f8f4aa82-b14e-4cb0-9a33-2006574a5d56.png",
+          "text11": "MDsleep™",
+          "text2": "A good rest supports your body, mind, spirit and life. MDsleep™ contains a full-spectrum hemp extract with GABA and botanical extracts that work synergistically to help you get a good night’s sleep.",
+          "url": "shopify:\/\/products\/mdsleep-hemp-oil-sleep-supplement",
+          "button_text": "Shop"
+        }
+      },
+      "pain-product-image-text": {
+        "type": "pain-product-image-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/md-relief-cutout.png",
+          "text11": "MDrelief™",
+          "text2": "Pain, either minor or ongoing, can affect your overall quality of life. MDrelief™ blends a full-spectrum hemp extract and a powerful combination of botanical ingredients used to soothe pain for thousands of years. Take a stand against pain and experience more joy of living.",
+          "url": "shopify:\/\/products\/mdrelief-hemp-oil-pain-supplement",
+          "button_text": "Shop"
+        }
+      },
+      "stress-product-image-text": {
+        "type": "stress-product-image-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/md-calm-cutout_0d815730-066a-4b38-a90a-2978673061cb.png",
+          "text11": "MDcalm™",
+          "text2": "Anxiety and stress can affect your mood, sleep and health, making your days and nights more difficult than they need to be. MDcalm™  combines a full-spectrum hemp extract with adaptogens, botanicals and magnesium L-Threonate to calm your body and ease your mind, naturally.",
+          "url": "shopify:\/\/products\/mdcalm-hemp-oil-anxiety-supplement",
+          "button_text": "Shop"
+        }
+      },
+      "immune-product-image-text": {
+        "type": "immune-product-image-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/md-immune-cutout.png",
+          "text11": "MDimmune+™",
+          "text2": "Protect yourself from everyday immune system challenges that can impact your life. MDimmune+™ contains a full-spectrum hemp extract blended with immunity-boosting botanicals like black seed oil, quercetin, plus vitamins and zinc to ramp up your defenses and keep you strong.",
+          "url": "shopify:\/\/products\/mdimmune-hemp-oil-immunity-supplement",
+          "button_text": "Shop"
+        }
+      },
+      "ingredients-banner": {
+        "type": "ingredients-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/7577bd_9963a0edcc294a7baa3ddba1c9598330_mv2.jpg",
+          "image_darken": true,
+          "subtitle": "High Potency, Pure, and Safe Ingredients",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "ingredients-rich-text": {
+        "type": "ingredients-rich-text",
+        "settings": {
+          "title": "",
+          "heading_font": "montserrat_n4",
+          "heading_color": "rgba(0,0,0,0)",
+          "heading_alignment": "center",
+          "heading_size": 30,
+          "text": "<p>We believe that our products contain the most powerful \"one-two punch\" available on the market to naturally fight chronic ailments.  Our medical-grade formulations start with extra strength, full-spectrum CBD extracted from the hemp plan, but we go further by adding in  of complementary plant-medicines specifically designed to treat certain conditions.  For thousands of years herbs, leaves, bark, flowers and their extracts have been used to ease pain, support immunity, relax feelings of stress and promote a positive mood.  MDbio sources all of its botanicals carefully from experienced growers, and combines them in a pharmaceutical-grade manufacturing facility, ensuring that we have the best and safest ingredients for our patients. <\/p>",
+          "text_font": "montserrat_n4",
+          "text_color": "rgba(0,0,0,0)",
+          "text_alignment": "center",
+          "text_size": 17,
+          "columns": 1,
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "button--primary",
+          "background": "#ffffff",
+          "gradient": "#ffffff",
+          "gradient_rotation": 180,
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "ingredients-image-text": {
+        "type": "ingredients-image-text",
+        "blocks": {
+          "87a2d58d-d48b-43e6-b3d5-5f4f71feece2": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/hemp-extract",
+              "image": "shopify:\/\/shop_images\/Ingredient-hemp.jpg",
+              "text11": "Hemp Extract",
+              "text2": "Hemp extract refers to the full-spectrum oil derived from the leaves, flowers and stalks of Cannabis sativa..."
+            }
+          },
+          "c3e3a7f2-a6c6-4044-a728-46e2de873b54": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/quercetin",
+              "image": "shopify:\/\/shop_images\/Ingredient-quercetin.jpg",
+              "text11": "Quercetin",
+              "text2": "Quercetin, a flavonoid (plant pigment), is naturally present in many food including apples, tomatoes,..."
+            }
+          },
+          "eb444f99-cb02-4fd2-9c4a-4f17ec2d4f28": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/white-willow-bark-extract",
+              "image": "shopify:\/\/shop_images\/Ingredient-WhiteWillow.jpg",
+              "text11": "White Willow Bark Extract",
+              "text2": "The bark of the white willow tree (and related varieties) have been used since ancient times in herbal..."
+            }
+          },
+          "058aacf5-8e8a-45f7-81a4-fe8b5e269885": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/frankincense",
+              "image": "shopify:\/\/shop_images\/Ingredient-Frankincense.jpg",
+              "text11": "Frankincense",
+              "text2": "Fragrant frankincense is the resinous extract from Boswellia trees, mainly four different species. Popular..."
+            }
+          },
+          "464ab366-28dc-49a0-bd32-1387eadb535b": {
+            "type": "Doctor",
+            "settings": {
+              "url": "",
+              "image": "shopify:\/\/shop_images\/Ingredient-BlackSeedOil.jpg",
+              "text11": "Black Seed Oil",
+              "text2": "Seeds of the plant Nigella sativa (and the extracted oil, called “black seed oil”) are widely used in traditional..."
+            }
+          },
+          "c7c8a6c7-0062-43a1-aef8-81b535e5c291": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/ashwagandha",
+              "image": "shopify:\/\/shop_images\/Ingredient-Ashwagandha.jpg",
+              "text11": "Ashwagandha",
+              "text2": "A small shrub with yellow flowers, Ashwagandha is native to India and North Africa. It is believed to work..."
+            }
+          },
+          "187871eb-e073-4fae-89f8-07ee0d2d9206": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/lavender-extract",
+              "image": "shopify:\/\/shop_images\/Ingredient-Lavender.jpg",
+              "text11": "Lavender Extract (flower)",
+              "text2": "A member of the mint family, many varieties of lavender (Lavandula) have been cultivated through..."
+            }
+          },
+          "33784334-6853-41bb-8eec-06cb5b0168b1": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/hops-extract-flower",
+              "image": "shopify:\/\/shop_images\/Ingredient-Hops.jpg",
+              "text11": "Hops Extract (flower)",
+              "text2": "Hops are the flower cones of the hop plant, Humulus lupulus. For centuries, hops have been used as a..."
+            }
+          },
+          "a7d51ca7-2c3d-4cef-98a1-f374ed0713fa": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/reishi-mushroom",
+              "image": "shopify:\/\/shop_images\/Ingredient-ReishiMushroom.jpg",
+              "text11": "Reishi Mushroom",
+              "text2": "A medicinal mushroom used for centuries in Asian medicine, Reishi mushrooms are considered an..."
+            }
+          },
+          "7a3e3f20-0c80-4083-a837-cc36c2ce9734": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/mint",
+              "image": "shopify:\/\/shop_images\/Ingredient-Mint.jpg",
+              "text11": "Mint",
+              "text2": "Extracts of this popular and fragrant plant have been used throughout history in herbal medicines. Mint..."
+            }
+          },
+          "8ce8f3d4-9c40-4503-95bc-fae501364fa6": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/monolaurin",
+              "image": "shopify:\/\/shop_images\/Ingredient-Monolaurin.jpg",
+              "text11": "Monolaurin",
+              "text2": "Monolaurin is an ingredient derived from coconut oil, which itself has been used for thousands of years in..."
+            }
+          },
+          "cf86ef53-57e4-4b01-8d1e-4103593ebf66": {
+            "type": "Doctor",
+            "settings": {
+              "url": "shopify:\/\/blogs\/doctors-desk-blogs\/valerian-extract-root",
+              "image": "shopify:\/\/shop_images\/Ingredient-Valerian.jpg",
+              "text11": "Valerian Extract (root)",
+              "text2": "The roots of the valerian plant have been used in traditional medicine in Asia and Europe for at least..."
+            }
+          }
+        },
+        "block_order": [
+          "87a2d58d-d48b-43e6-b3d5-5f4f71feece2",
+          "c3e3a7f2-a6c6-4044-a728-46e2de873b54",
+          "eb444f99-cb02-4fd2-9c4a-4f17ec2d4f28",
+          "058aacf5-8e8a-45f7-81a4-fe8b5e269885",
+          "464ab366-28dc-49a0-bd32-1387eadb535b",
+          "c7c8a6c7-0062-43a1-aef8-81b535e5c291",
+          "187871eb-e073-4fae-89f8-07ee0d2d9206",
+          "33784334-6853-41bb-8eec-06cb5b0168b1",
+          "a7d51ca7-2c3d-4cef-98a1-f374ed0713fa",
+          "7a3e3f20-0c80-4083-a837-cc36c2ce9734",
+          "8ce8f3d4-9c40-4503-95bc-fae501364fa6",
+          "cf86ef53-57e4-4b01-8d1e-4103593ebf66"
+        ],
+        "settings": {}
+      },
+      "header-vertical": {
+        "type": "header-vertical",
+        "blocks": {
+          "header-vertical-0": {
+            "type": "logo",
+            "settings": {
+              "logo_width": 80
+            }
+          },
+          "header-vertical-1": {
+            "type": "icons",
+            "settings": {
+              "icon_style": "icons",
+              "display_search": false
+            }
+          },
+          "header-vertical-2": {
+            "type": "search",
+            "settings": {}
+          },
+          "header-vertical-3": {
+            "type": "navigation",
+            "settings": {
+              "main_linklist": "main-menu",
+              "nav_background": "rgba(0,0,0,0)",
+              "nav_link_color": "rgba(0,0,0,0)",
+              "nav_link_hover_color": "rgba(0,0,0,0)"
+            }
+          },
+          "header-vertical-4": {
+            "type": "payment_icons",
+            "settings": {}
+          },
+          "header-vertical-5": {
+            "type": "copyright",
+            "settings": {
+              "copyright_text": "",
+              "display_designed_by": true,
+              "display_shopify": true
+            }
+          }
+        },
+        "block_order": [
+          "header-vertical-0",
+          "header-vertical-1",
+          "header-vertical-2",
+          "header-vertical-3",
+          "header-vertical-4",
+          "header-vertical-5"
+        ],
+        "settings": {
+          "alignment": "left",
+          "dropdown_click": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "dosing": {
+        "type": "dosing",
+        "settings": {
+          "why_image": "shopify:\/\/shop_images\/dosing.png",
+          "why_image1": "shopify:\/\/shop_images\/hero_image.png",
+          "preheading": "",
+          "heading": "Dosing Recommendations",
+          "text2": "<p class=\"first-para one-p\">For each individual MDbio product, adults should start by taking (1) one softgel as needed during the day or before going to sleep to support balanced health.* If (1) one softgel is not sufficient after a few days, we recommend gradually increasing dosage to a maximum of (3) three softgels per product, per 24-hour period.<\/p>\n<p class=\"first-para two-p\">If you are combining multiple MDbio products in any 24 hour period, we recommend spacing out the consumption of the products over the course of the day to minimize the likelihood of any side effects. For instance, taking (2) two MDcalm™ softgels in the morning, and (2) two MDsleep™ softgels prior to bed.<\/p> \n<p class=\"three-p\">It is common, but not typical, for plant-based nutraceutical products to take up to (5) consecutive days of use before the onset of the desired effect to occur. <\/p> \n<p class=\"first-para four-p\">It is not recommended to take any of our products on an empty stomach.  Do not exceed a total of 6 softgels in a day for any combination of products. If you experience any severe side effects or you are unsure of mixing your current medications with MDbio, stop taking the product and consult your physician.<\/p> \n<p class=\"first-para-a five-p\">If you have any further questions on how to best use MDbio’s products, please contact us at <a href=\"mailto:hello@mdbiowellness.com\">hello@mdbiowellness.com<\/a> or call us at <a href=\"tel:18004471485\">1-800-447-1485<\/a><\/p> \n<p class=\"stae-ment\">*These statements have not been evaluated by the Food and Drug Administration.  Products not intended to cure or treat any disease.<\/p>",
+          "text22": "",
+          "url1": ""
+        }
+      },
+      "visison_banner": {
+        "type": "visison_banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/our-vision-banner-image.png",
+          "image_darken": false,
+          "subtitle": "",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "visison-text": {
+        "type": "visison-text",
+        "settings": {
+          "top-title": "<img class=\"vision-left-coma\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6.png?v=1648617357\">At MDbio, the greatest result we can hope for is you to enjoy the benefits of good health and confidence in our products.<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/Layer_6_copy.png?v=1648617357\" class=\"vision-right-coma\">",
+          "title": "Why Are We “The Doctors’ Brand™”?",
+          "content": "<p>Our products originate with our Board-Certified Medical Doctors, whose lifelong mission throughout their careers has been to maximize positive patient outcomes and minimize harm. We rely on the doctors who founded MDbio, and they in turn rely on the latest in modern medical science (including plant-based medicines derived from “non-Western” sources) to inform all of our products.<\/p>",
+          "title1": "Uniquely Synergistic Formulations",
+          "content1": "<p>All our products are carefully formulated to maximize benefits though the synergistic effects of selected ingredients.  Our botanical ingredients engage the body’s own endocannabinoid system to allow maximum uptake of phytocannabinoids, making the formula more effective overall.<\/p>",
+          "title11": "Quality, High-Potency Ingredients",
+          "content11": "<p>We source our ingredients strictly from reputable farms and suppliers. All our botanicals are grown by experienced cultivators and are free of heavy metals and pesticides. We use the highest possible, safe concentrations of ingredients to ensure that each formula provides optimal therapeutic value. All raw ingredients are laboratory tested before going into production.<\/p>",
+          "title22": "Patient-Tested Innovation",
+          "content22": "<p>Our products, processes and practices will always be informed by up-to-date feedback from our patients and customers. Our product lineup has undergone extensive product research trials with patients experiencing various ailments, and their feedback informs each new iteration of our offerings in an ongoing cycle of R&D and reformulation.  This entirely <br\/>Patient Data-Driven approach to continuous product improvement is unique within the industry.<\/p>"
+        }
+      },
+      "blog-image-text-sec": {
+        "type": "blog-image-text-sec",
+        "settings": {
+          "left_image": "shopify:\/\/shop_images\/Layer_4_3.png",
+          "preheading": "SLEEP",
+          "heading": "CBN for Sleep: The Effects & How It Can Help You Get a Good Night’s Rest",
+          "text2": "",
+          "text22": "Read More",
+          "url1": "shopify:\/\/blogs\/doctors-desk-blogs\/cbn-for-sleep-cbn-effects-and-how-it-can-help-you-get-a-good-nights-rest"
+        }
+      },
+      "blog-cstm": {
+        "type": "blog-cstm",
+        "settings": {
+          "title": "What's Trending",
+          "blog_widget_select": "doctors-desk-blogs",
+          "home_page_articles": 3,
+          "blog_show_tags": true,
+          "blog_author": false,
+          "read_time": false,
+          "blog_date": false,
+          "blog_comment_count": false,
+          "blog_show_excerpt": true,
+          "show-border": true,
+          "button_label": "Read more",
+          "button_type": "button--primary",
+          "width": "wide",
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "blog-latest-stories": {
+        "type": "blog-latest-stories",
+        "settings": {
+          "left_image": "shopify:\/\/shop_images\/Screen_Shot_2022-03-24_at_11.06.43_AM.png",
+          "preheading": "DIET & WELLBEING",
+          "heading": "Eat foods rich in Quercetin to boost your circulatory health",
+          "text2": "<p>Considered one of the most abundant antioxidants in the human <br\/>diet, quercetin plays an important part in fighting free radical <br\/>damage, as well as the effects of aging and inflammation. <\/p>",
+          "text22": "Read More",
+          "url1": "shopify:\/\/blogs\/doctors-desk-blogs\/quercetin-supplement",
+          "left_image2": "shopify:\/\/shop_images\/Layer_8.png",
+          "preheading2": "MENTAL HEALTH",
+          "heading2": "The growing trend toward natural solutions for improved  mental health increases herbal remedy popularity",
+          "text221": "<p>Safety concerns about side effects of many antidepressant<br\/>medications have led to increased herbal psychopharmacology <br\/>research & development.<\/p>",
+          "text222": "Read More",
+          "url12": ""
+        }
+      },
+      "collection-variant-template": {
+        "type": "collection-variant-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 5,
+          "rows": 8,
+          "show_collection_image": false,
+          "show_vendor": false,
+          "sort_enable": false,
+          "tags_enable": false,
+          "infinite_scroll_enable": false
+        }
+      },
+      "first-banner": {
+        "type": "first-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/230CD1C7-06A0-4E5B-97CE-8B04C5BEB408-min.png",
+          "image_darken": true,
+          "heading": "Join our <br>Doctor Managed <br>Plant-Medicine <br>Product Trials",
+          "subtitle": "",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "subtitle-with-description": {
+        "type": "subtitle-with-description",
+        "settings": {
+          "title": "If you suffer from sleeplessness, anxiety, aches and pains, we invite you to join a comprehensive product study that trials the latest in plant-based medicines",
+          "heading_color": "#164a72",
+          "heading_alignment": "center",
+          "heading_size": 30,
+          "text": "",
+          "text_font": "open_sans_n4",
+          "text_color": "#2b577e",
+          "text_alignment": "center",
+          "text_size": 20,
+          "columns": 1,
+          "button_label": "",
+          "button_link": "",
+          "button_alignment": "center",
+          "button_style": "button--primary",
+          "background": "#ffffff",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "width": "wide",
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "if-section",
+          "custom_css": ""
+        }
+      },
+      "three-study-columns": {
+        "type": "three-study-columns",
+        "blocks": {
+          "847f8374-f996-4ff0-8308-b7bbc754db3b": {
+            "type": "logo_image",
+            "settings": {
+              "title": "Sleep Study",
+              "doctortext": "<p>Doctor Managed - 10 Day Trial<\/p>",
+              "plantbased_text": "<p>Plant-Based Sleep Aid<\/p>",
+              "imageicon": "shopify:\/\/shop_images\/Sleep_Aid.png",
+              "text": "<p>Our at-home sleep study is designed to carefully test the effectiveness of the plant-based medicines in the MDsleep™ product that synergistically work in harmony to calm the mind and assist the body in achieving a good night’s rest. Over the course of 10 days, volunteers will have the opportunity to achieve appropriate dosing levels by systematically titrating their medicine intake, while virtually working with our trial staff. <\/p>\n<p>The goal of this study is to better understand personal dosing protocols that ultimately lead to better, longer and deeper sleep. <\/p><p><strong><em>We are accepting applicants if you occasionally or frequently suffer from any of the following sleeplessness symptoms; <\/em><\/strong><br><strong>Trouble Falling Asleep, Difficulty Staying Asleep, Waking Up Earlier Than Intended, Tossing and Turning, Morning Grogginess, Next Day Irritability. <\/strong><\/p>",
+              "button_label": "● Enroll Now To Verify sleep Eligibility",
+              "link": "https:\/\/us-central1-trial-management-system.cloudfunctions.net\/signup\/jL0S2J8wsyoT5NUSZMlo",
+              "discovertext": "<p>Discover Better Sleep Through Our Trial<br\/>Find out more about the Sleep Trial <a href=\"https:\/\/bit.ly\/3PxKYA7\" title=\"https:\/\/bit.ly\/3PxKYA7\"><span style=\"text-decoration:underline\"><strong>HERE<\/strong><\/span><\/a><\/p>"
+            }
+          },
+          "5ac9b8f9-59f9-4e3b-83e9-a72e4ebbf1bb": {
+            "type": "logo_image",
+            "settings": {
+              "title": "Relief Study",
+              "doctortext": "<p>Doctor Managed - 10 Day Trial<\/p>",
+              "plantbased_text": "<p><strong>Plant-Based Aches and Pains Aid<\/strong><\/p>",
+              "imageicon": "shopify:\/\/shop_images\/Aches_-_Pains_Aid.png",
+              "text": "<p>Our at-home relief study is designed to understand the effectiveness of the plant-based medicines in the MDrelief™ product that work together to target minor aches and inflammation. Over the course of 10 days, volunteers will virtually work with our staff to help target inflammation that might be causing aches and pains. Various types of pre-existing aches and pains are welcomed in this overarching study. <\/p>\n\n<p>The goal of this study is to better understand the effectiveness of the MDrelief™ product as it pertains to targeting aches and pains. <\/p>\n\n<p><strong><em>We are accepting applicants if you occasionally or frequently suffer from any of the following discomfort symptoms;<\/em><\/strong> <br><strong>Bone and Joint Discomfort, Inflammation, Muscle Discomfort, Gastro-intestinal aches, and most aches and pains that have an onset after brisk movement or activity.<\/strong><\/p>",
+              "button_label": "Coming Soon",
+              "link": "#",
+              "discovertext": "<p>Discover Less Discomforts Through Our Trial<\/p><p>Find out more about the Relief Trial <span style=\"text-decoration:underline\"><strong>HERE<\/strong><\/span><\/p>"
+            }
+          },
+          "2816183f-984e-4a6e-a325-7adef052a013": {
+            "type": "logo_image",
+            "settings": {
+              "title": "Calm Study",
+              "doctortext": "<p>Doctor Managed - 10 Day Trial<\/p>",
+              "plantbased_text": "<p><strong>Plant-Based Calm Aid<\/strong><\/p>",
+              "imageicon": "shopify:\/\/shop_images\/Calm_Aid.png",
+              "text": "<p>Our at-home calm study has been designed to test the effectiveness of the plant-based ingredients in our MDcalm™ supplement that works by calming the mind, without hindering physical capacity or grogginess. Over the course of 10 days, volunteers will study the effects the product has on their anxiety and their ability to deal with day-to-day stressors. <\/p>\n\n<p>The goal of this study is to determine the effectiveness that MDcalm™ has on targeting daily stress management. <\/p>\n\n<p><strong><em>We are accepting applicants if you occasionally or frequently suffer from any of the following anxious symptoms; <\/em><\/strong><br><strong>inability to concentrate, feeling restless or on-edge, being irritable, difficulty controlling feelings of worry, difficulty falling asleep at night due to worry, tension headaches or muscle aches, fatigue. <\/strong><\/p>",
+              "button_label": "● Enroll Now To Verify Calm Eligibility",
+              "link": "https:\/\/us-central1-trial-management-system.cloudfunctions.net\/signup\/k8R7W1tJv7q7LvY7qUFb",
+              "discovertext": "<p>Discover a Calmer State Through Our Trial<\/p><p>Find out more about the Calm Trial <a href=\"https:\/\/bit.ly\/3X1Ywqu\" title=\"https:\/\/bit.ly\/3X1Ywqu\"><span style=\"text-decoration:underline\"><strong>HERE<\/strong><\/span><\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "847f8374-f996-4ff0-8308-b7bbc754db3b",
+          "5ac9b8f9-59f9-4e3b-83e9-a72e4ebbf1bb",
+          "2816183f-984e-4a6e-a325-7adef052a013"
+        ],
+        "settings": {
+          "icons_per_row": 3,
+          "icon_size": "medium",
+          "align_text": "center",
+          "button_style": "button--primary",
+          "button_label_a": "",
+          "link_a": "",
+          "icon_color": "rgba(0,0,0,0)",
+          "text_color": "#ffffff",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 0,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "home-sleep-study-box",
+          "custom_css": ""
+        }
+      },
+      "how-trial-works": {
+        "type": "how-trial-works",
+        "blocks": {
+          "53cb401f-3153-4758-a81b-8ec5f9a5ba47": {
+            "type": "custom-text",
+            "settings": {
+              "trial_img": "shopify:\/\/shop_images\/icon-01_1.png",
+              "trial_sub_head": "Enroll in one of our Trials",
+              "trial_desc": "We have ongoing trials that target Sleeplessness, Anxiousness or Aches and Pains"
+            }
+          },
+          "4ce0a6c6-4537-4121-8844-6e3a2643bc68": {
+            "type": "custom-text",
+            "settings": {
+              "trial_img": "shopify:\/\/shop_images\/icon-02.png",
+              "trial_sub_head": "Sign Documentation (if approved)",
+              "trial_desc": "This includes consent and waivers sent seamlessly through easy-to-fill-out digital forms"
+            }
+          },
+          "8553f1b9-5e71-4293-8e6e-420072193e2f": {
+            "type": "custom-text",
+            "settings": {
+              "trial_img": "shopify:\/\/shop_images\/icon-03.png",
+              "trial_sub_head": "MDbio™ Trial Kit Sent",
+              "trial_desc": "We process your application within 48 hours and send 10 days of product directly to your door"
+            }
+          },
+          "60afdc83-f6f4-4774-a8f3-c29e09621559": {
+            "type": "custom-text",
+            "settings": {
+              "trial_img": "shopify:\/\/shop_images\/icon-04.png",
+              "trial_sub_head": "Begin 10 Day Trial",
+              "trial_desc": "Scan a QR code in the MDbio™ Trial Kit to take your baseline health survey and get started that day."
+            }
+          },
+          "a8dba641-31e1-4957-8aa0-3f635b773acf": {
+            "type": "custom-text",
+            "settings": {
+              "trial_img": "shopify:\/\/shop_images\/icon-05.png",
+              "trial_sub_head": "Track Your Health Journey",
+              "trial_desc": "Answer very short surveys about your health every 2 days sent conveniently by text."
+            }
+          },
+          "dd85cc7d-9310-4916-ad3f-d9e7d0884239": {
+            "type": "custom-text",
+            "settings": {
+              "trial_img": "shopify:\/\/shop_images\/icon-06.png",
+              "trial_sub_head": "Complete Trial",
+              "trial_desc": "When you have finished your trial, complete the final health questionnaire to complete your journey"
+            }
+          },
+          "893a87c1-9825-4712-bb01-61fddaa08468": {
+            "type": "custom-text",
+            "settings": {
+              "trial_img": "shopify:\/\/shop_images\/icon-07.png",
+              "trial_sub_head": "Meet Virtually with a Healthcare Professional",
+              "trial_desc": "We provide a complimentary 30 minute consultation with a trained healthcare professional who can help analyze your 10 day journey and beyond!"
+            }
+          }
+        },
+        "block_order": [
+          "53cb401f-3153-4758-a81b-8ec5f9a5ba47",
+          "4ce0a6c6-4537-4121-8844-6e3a2643bc68",
+          "8553f1b9-5e71-4293-8e6e-420072193e2f",
+          "60afdc83-f6f4-4774-a8f3-c29e09621559",
+          "a8dba641-31e1-4957-8aa0-3f635b773acf",
+          "dd85cc7d-9310-4916-ad3f-d9e7d0884239",
+          "893a87c1-9825-4712-bb01-61fddaa08468"
+        ],
+        "settings": {
+          "heading_main": "How Our Trials Work"
+        }
+      },
+      "trial-faq": {
+        "type": "trial-faq",
+        "blocks": {
+          "8f5d4db2-9188-454c-96be-73cdf5d34f51": {
+            "type": "content",
+            "settings": {
+              "title": "What does a “decentralized observational trial” mean?",
+              "answer": "<p>A decentralized observational trial refers to a study that is not conducted at a site specific location and all collected data is self-observed by the participants. In short, it is an at-home trial where participants respond with their own analysis of their health conditions.<\/p>"
+            }
+          },
+          "4dbb4a9e-47ba-4c9a-af4c-43784325ee6e": {
+            "type": "content",
+            "settings": {
+              "title": "How long is the trial?",
+              "answer": "<p>The active trial lasts up to 10 days, but that does not include the onboarding and product shipping times. Some participants may end sooner than 10 days if they consume more than 2 softgels per day. A trial that ends sooner than 10 days is still considered a successful trial.<\/p>"
+            }
+          },
+          "79f48775-af80-4e7b-83df-a57ab6748f6a": {
+            "type": "content",
+            "settings": {
+              "title": "Can I quit mid-trial if I choose to?",
+              "answer": "<p>Yes! This is a voluntary study and participants can quit at any time. <\/p>"
+            }
+          },
+          "2ef0a681-d971-498c-b96b-3f8e27239098": {
+            "type": "content",
+            "settings": {
+              "title": "Who is overseeing the trial?",
+              "answer": "<p>The trial management staff are trained employees and\/or contractors of MDbio, The Doctors’ Brand llc. All trial protocols are reviewed and approved by the four founding board-certified physicians of MDbio.<\/p>"
+            }
+          },
+          "81e43b54-bc00-4c31-8e72-ffc88f59c865": {
+            "type": "content",
+            "settings": {
+              "title": "Are the trial products safe?",
+              "answer": "<p>Yes! All raw ingredients are certified GRAS as well as adhering to all FDA food and drug purity regulations, specifically USP<561>. This includes products being tested for potency, heavy metal toxins and pesticides.<\/p>"
+            }
+          },
+          "dd082cee-3ae4-4abf-897a-713117af03b9": {
+            "type": "content",
+            "settings": {
+              "title": "Who is MDbio?",
+              "answer": "<p>MDbio, The Doctors’ Brand is a plant-based medicine company founded by four award winning physicians in multiple disciplines. For more information on the company, the founders and the product please visit www.mdbiowellness.com.<\/p>"
+            }
+          },
+          "511399e4-ff27-4d08-97cb-95f3a25abcb6": {
+            "type": "content",
+            "settings": {
+              "title": "What are you going to do with my data?",
+              "answer": "<p>The data collected is HIPPA compliant and securely handled and stored. We use the anonymous data to better understand the effectiveness of the trial product and the corresponding demographic information. We do not sell our data or use it for any other purpose than to better our customer’s health outcomes. <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "8f5d4db2-9188-454c-96be-73cdf5d34f51",
+          "4dbb4a9e-47ba-4c9a-af4c-43784325ee6e",
+          "79f48775-af80-4e7b-83df-a57ab6748f6a",
+          "2ef0a681-d971-498c-b96b-3f8e27239098",
+          "81e43b54-bc00-4c31-8e72-ffc88f59c865",
+          "dd082cee-3ae4-4abf-897a-713117af03b9",
+          "511399e4-ff27-4d08-97cb-95f3a25abcb6"
+        ],
+        "settings": {
+          "title": "FAQ",
+          "width": "standard",
+          "padding_top": 56,
+          "padding_bottom": 56,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "about-babak": {
+        "type": "about-babak",
+        "blocks": {
+          "f0470928-76ba-4eeb-8c0c-181fc0eea46b": {
+            "type": "Doctor",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.3_0ef82b71-1675-46cd-b6a2-2ecc8ad25011.png",
+              "text11": "Babak Larian, MD, FACS | FOUNDER",
+              "subheading": "",
+              "colorsubheading": "#3d4246",
+              "subheadinga": "If you bring your mind and body into balance, the possibilities for joy are limitless.",
+              "text2": "<p>Dr. Babak Larian is Clinical Chief, Division of Otolaryngology, Head and Neck Surgery at <a href=\"https:\/\/www.cedars-sinai.org\/provider\/babak-larian-1012963.html\" target=\"_blank\" title=\"https:\/\/www.cedars-sinai.org\/provider\/babak-larian-1012963.html\">Cedars-Sinai Medical Center<\/a> in Los Angeles California. In practice since 2002, Dr. Larian is internationally recognized for his contributions in the field of minimally invasive surgery for head and neck tumors and cancers.<br\/><br\/>Dr. Larian is a board-certified Diplomate of the <a href=\"https:\/\/www.abohns.org\/\" title=\"https:\/\/www.abohns.org\/\">American Board of Otolaryngology<\/a>\/Head and Neck Surgery. He is also a Clinical Instructor of Surgery at the <a href=\"https:\/\/medschool.ucla.edu\/\" target=\"_blank\" title=\"https:\/\/medschool.ucla.edu\/\">David Geffen School of Medicine, UCLA<\/a>. He has written numerous peer-reviewed articles and has presented at both national and international conferences.<br\/><br\/>Dr. Larian received his bachelor’s and medical degrees from <a href=\"https:\/\/uci.edu\/\" target=\"_blank\" title=\"https:\/\/uci.edu\/\">University of California, Irvine<\/a>. He completed his internship in General Surgery and residency in Otolaryngology\/Head and Neck Surgery at UCLA.<br\/><br\/><a href=\"https:\/\/en.wikipedia.org\/wiki\/Babak_Larian\" target=\"_blank\" title=\"https:\/\/en.wikipedia.org\/wiki\/Babak_Larian\">Dr. Larian<\/a> is also involved in several charities including Medical Missions for Children and Global Smile Foundation. He is Medical Director of the Los Angeles chapter of HELPS International Medical Mission, a medical\/surgical operation serving rural Guatemala. He is also on the board of International Society for Children with Cancer.<br\/><br\/>Dr. Larian has been a managing partner and member of the Governing Board of the <a href=\"https:\/\/lapeerhealth.com\/uncategorized\/babak-larian-md-facs\/\" target=\"_blank\" title=\"https:\/\/lapeerhealth.com\/uncategorized\/babak-larian-md-facs\/\">La Peer Surgery Center<\/a> since 2005, a facility that performs nearly 10,00 surgeries annually, with more than 50 partner surgeons. He has been a member of the board and owner of PathMD pathology laboratories.<br\/><br\/>Dr. Larian finds joy in being present in every moment, and experiencing life to its fullest.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "f0470928-76ba-4eeb-8c0c-181fc0eea46b"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": false
+        }
+      }
+    }
+  }
+}

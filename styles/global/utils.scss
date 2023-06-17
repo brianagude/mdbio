@@ -1,0 +1,132 @@
+
+.visually-hidden,
+%visually-hidden {
+  /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+$standard-border: 1px solid $color-tertiary;
+
+%global-style {
+  background: $color-white;
+  border: $standard-border;
+  border-radius: 16px;
+  
+  .media-block img {
+    border-radius: 8px;
+    height: auto;
+  }
+}
+
+%btn, .btn {
+  font-weight: 800;
+  text-align: center;
+  @extend %t1;
+  text-transform: uppercase;
+  font-family: $font-stack-body;
+  color: $color-light;
+  
+  padding: 8px 24px;
+  border-radius: 1000px;
+  width: fit-content;
+  display: block;
+  
+  background: $color-secondary;
+  border: 1px solid $color-cream;
+  box-shadow: 2px 3px 0px rgba(78, 95, 210, 0.2);
+  border-radius: 1000px;
+
+  &:hover {
+    box-shadow: none;
+    transform: translate(2px, 3px);
+  }
+
+  &:disabled {
+    background: $color-gray;
+    color: $color-black;
+    border: 1px solid $color-black;
+    cursor: not-allowed;
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+}
+
+.btn-secondary {
+  @extend %btn;
+  background: $color-tertiary;
+  border: 1px solid $color-cream;
+  box-shadow: 2px 3px 0px rgba(163, 122, 86, 0.2);
+}
+
+.btn-text {
+  @extend %k3;
+  text-transform: uppercase;
+  font-family: $font-stack-body;
+  border-bottom: 2px solid $color-black;
+  padding-bottom: 2px; 
+  width: fit-content;
+
+  img, svg {
+    width: 12px;
+    margin-left: 8px;
+    display: inline-block;
+  }
+}
+
+.text-left {
+  text-align: left;
+
+  @include bp(small-only){
+    &-mobile {
+      text-align: left !important;
+    }
+  }
+}
+
+.text-right {
+  text-align: right;
+
+  .btn {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  @include bp(small-only) {
+    &-mobile {
+      text-align: right !important;
+
+      .btn {
+        margin-left: auto;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+
+  .btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include bp(small-only) {
+    &-mobile {
+      text-align: center !important;
+
+      .btn {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}

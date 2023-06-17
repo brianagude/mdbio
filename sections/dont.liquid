@@ -1,0 +1,121 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" ></script>
+<div class="dont-content">
+    <div class="wrapper" >
+      <div class="don-all-in" >
+          <div class="don-head">
+            {%- if section.settings.heading != blank -%}
+              <h2>{{ section.settings.heading }}</h2>
+            {%- endif -%}
+          </div>
+         <div class="don-all-text dont">
+        {%- for block in section.blocks -%}
+          <div class="don-text">
+            {%- if block.settings.text11 != blank -%}
+              <h3>{{ block.settings.text11 }}</h3>
+            {%- endif -%}
+            {%- if block.settings.star != blank -%}
+              <div>{{ block.settings.star }}</div>
+            {%- endif -%}
+            {%- if block.settings.image != blank -%}
+              <img src="{{ block.settings.image | img_url: 'master'  }}">
+            {%- endif -%}
+             {%- if block.settings.text2 != blank -%}
+            <p>{{ block.settings.text2 }}</p>
+             {%- endif -%}
+          </div>
+        {%- endfor -%}
+        </div>
+      </div>
+  </div>
+</div>
+    
+ <script>
+   $('.dont').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+     adaptiveHeight: true,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+   
+</script>
+    
+{% schema %}
+{
+  "name": "Dont Top",
+  "class": "dont-cls",  
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        }
+		],
+  		"blocks": [
+     {
+       "name": "Dont",
+       "type": "Dont",
+       "settings": [
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Text Heading"
+		},
+		{
+          "type": "textarea",
+          "id": "star",
+          "label": "Star"
+        },
+		{
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon"
+        },
+		{
+		  "type": "textarea",
+          "id": "text2",
+          "label": "para"
+        }
+      ]
+}
+   ],
+  "presets": [
+	{
+      "name": "Dont",
+      "category": "Image"
+    }
+  ] 
+}
+
+{% endschema %}

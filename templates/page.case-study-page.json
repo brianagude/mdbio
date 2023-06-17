@@ -1,0 +1,382 @@
+{
+  "sections": {
+    "86119133-2678-464b-943d-4faf98de1027": {
+      "type": "custom-image-with-text-section",
+      "blocks": {
+        "template--16646472794343__86119133-2678-464b-943d-4faf98de1027-166996145054a987eb-2": {
+          "type": "text",
+          "settings": {
+            "title": "Join an MDbio<br> Doctor Managed<br> Wellness Study.",
+            "heading_size": "medium",
+            "text": "<p>If you experience complications associated <br\/>with sleep, chronic pain, or anxiety, one of<br\/>these studies may be for you.<\/p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#0b3f6c",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "template--16646472794343__86119133-2678-464b-943d-4faf98de1027-166996145054a987eb-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/psychological-consultant.png",
+            "image_crop": "left",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16646472794343__86119133-2678-464b-943d-4faf98de1027-166996145054a987eb-2",
+        "template--16646472794343__86119133-2678-464b-943d-4faf98de1027-166996145054a987eb-1"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "ab4211e9-6a5d-4d89-8ad6-4aa0240225e3": {
+      "type": "right-image-text",
+      "disabled": true,
+      "blocks": {
+        "template--16646472794343__ab4211e9-6a5d-4d89-8ad6-4aa0240225e3-16698007278e95a29f-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "template--16646472794343__ab4211e9-6a5d-4d89-8ad6-4aa0240225e3-16698007278e95a29f-2": {
+          "type": "text",
+          "settings": {
+            "title": "Join an MDbio Doctor Managed Wellness Study.",
+            "heading_size": "large",
+            "text": "<p>If you experience complications associated <br\/>with sleep, chronic pain, or anxiety, one of<br\/>these studies may be for you.<\/p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#0b3f6c",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "template--16646472794343__ab4211e9-6a5d-4d89-8ad6-4aa0240225e3-16698007278e95a29f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/psychological-consultant.png",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16646472794343__ab4211e9-6a5d-4d89-8ad6-4aa0240225e3-16698007278e95a29f-0",
+        "template--16646472794343__ab4211e9-6a5d-4d89-8ad6-4aa0240225e3-16698007278e95a29f-2",
+        "template--16646472794343__ab4211e9-6a5d-4d89-8ad6-4aa0240225e3-16698007278e95a29f-1"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "eb62d080-190d-4484-997a-bfbb4e659610": {
+      "type": "bg-image-with-text",
+      "settings": {
+        "back_image": "shopify:\/\/shop_images\/Depresse-woman.png",
+        "back_image1": "shopify:\/\/shop_images\/1_c2c99861-12ec-438d-9c22-493cce43a8b7.png",
+        "heading": "Home Sleep<br> Study",
+        "heading-size": "medium",
+        "heading-color": "#0b3f6c",
+        "text2": "<p>Doctor Managed - 2 week Program<br\/><strong>Plant-Based Sleep Aid<\/strong><\/p>",
+        "text-color": "#0b3f6c",
+        "text22": "Enroll Now - Verify Eleigibility",
+        "url1": "#",
+        "preheading": "Discover Better Sleep Through our Trial",
+        "title-color": "#0b3f6c"
+      }
+    },
+    "88f67702-041e-43d2-8271-76d03b2d137c": {
+      "type": "left-image-text",
+      "settings": {
+        "why_image": "shopify:\/\/shop_images\/pain-relief_9cfce21d-d67d-46e2-aa14-00adfc84eda2.png",
+        "why_image1": "shopify:\/\/shop_images\/Layer_46.png",
+        "heading": "Home Pain Relief Study.",
+        "heading-size": "medium",
+        "heading-color": "#0b3f6c",
+        "text2": "<p>Doctor Managed - 2 week Program<br\/><strong>Plant-Based Sleep Aid<\/strong><\/p>",
+        "text-color": "#0b3f6c",
+        "text22": "Enroll Now - Verify Eleigibility",
+        "url1": "#",
+        "preheading": "Discover Anxiety Relief Through our Trial",
+        "title-color": "#0b3f6c"
+      }
+    },
+    "cd519fd8-8ad4-455c-ac61-eed5fc18f4c2": {
+      "type": "bg-image-with-text",
+      "settings": {
+        "back_image": "shopify:\/\/shop_images\/sad-young-man.png",
+        "back_image1": "shopify:\/\/shop_images\/2_d1999ed9-ccc5-4f89-a15c-257b1375d433.png",
+        "heading": "Home Anxiety <br>Study.",
+        "heading-size": "medium",
+        "heading-color": "#0b3f6c",
+        "text2": "<p>Doctor Managed - 2 week Program<br\/><strong>Plant-Based Anxiety Aid<\/strong><\/p>",
+        "text-color": "#0b3f6c",
+        "text22": "Enroll Now - Verify Eleigibility",
+        "url1": "",
+        "preheading": "Discover Anxiety Relief Through our Trial",
+        "title-color": "#0b3f6c"
+      }
+    },
+    "bc2090c0-01ee-458c-b72d-74aeaca7268f": {
+      "type": "image-overlay",
+      "disabled": true,
+      "settings": {
+        "preheading": "",
+        "heading": "Home Pain Relief Study.",
+        "text2": "",
+        "text22": "",
+        "url1": ""
+      }
+    },
+    "b55cd141-9320-4093-9975-ca62eff2bd4f": {
+      "type": "index__rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "People who suffer from chronic sleeplessness, pain and anxiety can finallybenefit from plant-based alternatives to traditional medicine.",
+        "heading_font": "open_sans_n4",
+        "heading_color": "rgba(0,0,0,0)",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pcia deserunt mollit anim id est laborum. Sed uia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam <\/p>",
+        "text_font": "open_sans_n4",
+        "text_color": "rgba(0,0,0,0)",
+        "text_alignment": "center",
+        "text_size": 14,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "background": "#ffffff",
+        "gradient": "#ffffff",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "2708376e-8181-42e9-a896-dbcb7956bdab": {
+      "type": "custom-rich-text",
+      "settings": {
+        "title": "People who suffer from chronic sleeplessness, pain and anxiety can finally<br> benefit from plant-based alternatives to traditional medicine.",
+        "heading_font": "open_sans_n4",
+        "heading_color": "#0b3f6c",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non pcia deserunt mollit anim id est laborum. Sed uia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam <\/p>",
+        "text_font": "open_sans_n4",
+        "text_color": "#0b3f6c",
+        "text_alignment": "center",
+        "text_size": 20,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "section-bg-color": "#ffffff",
+        "width": "wide",
+        "padding_top": 60,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e": {
+      "type": "custom-icon-text-column",
+      "blocks": {
+        "template--16646472794343__50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e-16698108187d7b14bf-0": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/MDbio_Sleep_icon.svg?v=1655266035",
+            "title": "What defines sleeplessness?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupt <\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16646472794343__50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e-16698108187d7b14bf-1": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/MDbio_Reiief_icon.svg?v=1655266035",
+            "title": "What is chronic pain?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupt <\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--16646472794343__50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e-16698108187d7b14bf-2": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "",
+            "text_n": "https:\/\/cdn.shopify.com\/s\/files\/1\/0617\/6876\/1575\/files\/MDbio_Calm_icon.svg?v=1655266035",
+            "title": "What is  anxiety?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupt <\/p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16646472794343__50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e-16698108187d7b14bf-0",
+        "template--16646472794343__50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e-16698108187d7b14bf-1",
+        "template--16646472794343__50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e-16698108187d7b14bf-2"
+      ],
+      "settings": {
+        "text_heading": "",
+        "heading_text_color": "rgba(0,0,0,0)",
+        "icons_per_row": 3,
+        "icon_size": "medium",
+        "align_text": "left",
+        "button_style": "button--primary",
+        "icon_color": "rgba(0,0,0,0)",
+        "text_color": "#0b3f6c",
+        "section-background": "#ffffff",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "width": "standard",
+        "show_gutter": true,
+        "text22": "See if You Are Eligible",
+        "url1": "#",
+        "padding_top": 20,
+        "padding_bottom": 60,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "df35ac26-2bc6-4f91-bfe4-86362db9e54b": {
+      "type": "accordion",
+      "blocks": {
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-0": {
+          "type": "content",
+          "settings": {
+            "title": "What does a “decentralized observational trial” mean?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-1": {
+          "type": "content",
+          "settings": {
+            "title": "How long is the trial?",
+            "answer": "<p>The active trial lasts up to 10 days, but that does not include the onboarding and product shipping times. Some articipants may end sooner than 10 days if they consume more than 2 softgels per day. A trial that ends sooner than 10 days is still considered a successful trial.\n<\/p>"
+          }
+        },
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-2": {
+          "type": "content",
+          "settings": {
+            "title": "Can I quit mid-trial if I choose to?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-3": {
+          "type": "content",
+          "settings": {
+            "title": "Who is overseeing the trial?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-4": {
+          "type": "content",
+          "settings": {
+            "title": "Are the trial products safe?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-5": {
+          "type": "content",
+          "settings": {
+            "title": "What are you going to do with my data?",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-0",
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-1",
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-2",
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-3",
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-4",
+        "template--16646472794343__df35ac26-2bc6-4f91-bfe4-86362db9e54b-16698751465c8169f8-5"
+      ],
+      "settings": {
+        "bg-color": "#b2c6db",
+        "heading-color": "#0b3f6c",
+        "border-color": "#ffffff",
+        "accordion-title-color": "#0b3f6c",
+        "accordion-text-color": "#5f7183",
+        "title": "Frequently Asked Questions.",
+        "heading-size": "medium",
+        "custon_toggle_icon_on": true,
+        "width": "standard",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": "",
+        "heading_t": ""
+      }
+    }
+  },
+  "order": [
+    "86119133-2678-464b-943d-4faf98de1027",
+    "main",
+    "ab4211e9-6a5d-4d89-8ad6-4aa0240225e3",
+    "eb62d080-190d-4484-997a-bfbb4e659610",
+    "88f67702-041e-43d2-8271-76d03b2d137c",
+    "cd519fd8-8ad4-455c-ac61-eed5fc18f4c2",
+    "bc2090c0-01ee-458c-b72d-74aeaca7268f",
+    "b55cd141-9320-4093-9975-ca62eff2bd4f",
+    "2708376e-8181-42e9-a896-dbcb7956bdab",
+    "50cdfb04-53ba-4ac6-9ed2-41f6e2d7ec0e",
+    "df35ac26-2bc6-4f91-bfe4-86362db9e54b"
+  ]
+}

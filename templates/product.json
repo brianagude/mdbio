@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "product__breadcrumb",
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "sidebar": {
+      "type": "product__sidebar",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "product__main",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "3114710f-afd9-4c77-baf5-a4d72534f2fa": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_payment_button": true
+          }
+        },
+        "ba562138-51ab-4b3e-9cdb-bd1edb0a2f1b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Subscribe & Save Benefits<\/strong><\/p><p>Subscribe to any one of our products to become a valued MDbio Member! Enjoy perks available to members only such as new product trial access, webinars with our founding doctors and personalized product recommendations. <\/p>"
+          }
+        },
+        "a79cd976-311c-4ae0-a454-2d97105b29a3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Free MDbio Membership<\/strong><\/p><p><strong>15% off your next purchase.<\/strong><\/p><p><strong>Exclusive member gifts and perks<\/strong><\/p>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "3114710f-afd9-4c77-baf5-a4d72534f2fa",
+        "price",
+        "description",
+        "form",
+        "ba562138-51ab-4b3e-9cdb-bd1edb0a2f1b",
+        "a79cd976-311c-4ae0-a454-2d97105b29a3",
+        "share"
+      ],
+      "settings": {
+        "product_images_position": "left",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false,
+        "gallery_arrows": true,
+        "enable_zoom": false,
+        "enable_product_lightbox": true,
+        "slideshow_speed": 0,
+        "slideshow_transition": "slide",
+        "display_thumbnails": true,
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": true,
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1641288209480e6bea": {
+      "type": "stress-faq",
+      "disabled": true,
+      "blocks": {
+        "1641288209428e7f27-1": {
+          "type": "content",
+          "settings": {
+            "title": "Usage",
+            "answer": "<p>Suggested Use: Adults take 1 softgel daily to promote balanced immune functions.*<\/p><p>Bodyweight and personal metabolism can affect optimal dosing.<\/p><p>Start with one soft gel; increase to maximum 3 gel caps per day, depending on results.*<\/p><p> *These statements have not been evaluated by the U.S. Food and Drug Administration. This product is not intended to cure or treat any disease.<\/p>"
+          }
+        },
+        "1641288209428e7f27-2": {
+          "type": "content",
+          "settings": {
+            "title": "Supplement Facts",
+            "answer": "<p><strong>ALL OF OUR PRODUCTS ARE<\/strong><\/p><p>Doctor Formulated<\/p><p>Broad Spectrum<\/p><p>Non-Intoxicating (not psychoactive, no \"high\")<\/p><p>Cruelty Free<\/p><p>Non-GMO<\/p>"
+          }
+        },
+        "1641288209428e7f27-3": {
+          "type": "content",
+          "settings": {
+            "title": "Ingredients",
+            "answer": "<p>All the botanicals we source are ultra-pure and are grown in soils nurtured over time by experienced botanical growers.<\/p><p><a href=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/hemp-extract\" target=\"_blank\" title=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/hemp-extract\"><span style=\"text-decoration:underline\"><strong>Organic Full-Spectrum Hemp Extract (aerial parts)<\/strong><\/span><\/a> Natural source of beneficial phytocannabinoids, terpenes and flavonoids<\/p><p><a href=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/hops-extract-flower\" target=\"_blank\" title=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/hops-extract-flower\"><span style=\"text-decoration:underline\"><strong>Hops Extract (flower)<\/strong><\/span><\/a> Used historically to calm feelings of restlessness, promote relaxation and ease into sleep<\/p><p><a href=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/valerian-extract-root\" target=\"_blank\" title=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/valerian-extract-root\"><span style=\"text-decoration:underline\"><strong>Valerian Extract (root)<\/strong><\/span><\/a>  Herbal extract widely used to calm anxiety, promote relaxation, increase levels of GABA and ease into sleep<\/p><p><strong>GABA<\/strong> Amino acid used to promote relaxation, alleviate mental and physical stress, create a sense of calm and soothe an overactive mind<\/p><p><strong>L-Theanine<\/strong> Amino acid extracted from tea leaves to reduce stress, improve quality of sleep and promote feelings of calm<\/p>"
+          }
+        },
+        "1641288209428e7f27-5": {
+          "type": "content",
+          "settings": {
+            "title": "ECS (Endocannabinoid System)",
+            "answer": "<p><a href=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/endocannabinoid-system-ecs\" target=\"_blank\" title=\"https:\/\/mdbiowellness.myshopify.com\/blogs\/our-articles\/endocannabinoid-system-ecs\"><strong>Check out the ECS (Endocannabinoid System) here<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1641288209428e7f27-1",
+        "1641288209428e7f27-2",
+        "1641288209428e7f27-3",
+        "1641288209428e7f27-5"
+      ],
+      "settings": {
+        "title": "",
+        "width": "standard",
+        "padding_top": 56,
+        "padding_bottom": 56,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": "",
+        "heading_t": "ARE YOU OVERSTRESSED?"
+      }
+    },
+    "16457668500068561d": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "8f57cb64-b2f8-45b1-a168-3ff72d011c0b": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "combined_widget"
+          }
+        }
+      },
+      "block_order": [
+        "8f57cb64-b2f8-45b1-a168-3ff72d011c0b"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "recommendations": {
+      "type": "product__recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "You may also like",
+        "products_per": 3,
+        "recommended_products_limit": 6,
+        "align_height": false,
+        "collection_height": 200,
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16412884241e3c7a66": {
+      "type": "index__featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "collection": "frontpage",
+        "products_per": 5,
+        "mobile_products_per_row": "1",
+        "products_limit": 4,
+        "align_height": false,
+        "collection_height": 200,
+        "collection_style": "grid",
+        "width": "wide",
+        "show_gutter": false,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16452141546c6caa38": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\n  var _learnq = _learnq || [];\n  var item = {\n    Name: {{ product.title|json }},\n    ProductID: {{ product.id|json }},\n    Categories: {{ product.collections|map:'title'|json }},\n    ImageURL: \"https:{{ product.featured_image.src|img_url:'grande' }}\",\n    URL: \"{{ shop.secure_url }}{{ product.url }}\",\n    Brand: {{ product.vendor|json }},\n    Price: {{ product.price|money|json }},\n    CompareAtPrice: {{ product.compare_at_price_max|money|json }}\n  };\n  _learnq.push(['track', 'Viewed Product', item]);\n  _learnq.push(['trackViewedItem', {\n    Title: item.Name,\n    ItemId: item.ProductID,\n    Categories: item.Categories,\n    ImageUrl: item.ImageURL,\n    Url: item.URL,\n    Metadata: {\n      Brand: item.Brand,\n      Price: item.Price,\n      CompareAtPrice: item.CompareAtPrice\n    }\n  }]);\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "sidebar",
+    "main",
+    "1641288209480e6bea",
+    "16457668500068561d",
+    "recommendations",
+    "16412884241e3c7a66",
+    "16452141546c6caa38"
+  ]
+}

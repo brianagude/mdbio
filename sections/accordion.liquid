@@ -1,0 +1,487 @@
+{% comment %}
+** FAQ **
+{% endcomment %}
+{% assign id = section.id %}
+{% assign title = section.settings.title %}
+{% assign img_border_radius = section.settings.border_radius %}
+{% comment %} Layout {% endcomment %}
+{% assign width = section.settings.width %}
+{% assign animation = section.settings.animation | default: 'none' %}
+{% assign padding_top = section.settings.padding_top %}
+{% assign padding_bottom = section.settings.padding_bottom %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = section.settings.css_class %}
+{% assign custom_css = section.settings.custom_css %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for block in section.blocks %}
+      {% unless block.type == 'heading' %}
+        {
+          "@type": "Question",
+          "name": "{{ block.settings.title | escape }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ block.settings.answer | strip_html }}"
+          }
+        }{% unless forloop.last %},{% endunless %}
+      {% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  #shopify-section-{{ id }} {
+    {% if section.settings.width == 'wide' %}
+      width: 100%;
+    {% endif %}
+  }
+  {% render 'css-loop',
+          css: custom_css,
+          id: id
+  %}
+  .accordion-section-{{ section.id }}{
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+    background-color: {{ section.settings.bg-color }};
+  }
+  .accordion-section-{{ section.id }} .faq__title{
+    color: {{ section.settings.heading-color }};
+    margin-bottom: 30px;
+  }
+  .accordion dt:first-child, .faq-accordion dt:first-child {
+      border-top: 2px solid #fff;
+  }  
+  .accordion dt, .faq-accordion dt {
+      border-bottom: 2px solid {{ section.settings.border-color }};
+  }  
+  .accordion-section-{{ section.id }} .faq-accordion dt button{
+    color: {{ section.settings.accordion-title-color }};
+    font-size: 22px;
+    line-height: 32px;
+        font-weight: 500;
+    letter-spacing: 0.4px;
+    font-family: Neue Haas Grotesk Display Pro!important;
+  }
+  .accordion-section-{{ section.id }} .content p{
+    color: {{ section.settings.accordion-text-color }};
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Neue Haas Grotesk Display Pro!important;
+    font-weight: 500;
+  }
+/*   .accordion dt .accordion-style--plus_and_minus .icon.icon--active, 
+  .faq-accordion dt .accordion-style--plus_and_minus .icon.icon--active {
+    color: {{ section.settings.open-text-color }};
+  } 
+  .accordion dt .accordion-style--plus_and_minus .icon.icon--active, 
+  .faq-accordion dt .accordion-style--plus_and_minus .icon.icon--active {
+    color: {{ section.settings.arrow-close-color }};
+  }    */
+.faq-accordion dt .icon{
+  color: #000000;
+}
+
+@media screen and (max-width: 768px){  
+  .accordion-section-{{ section.id }}{  
+      padding-top:  calc({{ padding_top }}px - 30px);
+      padding-bottom: calc({{ padding_bottom }}px - 30px);  
+  }
+  .accordion-section-{{ section.id }} .faq-accordion dt button{
+    font-size: 19px !important;
+    line-height: 29px;    
+  }  
+  .accordion-section-{{ section.id }} .content p{
+    font-size: 16px;
+    line-height: 26px;
+  }  
+}
+@media screen and (max-width: 590px){ 
+.accordion-section-{{ section.id }} .icon svg {
+    max-width: 13px;
+}  
+  .faq-accordion dt button {
+      padding-right: 50px !important;
+  }
+}  
+{% endstyle %}
+
+{% capture icon_set %}
+
+{% if section.settings.custon_toggle_icon_on %}
+  {% render 'icon',
+          name: 'down',
+          icon_class: 'icon--active'
+  %}
+  {% render 'icon', name: 'cross' %}
+{% else %}  
+  {% if settings.toggle_icon_style == 'carets' %}
+    {% render 'icon',
+            name: 'down-caret',
+            icon_class: 'icon--rotate'
+    %}
+  {% else %}
+    {% render 'icon',
+            name: 'plus',
+            icon_class: 'icon--active'
+    %}
+    {% render 'icon', name: 'minus' %}
+  {% endif %}
+{% endif %}
+
+  
+{% endcapture %}
+
+<section class="accordion-section-{{ section.id }} {{ css_class }} is-width-{{ width }} has-gutter-enabled {% if width == 'wide' %} equal-columns--outside-trim {% endif %}" {% if animation != "none" %}data-scroll-class="{{ animation }}"{% endif %}>
+  <div class="container section">
+    {%- if title != blank -%}
+      {% render 'heading',
+              title: title,
+              heading_tag: 'h2',
+              context: 'faq',
+              text_alignment: 'center'
+      %}
+    {%- endif -%}
+
+    {% if section.blocks.size > 0 %}
+      {% for block in section.blocks %}
+        {% if block.type == 'image' %}
+          {% assign image = true %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+ <div class="page-fa-top">
+    <div class="{%- if section.settings.heading_t != blank -%} page-faq__column-wrap container column-wrapper{%- else -%}page-faq__column-wrap{%- endif -%}">
+      <div class="{% if image == true %}one-half{% else %}one-whole{% endif %} medium-down--one-whole column faq faq__column-1">
+        {% if section.blocks.size > 0 %}
+          <dl class="{{ section.settings.css_class }} faq-accordion accordion-icon--{{ settings.toggle_icon_style }}">
+            {% for block in section.blocks %}
+              {% if block.type == 'content' %}
+                {% if block.settings.title != blank %}
+                  <dt>
+                    <button class="accordion-style--{{ settings.toggle_icon_style }} accordion__button" type="button" aria-controls="panel-{{ block.id }}" aria-expanded="true">
+                      {{ icon_set }}
+                      {{ block.settings.title }}
+                    </button>
+                  </dt>
+                  <dd id="panel-{{ block.id }}" aria-hidden="false">
+                    <div class="content">
+                      {{ block.settings.answer }}
+                    </div>
+                  </dd>
+                {% endif %}
+              {% elsif block.type == 'heading' %}
+                {% if block.settings.title != blank %}
+                  <h2 class="title faq-title">{{ block.settings.title }}</h2>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </dl>
+        {% endif %}
+      </div>
+      {% if section.blocks.size > 0 %}
+        {% for block in section.blocks %}
+          {% if block.type == 'image' %}
+            <div class="one-half medium-down--one-whole column faq faq--image faq__column-2">
+              {% if block.settings.image != blank %}
+                  {% render 'image-element',
+                          image: block.settings.image,
+                          alt: block.settings.image.alt,
+                          stretch_width: true
+                  %}
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  {%- if section.settings.heading_t != blank -%}
+  <div class="ap_o">
+     {%- if section.settings.heading_t != blank -%}
+      <p style="font-weight:600;">{{ section.settings.heading_t }}</p>
+      {%- endif -%}
+      {%- for block in section.blocks -%}
+      {%- if block.settings.text2 != blank -%}
+      <p>{{ block.settings.text2 }}</p>
+      {%- endif -%}
+      {%- endfor -%}
+  </div>
+    {%- endif -%}
+    </div>
+  </div>
+</section>
+
+<script data-theme-editor-load-script src="{{ 'z__jsFAQ.js' | asset_url }}"></script>
+
+{% schema %}
+{
+  "name": "Accordion",
+  "class": "FAQ jsFAQ custom-accordion",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg-color",
+      "label": "Section Background Color"
+    },  
+    {
+      "type": "color",
+      "id": "heading-color",
+      "label": "Heading Color"
+    },
+    {
+      "type": "color",
+      "id": "border-color",
+      "label": "Accordion Border Color"
+    },      
+    {
+      "type": "color",
+      "id": "accordion-title-color",
+      "label": "Accordion Title Color"
+    }, 
+    {
+      "type": "color",
+      "id": "accordion-text-color",
+      "label": "Accordion Text Color"
+    },     
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "FAQ"
+    },
+    {
+      "type": "select",
+      "id": "heading-size",
+      "label": "Heading Size",
+      "default": "medium",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ]
+    }, 
+    {
+      "type": "checkbox",
+      "id": "custon_toggle_icon_on",
+      "label": "Custom Toggle",
+      "default": false
+    },    
+    
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "standard",
+      "options": [
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "wide",
+          "label": "Wide"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 80,
+      "default": 56,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom spacing",
+      "min": 0,
+      "max": 80,
+      "default": 56,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "animation",
+      "label": "Animation",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "fadeIn",
+          "label": "Fade in"
+        },
+        {
+          "value": "fadeInDown",
+          "label": "Fade in down"
+        },
+        {
+          "value": "fadeInLeft",
+          "label": "Fade in left"
+        },
+        {
+          "value": "fadeInRight",
+          "label": "Fade in right"
+        },
+        {
+          "value": "slideInLeft",
+          "label": "Slide in left"
+        },
+        {
+          "value": "slideInRight",
+          "label": "Slide in right"
+        },
+        {
+          "value": "zoomIn",
+          "label": "Zoom in"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "paragraph",
+      "content": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/360022329373)"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    },
+    {
+      "type": "text",
+      "id": "heading_t",
+      "label": "Heading Top",
+	  "default" : "HOLISTIC WAYS TO MANAGE CHRONIC PAIN"
+    }
+  ],
+  "blocks": [
+{
+      "name": "Right side",
+      "type": "side",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Right",
+          "default": "What is your question?"
+        }
+      ]
+    },
+    {
+      "name": "Frequently asked question",
+      "type": "content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "What is your question?"
+        },
+        {
+          "type": "textarea",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Provide the answer to the question here.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Heading",
+      "type": "heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Section heading"
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "type": "image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1000 x 1000px recommended"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Accordion",
+      "category": "Store information",
+      "blocks": [
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        },
+        {
+          "type": "content",
+          "settings": {
+          }
+        }
+        
+      ]
+    }
+  ]
+}
+{% endschema %}

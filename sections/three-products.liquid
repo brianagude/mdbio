@@ -1,0 +1,209 @@
+<div class="three-two">
+    <div class="wrapper-in" >
+   
+      {%- if section.settings.headinga != blank -%}
+      <div class="rich-text__heading">
+        <h2 class="head-a">{{ section.settings.headinga }}</h2>
+      </div>
+      {%- endif -%}
+      
+      {%- if section.settings.title1 != blank -%}
+      <div class="heading-list">
+        {%- if section.settings.title1 != blank -%}<a href="{{ section.settings.links1 }}" class="blinks"><h3 class="title">{{ section.settings.title1 }} <i class="fa fa-angle-double-right"></i></h3></a>{%- endif -%}
+        {%- if section.settings.title2 != blank -%}<a href="{{ section.settings.links2 }}" class="blinks"><h3 class="title">{{ section.settings.title2 }} <i class="fa fa-angle-double-right"></i></h3></a>{%- endif -%}
+        {%- if section.settings.title3 != blank -%}<a href="{{ section.settings.links3 }}" class="blinks"><h3 class="title">{{ section.settings.title3 }} <i class="fa fa-angle-double-right"></i></h3></a>{%- endif -%}
+        {%- if section.settings.title4 != blank -%}<a href="{{ section.settings.links4 }}" class="blinks"><h3 class="title">{{ section.settings.title4 }} <i class="fa fa-angle-double-right"></i></h3></a>{%- endif -%}
+      </div>
+      {%- endif -%}      
+      
+        <div class="product-threeo">
+          {% assign i = 1 %}
+                {%- for block in section.blocks -%}
+          <div class="product-text-three" id="img--{{i}}">
+            {% if block.settings.top_image != blank %} 
+            <img class="product-svg-icon" src="{{ block.settings.top_image }}">
+            {% endif %}
+            <a class="blinks" href="{{ block.settings.image_links }}">
+            <div class="2img">
+            {% if block.settings.back_image != blank %} 
+            <img class="proimage1" src="{{ block.settings.back_image | img_url: "master" }}">
+            {% endif %}
+            
+            {% if block.settings.back_image2 != blank %} 
+            <img class="proimage2" src="{{ block.settings.back_image2 | img_url: "master" }}">
+            {% endif %}
+            </div>
+            </a>
+
+            <div class="product-content-box">
+              <a class="blinks" href="{{ block.settings.image_links }}">
+              {%- if block.settings.heading != blank -%}
+              <h2>{{ block.settings.heading }}</h2>
+              {%- endif -%}
+              </a>
+              {%- if block.settings.sub_title != blank -%}
+              <h3 class="sub_title">{{ block.settings.sub_title }}</h3>
+              {%- endif -%}
+              
+              {%- if block.settings.para_on -%}
+              {%- if block.settings.para != blank -%}
+              <p>{{ block.settings.para }}</p>
+              {%- endif -%}
+              {%- endif -%}
+              <div class="product-content-inner-box">
+
+                {%- if block.settings.price != blank -%}
+                <!--               <p class="price"><b>Starting at $ {{ block.settings.price }}</b></p> -->
+                <p class="price"> Starting at $ {{ block.settings.price }}</p>
+                {%- endif -%}               
+                <div class="product-button">
+                  <a class="btn btn-three" href="{{ block.settings.url1 }}">
+                    {{ block.settings.text22 }} <i class="fa fa-angle-double-right"></i></a>
+                </div>              
+
+              </div>
+            </div>
+        	</div>
+            {% assign i = i | plus: 1 %}
+          	{%- endfor -%}
+        </div>
+
+      {%- if section.settings.bottom_heading != blank -%}
+      <div class="three-products-bottom_heading">
+        <h2 class="heading">{{ section.settings.bottom_heading }}</h2>
+      </div>
+      {%- endif -%}
+      
+      
+      
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Three products",
+  "class": "product_cls_three",  
+      "settings": [
+		{
+          "type": "text",
+          "id": "headinga",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "title1",
+          "label": "Title1"
+        },
+		{
+          "type": "url",
+          "id": "links1",
+          "label": "Link 1"
+        },
+		{
+          "type": "text",
+          "id": "title2",
+          "label": "Title2"
+        },
+		{
+          "type": "url",
+          "id": "links2",
+          "label": "Link 2"
+        },
+		{
+          "type": "text",
+          "id": "title3",
+          "label": "Title3"
+        },
+		{
+          "type": "url",
+          "id": "links3",
+          "label": "Link 3"
+        },
+		{
+          "type": "text",
+          "id": "title4",
+          "label": "Title4"
+        },
+		{
+          "type": "url",
+          "id": "links4",
+          "label": "Link 4"
+        },
+		{
+          "type": "text",
+          "id": "bottom_heading",
+          "label": "Bottom Heading"
+        }
+      ],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+		{
+          "type": "text",
+          "id": "top_image",
+          "label": "Top SVG Image"
+        },
+		{
+          "type": "image_picker",
+          "id": "back_image",
+          "label": "Back Image"
+        },
+		{
+          "type": "image_picker",
+          "id": "back_image2",
+          "label": "Back Image2"
+        },
+		{
+          "type": "url",
+          "id": "image_links",
+          "label": "Image Link"
+        },
+		{
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "sub_title",
+          "label": "Subtitle"
+        },
+		{
+          "type": "checkbox",
+          "id": "para_on",
+          "label": "Paragraph Show/Hide",
+		  "default": false
+        },
+		{
+          "type": "text",
+          "id": "para",
+          "label": "Paragraph"
+        },
+		{
+          "type": "text",
+          "id": "price",
+          "label": "Price"
+        },
+		{
+          "type": "text",
+          "id": "text22",
+          "label": "Button"
+        },
+		{
+          "type": "url",
+          "id": "url1",
+          "label": "Button URL"
+        }
+      ]
+}
+   ],
+  "presets": [
+	{
+      "name": "Three Products",
+      "category": "Product"
+    }
+  ]
+}
+
+{% endschema %}

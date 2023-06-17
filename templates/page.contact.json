@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "contact": {
+      "type": "index__contact-form",
+      "blocks": {
+        "0943eae7-73e7-413a-ab5b-fd6a3f2d77a0": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Please reach out to us with product questions and general company inquiries. We look forward to hearing from you!<\/p>"
+          }
+        },
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a": {
+          "type": "textfield",
+          "disabled": true,
+          "settings": {
+            "label": "Name",
+            "required": true
+          }
+        },
+        "a8554837-a77c-4c87-8398-15cb200375c5": {
+          "type": "email",
+          "disabled": true,
+          "settings": {
+            "label": "Email"
+          }
+        },
+        "507de0f2-39b5-4aca-8368-2f5bb4b46ac2": {
+          "type": "textfield",
+          "disabled": true,
+          "settings": {
+            "label": "Phone",
+            "required": true
+          }
+        },
+        "433fc484-88c1-4ec8-8a8d-fc063586f91e": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "label": "Message",
+            "required": true
+          }
+        },
+        "4ccc3786-ab74-47ca-a183-33d410acdfe6": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this field to display text of any kind, such as standard reply times for inquiries.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0943eae7-73e7-413a-ab5b-fd6a3f2d77a0",
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a",
+        "a8554837-a77c-4c87-8398-15cb200375c5",
+        "507de0f2-39b5-4aca-8368-2f5bb4b46ac2",
+        "433fc484-88c1-4ec8-8a8d-fc063586f91e",
+        "4ccc3786-ab74-47ca-a183-33d410acdfe6"
+      ],
+      "settings": {
+        "titles": "",
+        "texts": "<p><strong>Adsress:<\/strong> 8920 Wilshire Blvd. Suite 418 Beverly Hills, CA 90211<\/p><p><strong>Email:<\/strong> <a href=\"mailto:hello@mdbiowellness.com\" title=\"mailto:hello@mdbiowellness.com\">hello@mdbiowellness.com.<\/a><\/p><p><a href=\"mailto:hello@mdbiowellness.com\" title=\"mailto:hello@mdbiowellness.com\"><br\/><\/a><strong>Customer support:<\/strong> <a href=\"tel:8004471485\" title=\"tel:8004471485\">800-447-1485<\/a><\/p>",
+        "content_image": "shopify:\/\/shop_images\/all-image.png",
+        "title": "Get in touch today",
+        "content_text": "<p>Send us an email using the contact form below and we will respond as soon as possible.<\/p>",
+        "social_enable": false,
+        "text_alignment": "left",
+        "background": "#506aa9",
+        "text_color": "#ffffff",
+        "form_position": "right",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "animation": "fadeInLeft",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "163069459185530e00": {
+      "type": "index__map",
+      "disabled": true,
+      "settings": {
+        "map_address": "8920 Wilshire Blvd. Suite 4181 Beverly Hills, CA 90211",
+        "map_height": 470,
+        "zoom_level": 16,
+        "api_key": "",
+        "show_pin": true,
+        "map_style": "aubergine",
+        "width": "half",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "fadeInDown",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "163069535438a78b63": {
+      "type": "index__rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "Have any questions?",
+        "heading_font": "montserrat_n7",
+        "heading_color": "#ffffff",
+        "heading_alignment": "left",
+        "heading_size": 30,
+        "text": "<p>8920 Wilshire Blvd. Suite 4181<br\/>Beverly Hills, CA 90211<\/p><p><a href=\"mailto:hello@mdbiowellness.com\" title=\"mailto:hello@mdbiowellness.com\">hello@mdbiowellness.com<br\/><\/a>Customer support: <a href=\"tel:8004471485\" title=\"tel:8004471485\">800-447-1485<\/a><\/p>",
+        "text_font": "montserrat_n4",
+        "text_color": "#ffffff",
+        "text_alignment": "left",
+        "text_size": 14,
+        "columns": 2,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "background": "#506aa9",
+        "gradient": "#506aa9",
+        "gradient_rotation": 180,
+        "width": "half",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact",
+    "163069459185530e00",
+    "163069535438a78b63"
+  ]
+}

@@ -1,0 +1,60 @@
+<div class="sleep-content">
+    <div class="wrapper" >
+      <div class="sleep-all-in" >
+        <div class="sleep-one">
+          <div class="sleep-image">
+            {%- if section.settings.image != blank -%} 
+              <img class="a-one" src="{{ section.settings.image | img_url: 'master' }}">
+            {%- endif -%}
+          </div>
+          <div class="sleep-text">
+            {%- if section.settings.text11 != blank -%}
+              <h2>{{ section.settings.text11 }}</h2>
+            {%- endif -%}
+            <ul>
+            {%- for block in section.blocks -%}
+             {%- if block.settings.text2 != blank -%}
+            <li>{{ block.settings.text2 }}</li>
+             {%- endif -%}
+            {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+    
+    
+    
+{% schema %}
+{
+  "name": "Sleep Top",
+  "class": "sleep-cls",  
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image one"
+        },
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        }
+		],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+		{
+		  "type": "text",
+          "id": "text2",
+          "label": "Listings"
+        }
+      ]
+}
+   ]
+}
+
+{% endschema %}

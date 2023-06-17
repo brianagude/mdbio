@@ -1,0 +1,59 @@
+<div class="sleep-product-con">
+    <div class="wrapper" >
+        <div class="product--one">
+          <div class="pro_-image">
+            {%- if section.settings.image != blank -%} 
+              <a href="{{ section.settings.url }}"><img class="a-one" src="{{ section.settings.image | img_url: 'master' }}"></a>
+            {%- endif -%}
+          </div>
+          <div class="pro--text">
+            {%- if section.settings.text11 != blank -%}
+            	<h2><a href="{{ section.settings.url }}">{{ section.settings.text11 }}</a></h2>
+            {%- endif -%}
+            {%- if section.settings.text2 != blank -%}
+            	<p>{{ section.settings.text2 }}</p>
+            {%- endif -%}
+            {%- if section.settings.button_text != blank -%}
+            	<a class="sleep-product-con-btn btn-read-pain" href="{{ section.settings.url }}">{{ section.settings.button_text }}</a>
+            {%- endif -%}
+          </div>
+        </div>
+  </div>
+</div>
+    
+    
+    
+{% schema %}
+{
+  "name": "Product Top",
+  "class": "product_class",  
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image one"
+        },
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        },
+		{
+		  "type": "text",
+          "id": "text2",
+          "label": "Para"
+        },
+		{
+		  "type": "url",
+          "id": "url",
+          "label": "Button url"
+        },
+		{
+		  "type": "text",
+          "id": "button_text",
+          "label": "Button"
+        }
+		]
+}
+
+{% endschema %}

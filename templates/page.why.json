@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165408192475834ef4": {
+      "type": "right-image-text",
+      "blocks": {
+        "16540819247b3bb398-2": {
+          "type": "text",
+          "settings": {
+            "title": "With MDbio we've created a balanced plant-based, wellness solution for everyone",
+            "heading_size": "large",
+            "text": "<p>Encompassing over 80 combined years of patient care, our founding doctors have written thousands of pharmaceutical prescriptions for their patients. Over the years, however, it has become increasingly clear that the drugs they prescribed to alleviate conditions regarding sleep, anxiety and pain were unfortunately a double edged sword. While the drugs worked to a large degree, there can also be toxic, harmful or addictive impacts on patients. <br\/><\/p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "16540819247b3bb398-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/doc_ab7d627b-34f8-4e29-8eb7-8221606ebd9e.png",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16540819247b3bb398-2",
+        "16540819247b3bb398-0"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 44,
+        "padding_bottom": 43,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1654144295811795d3": {
+      "type": "new-heading",
+      "settings": {
+        "why_image": "shopify:\/\/shop_images\/left.png",
+        "why_image1": "shopify:\/\/shop_images\/right.png",
+        "heading": "The medical team concluded that plant-based medicines had undeniable  potential to help reduce suffering and improve patient outcomes"
+      }
+    },
+    "1654146137203e7f33": {
+      "type": "index__rich-text",
+      "settings": {
+        "title": "",
+        "heading_font": "montserrat_n4",
+        "heading_color": "rgba(0,0,0,0)",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "<p>In contrast, many of the doctor’s patients who were experimenting on their own with plant based medications (including cannabinoids) to supplement their reliance on pharmaceuticals were feeling better and experiencing less harmful side effects. They were supporting the body to heal from within by introducing natural chemicals back into the body. The medical team ultimately concluded that plant-based medicines, including phytocannabinoids, appeared to have real benefits without appreciable side effects, and had undeniable potential to help reduce suffering and improve patient outcomes. As we performed more research into the medicinal background of these previously taboo “alternative remedies,” it became clear to us that full-spectrum hemp-derived cannabinoids (primarily CBD) could potentially form a primary building block for a new type of solution to common ailments. <br\/><br\/>Today, MDbio develops products that restore balance (homeostasis) to the body during times of sleeplessness, anxiety, pain and other common situations. Ultimately, our doctors seek to restore not only wellness to patients, but a true “joy of living” by seeking out, testing and refining natural ingredients that support good health. <\/p>",
+        "text_font": "montserrat_n4",
+        "text_color": "rgba(0,0,0,0)",
+        "text_alignment": "left",
+        "text_size": 17,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1654147267716abc05": {
+      "type": "why-video",
+      "settings": {
+        "why_image": "shopify:\/\/shop_images\/pro.png",
+        "heading": "<iframe src=\"https:\/\/player.vimeo.com\/video\/716540607?h=74a92bd298&badge=0&autopause=0&player_id=0&app_id=58479\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"Why We Did This\">\/iframe><\/iframe>",
+        "preheading": "Find wellness within",
+        "para": "The use of extracts from plant-based sources was in line with  the physicians’ belief around medicines in general, as this form  of practice was derived from the Eastern cultures in which they  grew up. Naturally-derived botanicals and herbs have been  used successfully for centuries to treat patients for all types of  ailments and illnesses."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165408192475834ef4",
+    "1654144295811795d3",
+    "1654146137203e7f33",
+    "1654147267716abc05"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "main": {
+      "type": "registration-form",
+      "settings": {
+        "richtext": "",
+        "image": "shopify:\/\/shop_images\/product.png",
+        "image_position": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

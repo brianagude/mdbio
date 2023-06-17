@@ -1,0 +1,152 @@
+
+<div class="producttabs page-width">
+  <div class="pro-tabs">
+  <div class="grid-uniform">
+
+    <div class="grid__items large--one-full medium--one-whole right-tab-block">
+  <ul class="tabs">
+    <li class="up rainbow rainbow-1"><a href="#tab-1">Details</a></li>
+    <li class="up rainbow rainbow-1"><a href="#tab-2">Ingredients</a></li>    
+  </ul>
+  <div id="tab-1">
+    <div class="tab-content">
+     {{ product.metafields.product.tab1.value }}
+    </div>
+  </div>
+  <div id="tab-2">
+    <div class="tab-content">
+      {{ product.metafields.product.tab2.value }}    
+    </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+</div>
+ <style>
+   .grid__item.large--one-full.medium--one-whole.right-tab-block {
+    width: 100%;
+    display: block;
+}
+   .pro-tabs {
+    margin-top: 20px;
+    
+} 
+   
+   ul.tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    text-align: center;
+     border-bottom:none;
+}
+   ul.tabs li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 25px;
+}
+
+   ul.tabs li a {
+    padding: 0px;
+    text-transform:capitalize;
+    font-size: 15px;
+    font-weight: 700;
+    color: #a9c8de;
+    border-bottom-color: #a9c8de;
+         border-bottom-width: 4px;
+  
+    text-decoration: none;
+}
+  ul.tabs li a.active {
+    color: #484848;
+    font-weight: 700 !important;
+        border-bottom: 4px solid #545454;
+    text-decoration: none;
+    padding: 0 !important;
+}
+
+
+#tab-3 .tab-content {
+  padding-bottom: 50px;
+}
+.pro-tabs p.note.form-success {
+  color: #78b46d;
+  font-size: 17px;
+}
+
+ul.tabs li a.active, ul.tabs li a:hover, ul.tabs li a:focus {
+  /*   border-color: #000; */
+  color: #545454;
+}
+   ul.tabs li a.active, ul.tabs li a.is-active {
+    border-bottom-color: #545454;
+    color: #545454;
+}
+.tab-content pre, .tab-content p {
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  overflow: inherit;
+  white-space: inherit;
+  padding: 0;
+  font-weight: 400;
+}
+.tab-content {
+  padding: 0px;
+  /*   border: 1px solid #faf5f5; */
+  background: #fff;
+}
+   
+   
+ @media (max-width: 1260px){  
+/*    .pro-tabs {
+    margin-top: 40px;
+    border: 1px solid #ebebeb;
+    padding: 40px 25px;
+    margin-bottom: 30px;
+} */
+   .section-template--15711878643950__product-recommendations-padding {
+    padding-top: 10px !important;
+    padding-bottom: 50px;
+}
+   }
+    @media (max-width: 1024px){  
+   .tab-content pre, .tab-content p {
+    font-size: 15px;
+    letter-spacing: 0;
+}
+   }
+    @media (max-width: 480px){ 
+   .pro-tabs {
+    margin-top: 20px;
+   }
+      ul.tabs li {
+     margin-right: 15px;
+}
+   }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('ul.tabs').each(function(){
+      var active, content, links = $(this).find('a');
+      active = links.first().addClass('active');
+      content = $(active.attr('href'));
+      links.not(':first').each(function () {
+        $($(this).attr('href')).hide();
+      });
+      $(this).find('a').click(function(e){
+        active.removeClass('active');
+        content.hide();
+        active = $(this);
+        content = $($(this).attr('href'));
+        active.addClass('active');
+        content.show();
+        return false;
+      });
+    });
+  });
+</script>
