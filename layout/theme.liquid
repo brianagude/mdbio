@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{ 'styles.css' | asset_url }}">
 
   {% render 'css-variables' %}
+  {{ 'relaunch-styles-2023.css' | asset_url | stylesheet_tag }}
   {% render 'javascripts' %}
 
   {% comment %} {%- if current_tags -%}{%- assign meta_tags = current_tags | join: ', ' -%}{%- endif -%} {% endcomment %}
@@ -111,7 +112,9 @@
     {% section 'announcement-bar' %}
   {%- endif -%}
 
-  {%- if settings.header_layout == "classic" -%}
+  {% section 'header_new' %}
+
+  {% comment %} {%- if settings.header_layout == "classic" -%}
     {% section 'header__top-bar' %}
     {% section 'header-classic' %}
   {%- elsif settings.header_layout == "centered" -%}
@@ -122,7 +125,7 @@
   {%- elsif settings.header_layout == "search_focus" -%}
     {% section 'header__top-bar' %}
     {% section 'header-search-focus' %}
-  {%- endif -%}
+  {%- endif -%} {% endcomment %}
 
   {%- if settings.cart_action == 'drawer' -%}
     {% render 'ajax-cart' %}
@@ -169,7 +172,8 @@
     </div>
   </div>
 
-  {% if settings.footer_layout == "centered" %}
+  {% section 'footer_new' %}
+  {% comment %} {% if settings.footer_layout == "centered" %}
     {% section 'footer__icon-bar' %}
     {% section 'footer-centered' %}
   {% elsif settings.footer_layout == "classic" %}
@@ -178,7 +182,7 @@
   {% elsif settings.footer_layout == "promotional" %}
     {% section 'footer__icon-bar' %}
     {% section 'footer-promotional' %}
-  {% endif %}
+  {% endif %} {% endcomment %}
 
   {% if settings.header_layout == "vertical" %}
     </div>
