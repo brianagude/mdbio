@@ -147,7 +147,7 @@
                               {% if value == variant[product_option_key] %}
 						          <li class="grid__item column grid__item--{{section.id}} {{ grid_item_width }}">
                                     
-                                    {% render 'variant-card-grid', max_height: max_height product_option_key: product_option_key %}
+                                    {% include 'variant-card-grid', max_height: max_height product_option_key: product_option_key %}
                                   </li>
                                   {% break %}
                               {% endif %}            
@@ -158,7 +158,7 @@
             {% endfor %}
         
         	{% if product_option_color2 == false %}
-              <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">{% render 'product-loop', max_height: max_height %}
+              <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">{% include 'product-loop', max_height: max_height %}
           	{% endif %}
         {% else %}
           {% comment %}
@@ -207,7 +207,7 @@
                           {% for variant in product.variants %}          
                               {% if value == variant[product_option_key] %}
 						          <li class="list-view-item">
-                                    {% render 'variant-card-list', product: product product_option_key: product_option_key %}
+                                    {% include 'variant-card-list', product: product product_option_key: product_option_key %}
                                   </li>
                                   {% break %}
                               {% endif %}            
@@ -217,7 +217,7 @@
             {% endfor %}
         
         	{% if product_option_color == false %}
-              <li class="list-view-item">{% render 'product-loop', product: product %}</li>
+              <li class="list-view-item">{% include 'product-loop', product: product %}</li>
           	{% endif %}
         {% else %}
 
@@ -264,7 +264,7 @@
     {% endif %}
 
     {% if paginate.pages > 1 %}
-      {% render 'pagination' %}
+      {% include 'pagination' %}
     {% endif %}
   </div>
 </div>

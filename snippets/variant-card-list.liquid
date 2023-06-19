@@ -27,7 +27,7 @@
  
     <div class="list-view-item__price-column">
       {% if product.available %}
-        {% render 'product-price', variant %}
+        {% include 'product-price', variant %}
       {% endif %}
     </div>
   </div>

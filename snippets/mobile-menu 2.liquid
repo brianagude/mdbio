@@ -1,0 +1,306 @@
+{%- assign locale_selector = false -%}
+{%- assign currency_selector = false -%}
+
+{%- if settings.show_currency_selector == true and shop.enabled_currencies.size > 1 -%}
+  {%- assign currency_selector = true -%}
+{%- endif -%}
+
+{%- if settings.show_locale_selector == true and shop.published_locales.size > 1 -%}
+  {%- assign locale_selector = true -%}
+{%- endif -%}
+
+<div class="mobile-menu">
+  <div class="mobile-menu__content">
+    
+    <div class="cust-all-menu">
+		    <div class="ff"> <a href="/collections/all">Shop All Products</a></div> 
+		<div class="custom-model-two-mobile pop-up-content-wrap"> <a class="shop_shop" href="#">By Symptom</a>
+			<div class="image-deks">
+				<div class="pro_one"> <a href="/pages/sleep">
+			<img src="https://cdn.shopify.com/s/files/1/0617/6876/1575/files/SLEEP-SOUNDLY.svg?v=1645613473">	Problem Sleeping</a>
+				</div>
+				<div class="pro_one"> <a href="/pages/pain">
+			<img src="https://cdn.shopify.com/s/files/1/0617/6876/1575/files/RECOVERY.svg?v=1645614565">	Body Aches & pain</a>
+				</div>
+				<div class="pro_one"> <a href="/pages/anxiety">
+			<img src="https://cdn.shopify.com/s/files/1/0617/6876/1575/files/CALM-YOUR-MIND.svg?v=1645614565">	Elevated Stress</a>
+				</div>
+				<div class="pro_one"> <a href="/pages/immune-system">
+			<img src="https://cdn.shopify.com/s/files/1/0617/6876/1575/files/MDbio_Immune_icon-svg_1.svg?v=1658217496">		Compromised Immunity</a>
+				</div>
+			</div>
+		</div>
+         
+      <div class="custom-model-three-mobile custom-model-wrap">
+<!--             <div class="pop-up-content-wrap"> <a class="shop_shop" href="/pages/our-doctors">Our Doctors</a>
+                <div class="image-deks">
+                    <div class="pro_one"> 
+                        <a href="/pages/our-doctors"> 
+                            <img src="//cdn.shopify.com/s/files/1/0617/6876/1575/files/Babek_1.png?v=1640943641"> <p>Dr. Larian</p>
+                        </a>
+                    </div>
+                    <div class="pro_one"> 
+                        <a href="https://mdbiowellness.myshopify.com/pages/our-doctors">
+                            <img src="//cdn.shopify.com/s/files/1/0617/6876/1575/files/Kia_1.png?v=1640943598"> <p>Dr. Michel</p>
+                        </a>
+                    </div>
+                    <div class="pro_one"> 
+                        <a href="/pages/our-doctors">
+                            <img src="//cdn.shopify.com/s/files/1/0617/6876/1575/files/Siamak_1.png?v=1640943676"> <p>Dr. Tabib</p>
+                        </a>
+                    </div>
+                    <div class="pro_one"> 
+                        <a href="/pages/our-doctors"> 
+                            <img src="//cdn.shopify.com/s/files/1/0617/6876/1575/files/Kamran_1.png?v=1640943704"> <p>Dr. Jamshidinia</p>
+                        </a>
+                    </div>
+                </div>
+            </div>  -->
+          <div class="sho_p_menu">
+          {% assign main_menu = linklists[section.settings.main_linklistc] %}
+              {% for link in main_menu.links %}
+                {% if link.links == blank %}
+                  <div class="navbar-item header__item {% if link.active or link.child_active %}is-active{% endif %}" data-navlink-handle="{{ link.title | handleize }}">
+                    <label for="mega-{{ link.title | handleize }}">
+                      <a {% unless link.url == 'http://' or link.url == '' or link.url == 'https://' or link.url == '#' %} href="{{ link.url }}" {% endunless %} class="navbar-link header__link {% if link.active %}is-active{% endif %} is-arrowless">
+                        {{ link.title }}
+                      </a>
+                    </label>
+                  </div>
+                {% else %}
+                  <div class="navbar-item header__item has-dropdown has-dropdown--{{ settings.dropdown_style }} is-hoverable {% if link.active or link.child_active %}is-active{% endif %}" aria-haspopup="true" aria-expanded="false" data-navlink-handle="{{ link.title | handleize }}">
+                    <label for="dropdown-{{ link.title | handleize }}">
+                      <a {% unless link.url == 'http://' or link.url == '' or link.url == 'https://' or link.url == '#' %} href="{{ link.url }}" {% endunless %} class="navbar-link header__link {% if link.active or link.child_active %}is-active{% endif %}">
+                        {{ link.title }}
+                      </a>
+                    </label>
+                    {% render 'header__dropdown-menu',
+                            link: link,
+                            index: forloop.index
+                    %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+          </div>
+        </div> 
+      
+      <style>
+
+        .custom-model-two-mobile .pro_one a {
+/*           display: inline-block;
+          border: 2px solid #3857a6;
+          line-height: 20px;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+          width: 100%;
+          font-size: 10px !important; */
+        }
+.mobile-menu__content .sho_p_menu label a {
+/*     font-weight: 500 !important; */
+    font-size: 17px;
+}
+.custom-model-two-mobile .pro_one a {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+        .custom-model-two-mobile  .image-deks {
+          max-width: 100%;
+        }
+/* .custom-model-two-mobile .image-deks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+} */
+   .custom-model-two-mobile .pro_one img {
+    max-width: 29px;
+}
+        .custom-model-three-mobile .image-deks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+        .mobile-menu__content .cust-all-menu {
+    margin-left: 10px;
+}
+/*         .custom-model-two-mobile .pro_one {
+    text-align: center;
+} */
+        .custom-model-two-mobile .pro_one {
+          width: 100%;
+          margin-right: 0;
+          padding-bottom: 0;
+          margin-bottom: 10px;
+        }
+        .custom-model-two-mobile a.shop_shop {
+          border-bottom: 0;
+          margin-bottom: 10px;
+        }
+/*         .custom-model-two-mobile .pro_one a:hover {
+          background: #3857a6;
+          color: #fff;
+        } */
+        .custom-model-three-mobile {
+    width: 100%;
+}
+
+.custom-model-three-mobile {
+    padding-bottom: 0 !important;
+}
+
+.custom-model-three-mobile .image-deks {
+    max-width: 100%;
+}
+
+.custom-model-three-mobile .image-deks .pro_one {
+    margin-right: 0;
+}
+
+.custom-model-three-mobile .image-deks .pro_one img {
+    width: 100px;
+}
+
+.custom-model-three-mobile .image-deks .pro_one p {
+    font-size: 11px !important;
+}
+
+.custom-model-three-mobile .sho_p_menu a {
+    color: #000 !important;
+}
+.mobile-menu .mobile-menu__item .icon {
+    fill: rgb(0 0 0);
+}
+.custom-model-three-mobile .sho_p_menu {
+    padding-bottom: 0;
+}
+
+.mob-cus a {
+    padding-left: 0 !important;
+}
+
+a.mobile-menu__item.item-with-icon {
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+  .custom-model-three-mobile .image-deks .pro_one:nth-child(3), .custom-model-three-mobile .image-deks .pro_one:nth-child(4) {
+    margin-bottom: 0;
+}      
+.custom-model-three-mobile .image-deks .pro_one {
+    text-align: left;
+}
+.custom-model-three-mobile .image-deks {
+    justify-content: unset;
+}
+.custom-model-three-mobile .image-deks .pro_one {
+    width: 34%;
+}
+        .custom-model-three-mobile a.shop_shop {
+    margin-bottom: 10px;
+    border: 0;
+}
+        .custom-model-three-mobile .navbar-item.header__item {
+    padding-bottom: 0;
+}
+        .mobile-menu {
+    background-color: #fff;
+}
+.mobile-menu a {
+    color: rgb(0 0 0);
+}
+        
+        @media screen and (max-width:360px){
+
+/*  .custom-model-two-mobile .pro_one a {
+          font-size: 8px !important;
+        } */
+/*  .mobile-menu__content .sho_p_menu label a {
+    font-weight: 400;
+    font-size: 13px !important;
+}   */
+        }
+      </style>
+       {% if shop.customer_accounts_enabled %}
+        {% comment %} Accounts {% endcomment %}
+        <div class="mob-cus">
+          {% if customer %}
+            {% comment %} Logout {% endcomment %}
+            <a class="mobile-menu__item item-with-icon" href="{{ routes.account_url }}" >
+              {% if settings.icon_style != 'text' %}
+                {% render 'icon', name: 'avatar' %}
+              {% endif %}
+              <span class="icon-caption">
+                {{ 'layout.customer.my_account' | t | escape }}
+              </span>
+            </a>
+          {% else %}
+            {% comment %} Login {% endcomment %}
+            <a class="mobile-menu__item item-with-icon" href="{{ routes.account_login_url }}" >
+              {% if settings.icon_style != 'text' %}
+                {% render 'icon', name: 'avatar' %}
+              {% endif %}
+              <span class="icon-caption">
+                {{ 'layout.customer.log_in' | t | escape }}
+              </span>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+	</div>
+    {% comment %}
+    <ul class="mobile-menu__list has-margin-bottom">
+      {% if settings.header_layout == 'vertical' %}
+        {% for block in nav_blocks %}
+          {% if block.type == 'navigation' %}
+            {% assign main_menu = linklists[block.settings.main_linklist] %}
+            {% render 'mobile-menu-loop', main_menu: main_menu %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign main_menu = linklists[section.settings.main_linklist] %}
+        {% render 'mobile-menu-loop', main_menu: main_menu %}
+      {% endif %}
+
+      {% if shop.customer_accounts_enabled %}
+        {% comment %} Accounts {% endcomment %}
+        <li>
+          {% if customer %}
+            {% comment %} Logout {% endcomment %}
+            <a class="mobile-menu__item item-with-icon" href="{{ routes.account_url }}" >
+              {% if settings.icon_style != 'text' %}
+                {% render 'icon', name: 'avatar' %}
+              {% endif %}
+              <span class="icon-caption">
+                {{ 'layout.customer.my_account' | t | escape }}
+              </span>
+            </a>
+          {% else %}
+            {% comment %} Login {% endcomment %}
+            <a class="mobile-menu__item item-with-icon" href="{{ routes.account_login_url }}" >
+              {% if settings.icon_style != 'text' %}
+                {% render 'icon', name: 'avatar' %}
+              {% endif %}
+              <span class="icon-caption">
+                {{ 'layout.customer.log_in' | t | escape }}
+              </span>
+            </a>
+          {% endif %}
+        </li>
+      {% endif %}
+
+      <li>
+        {%
+          render 'localization-switcher-mobile',
+          id: 'selector-form--mobile',
+          additional_classes: 'selectors-form--mobile',
+          currency_selector: currency_selector,
+          locale_selector: locale_selector,
+          show_currency: settings.show_currency_selector
+        %}
+      </li>
+    </ul>
+    {% endcomment %}
+  </div>
+</div>

@@ -1,0 +1,174 @@
+<div class="how-trial-section">
+  <h2 class="how-heading">{{ section.settings.heading_main }}</h2>
+  
+  <div class="trial-works">
+  {% for block in section.blocks %}  
+    {% case block.type %}
+      {% when 'custom-text' %}
+     <div class="trial-sec">
+                {% if block.settings.trial_img != blank %}
+                  <div class="imageclass">
+                     <img src="{{ block.settings.trial_img | img_url: 'master' }}" />
+                 </div>
+                {% endif %}
+              <div class="title-desc-main">
+                {% if block.settings.trial_sub_head != blank %}
+                  <div class="title-coll">
+                    <h3>{{ block.settings.trial_sub_head }}</h3>
+                 </div>
+                {% endif %}
+
+                {% if block.settings.trial_desc != blank %}
+                  <div class="desc-coll">
+                    {{ block.settings.trial_desc }}
+                 </div>
+                {% endif %}
+              </div>
+              </div> 
+             
+    {% endcase %} 
+  {% endfor %}
+</div> 
+</div>
+
+{% schema %}
+{
+  "name": "How Our Trials Work",
+  "max_blocks": 8,
+   "settings": [
+   {
+      "type": "text",
+      "id": "heading_main",
+      "label": "Heading"
+       }
+   ],
+  "blocks": [
+    {
+      "type": "custom-text",
+      "name": "Add Trials",
+      "settings": [
+        {
+      "type": "image_picker",
+      "id": "trial_img",
+      "label": "Image"
+       },
+        {
+          "id": "trial_sub_head",
+          "type": "text",
+          "label": "Heading"
+        },
+        {
+          "id": "trial_desc",
+          "type": "text",
+          "label": "Description"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+
+
+<style>
+div#shopify-section-how-trial-works {
+    background-color: #e9e9e7;
+}
+.how-trial-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+}
+.how-trial-section h2 {
+     font-family: Neue Haas Grotesk Display Pro!important;
+    text-align: left;
+    color: #0b3f6c;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: none;
+    text-align: center;
+}
+.imageclass {
+  margin-right: 15px;
+}
+.title-coll h3 {
+    font-family: Neue Haas Grotesk Display Pro!important;
+    font-size: 25px;
+   color: #0b3f6c;
+  line-height: 28px;
+}   
+.desc-coll {
+   font-family: Neue Haas Grotesk Display Pro!important;
+    font-weight: 500;
+    font-size: 20px !important;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+ .trial-works {
+    margin: auto;
+    padding-top: 20px;
+}
+.trial-sec {
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.title-desc-main{
+     width: 80% !important;
+      padding-top: 12px;
+}
+.what-flav-head{
+  text-align: center;
+   margin-bottom: 50px !important;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+.trial-works {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px !important;
+}
+.how-trial-section h2 {
+    font-size: 24px !important;
+    line-height: 34px;
+}
+  .title-coll h3 {
+      font-size: 22px !important;
+    line-height: 32px;
+  }
+   .desc-coll {
+    font-size: 17px !important;
+    line-height: 27px;
+  }
+}
+@media screen and (min-device-width: 300px) and (max-device-width: 767px) { 
+.trial-works {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px !important;
+}
+.how-trial-section {
+    width: 100%;
+}
+.title-desc-main {
+    width: 80% !important;
+}
+  .how-trial-section h2 {
+    font-size: 24px !important;
+    line-height: 34px;
+}
+  .title-coll h3 {
+      font-size: 22px !important;
+    line-height: 32px;
+  }
+  .desc-coll {
+    font-size: 17px !important;
+    line-height: 27px;
+  }
+}
+</style>

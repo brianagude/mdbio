@@ -1,0 +1,116 @@
+<div class="product-two">
+    <div class="wrapper-in" >
+      {%- if section.settings.headinga != blank -%}
+			  	<h2 class="head-a">{{ section.settings.headinga }}</h2>
+			  {%- endif -%}
+        <div class="product-two">
+                {%- for block in section.blocks -%}
+        	<div class="product-text">
+              <div class="tw_oo_i">
+              {% if block.settings.back_image %} 
+              <img class="img1" src="{{ block.settings.back_image | img_url: "master" }}">
+              {% endif %}
+              <div class="po-2">
+              {% if block.settings.back_image1 %} 
+              <img class="img2" src="{{ block.settings.back_image1 | img_url: "master" }}">
+              {% endif %}
+              </div>
+              </div>
+              <span class="product-two-content">
+              {%- if block.settings.heading != blank -%}
+			  	<h3>{{ block.settings.heading }}</h3>
+			  {%- endif -%}
+              <a class="btn btn-art" href="{{ block.settings.url1 }}">
+                <span class="cart-text">{{ block.settings.text22 }}</span><span>{{ block.settings.price }}</span></a>
+              </span>
+        	</div>
+          
+              
+          
+          	{%- endfor -%}
+        </div>
+  </div>
+</div>
+<!--div class="product-two">
+    <div class="wrapper-in" >
+            {%- if section.settings.headinga != blank -%}
+			  	<h2 class="head-a">{{ section.settings.headinga }}</h2>
+			  {%- endif -%}
+        <div class="product-two">  
+    {% for product in collections.twoproduct.products limit:2 %}  
+
+        	<div class="product-text testi-{{forloop.index}}">
+              <img src="{{ product.featured_image | product_img_url: 'master' }}">
+			  	<h3>{{product.title}}</h3>
+              <a class="btn btn-art" href="{{ product.url}}">
+                <span class="cart-text">Add to cart</span><span>{{ product.price | money }}</span></a>
+        	</div>
+       
+ {% endfor %}
+ </div>
+  </div>
+</div-->
+    <style>
+      .product-two .testi-1 {
+    order: 1;
+}
+      
+</style>
+{% schema %}
+{
+  "name": "why Top",
+  "class": "product_cls",  
+      "settings": [
+				{
+          "type": "text",
+          "id": "headinga",
+          "label": "Heading"
+        }
+      ],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+        {
+          "type": "image_picker",
+          "id": "back_image",
+          "label": "Back Image"
+        },
+		{
+          "type": "image_picker",
+          "id": "back_image1",
+          "label": "Back Image1"
+        },
+		{
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+		{
+          "type": "text",
+          "id": "text22",
+          "label": "Button"
+        },
+       {
+          "type": "text",
+          "id": "price",
+          "label": "price"
+        },
+		{
+          "type": "url",
+          "id": "url1",
+          "label": "Button URL"
+        }
+      ]
+}
+   ],
+  "presets": [
+	{
+      "name": "Two Products",
+      "category": "Product"
+    }
+  ]
+}
+
+{% endschema %}

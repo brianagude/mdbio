@@ -1,0 +1,106 @@
+<div class="about-content" {% if section.settings.back_image %} style="background-image:url({{ section.settings.back_image | img_url: "master" }});"{% endif %}>
+    <div class="wrapper" >
+      {%- for block in section.blocks -%}
+      <div class="abt-one" id="block-{{ block.id }}">
+        <div class="abt-image">
+          
+          
+          {%- if block.settings.image != blank -%} 
+          <img class="a-one" src="{{ block.settings.image | img_url: 'master' }}">
+          {%- endif -%}
+        </div>
+        <div class="abt-text">
+          {%- if block.settings.text11 != blank -%}
+            {%- if block.settings.link-1 != blank -%}
+          	<a href="{{ block.settings.link-1}}">{%- endif -%}<h2>{{ block.settings.text11 }}</h2>{%- if block.settings.link-1 != blank -%}</a>{%- endif -%}
+          {%- endif -%}
+
+          
+          {%- if block.settings.subheading != blank -%}
+          	<h4 style="color:{{ block.settings.colorsubheading }};'">{{ block.settings.subheading }}</h4>
+          {%- endif -%}
+          {%- if block.settings.subheadinga != blank -%}
+          	<h5>{{ block.settings.subheadinga }}</h5>
+          {%- endif -%}
+          {%- if block.settings.text2 != blank -%}
+         	 <p>{{ block.settings.text2 }}</p>
+          {%- endif -%}
+        </div>
+        
+<!--             <div class="abt-image">
+          {%- if block.settings.image != blank -%} 
+          <img class="a-one" src="{{ block.settings.image | img_url: 'master' }}">
+          {%- endif -%}
+        </div> -->
+      </div>
+	{%- endfor -%}
+  </div>
+</div>
+    
+    
+    
+{% schema %}
+{
+  "name": "About Top",
+  "class": "abt-cls",  
+      "settings": [],
+  		"blocks": [
+     {
+       "name": "Doctor",
+       "type": "Doctor",
+       "settings": [
+		{
+          "type": "image_picker",
+          "id": "back_image",
+          "label": "Back Image"
+        },
+      
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image one"
+        },
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Heading"
+        },
+        {
+          "type": "url",
+          "id": "link-1",
+          "label": "Link URL 1"
+        },
+		{
+          "type": "text",
+          "id": "subheading",
+          "label": "sub heading"
+        },
+		{
+        "type": "color",
+        "id": "colorsubheading",
+        "label": "Sub Headings color",
+        "default": "#3d4246"
+        },
+		{
+          "type": "text",
+          "id": "subheadinga",
+          "label": "sub heading down"
+        },
+		{
+		  "type": "richtext",
+          "id": "text2",
+          "label": "Paragraph"
+        }
+      ]
+}
+   ]
+}
+
+{% endschema %}
+
+<style>
+  div#block-ff0520fa-2b4b-4df7-b028-dc00c8121bf8 .abt-text a {
+    background: transparent !important;
+    padding: 0px !important;
+  }
+</style>

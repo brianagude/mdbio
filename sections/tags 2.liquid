@@ -1,0 +1,116 @@
+<section class="section">
+  <div class="wrapper-in" >
+	<div class="all-tags">
+      <ul>
+        <li><a href="{{ section.settings.url1 }}">{{ section.settings.text1 }}</a></li>
+        <li><a href="{{ section.settings.url2 }}">{{ section.settings.text2 }}</a></li>
+        <li><a href="{{ section.settings.url3 }}">{{ section.settings.text3 }}</a></li>
+        <li><a href="{{ section.settings.url4 }}">{{ section.settings.text4 }}</a></li>
+        <li><a href="{{ section.settings.url5 }}">{{ section.settings.text5 }}</a></li>
+        <li>{% render 'header__action-icons',
+                  display_search: section.settings.display_search,
+                  icon_style: section.settings.icon_style
+          %}</li>
+      </ul>
+  </div>
+  </div>
+</section>
+
+
+{% schema %}
+
+{
+  "name": "Blog tags",
+  "class": "blog-tags",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "Heading"
+    },
+    {
+    "type": "url",
+    "id": "url1",
+    "label": "Button URL"
+	},
+{
+      "type": "text",
+      "id": "text2",
+      "label": "Heading"
+    },
+    {
+    "type": "url",
+    "id": "url2",
+    "label": "Button URL"
+	},
+{
+      "type": "text",
+      "id": "text3",
+      "label": "Heading"
+    },
+    {
+    "type": "url",
+    "id": "url3",
+    "label": "Button URL"
+	},
+{
+      "type": "text",
+      "id": "text4",
+      "label": "Heading"
+    },
+    {
+    "type": "url",
+    "id": "url4",
+    "label": "Button URL"
+	},
+{
+      "type": "text",
+      "id": "text5",
+      "label": "Heading"
+    },
+    {
+    "type": "url",
+    "id": "url5",
+    "label": "Button URL"
+	},
+{
+      "type": "header",
+      "content": "Search"
+    },
+    {
+      "type": "checkbox",
+      "id": "display_search",
+      "label": "Show search",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Icons"
+    },
+    {
+      "type": "select",
+      "id": "icon_style",
+      "label": "Style",
+      "options": [
+        {
+          "value": "icons",
+          "label": "Icons only"
+        },
+        {
+          "value": "text",
+          "label": "Text only"
+        },
+        {
+          "value": "icons_text",
+          "label": "Icons and text"
+        }
+      ],
+      "default": "icons"
+    }
+  ],
+  "presets": [{
+    "name": "Blog tags",
+    "category": "Blog"
+  }]
+}
+{% endschema %}

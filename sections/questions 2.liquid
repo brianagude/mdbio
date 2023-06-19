@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" ></script>
+<div class="question-content">
+    <div class="wrapper" >
+      <div class="ques-all-in" >
+          <div class="ques-head">
+            {%- if section.settings.heading != blank -%}
+              <h2>{{ section.settings.heading }}</h2>
+            {%- endif -%}
+          </div>
+         <div class="ques-all-text question">
+        {%- for block in section.blocks -%}
+          <div class="ques-text">
+            {%- if block.settings.text11 != blank -%}
+              <h2>{{ block.settings.text11 }}</h2>
+            {%- endif -%}
+             {%- if block.settings.text2 != blank -%}
+            <p>{{ block.settings.text2 }}</p>
+             {%- endif -%}
+          </div>
+        {%- endfor -%}
+        </div>
+      </div>
+  </div>
+</div>
+    
+ <script>
+   $('.question').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+     adaptiveHeight: true,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+   
+</script>
+    
+{% schema %}
+{
+  "name": "Questions Top",
+  "class": "question-cls",  
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        }
+		],
+  		"blocks": [
+     {
+       "name": "Question",
+       "type": "Question",
+       "settings": [
+		{
+          "type": "text",
+          "id": "text11",
+          "label": "Text Heading"
+        },
+		{
+		  "type": "textarea",
+          "id": "text2",
+          "label": "para"
+        }
+      ]
+}
+   ],
+  "presets": [
+	{
+      "name": "Questions",
+      "category": "Image"
+    }
+  ] 
+}
+
+{% endschema %}
